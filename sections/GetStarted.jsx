@@ -32,7 +32,7 @@ const GetStarted = () => (
       >
         <TypingText title="| How to REGISTER" 
         textStyles={"text-[25px]"}/>
-        <TitleText title={<>Do Register with just a few clicks</>} />
+        <TitleText title={<>Register with just a few clicks</>} />
         <div className="mt-[31px] flex flex-col max-w-[370px] gap-[24px]">
           {startingFeatures.map((feature, index) => (
             <StartSteps

@@ -8,6 +8,27 @@ import { fadeIn, staggerContainer, zoomIn } from '../utils/motion';
 const Feedback = () => (
   <section className={`${styles.paddings}`}>
     <TypingText title="| OUR SPONSORS" textStyles="text-center text-[25px]" />
+
+    <div className="flex items-center justify-center">
+        <h4 className="font-bold md:text-[28px] text-[28px] text-white mt-3">
+          Interested in sponsorsing HACKHAZARDS?
+        </h4>
+    </div>
+
+      <div className="flex items-center justify-center mt-1">
+        <a href="https://drive.google.com/file/d/1OtvOCeghTnYlDelbP1Nj_Jiu7d1LYj6X/view">
+        <button type="button" className="flex items-center h-fit py-4 px-6 bg-[#e4dae8] rounded-[20px] gap-[12px] hover:bg-violet-300">
+          <img
+            src="/money.png"
+            alt="headset"
+            className="w-[24px] h-[24px] object-contain"
+          />
+          <span className="font-normal text-[16px] text-black">
+            See our sponsorship deck and connect with us
+          </span>
+        </button>
+        </a>
+      </div>
     <motion.div
       variants={staggerContainer}
       initial="hidden"

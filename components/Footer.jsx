@@ -19,16 +19,18 @@ const Footer = () => (
         <h4 className="font-bold md:text-[64px] text-[44px] text-white">
           Enter HACKHAZARDS
         </h4>
-        <button type="button" className="flex items-center h-fit py-4 px-6 bg-[#25618B] rounded-[32px] gap-[12px]">
+        <a href="#">
+        <button type="button" className="flex items-center h-fit py-4 px-6 bg-[#ffffff] rounded-[20px] gap-[12px] hover:bg-blue-400">
           <img
-            src="/headset.svg"
-            alt="headset"
-            className="w-[24px] h-[24px] object-contain"
+            src="/devfolio.png"
+            alt="devfolio"
+            className="w-[48px] h-[48px] object-contain"
           />
-          <span className="font-normal text-[16px] text-white">
-            Enter HACKHAZARDS
+          <span className="font-normal text-[40px] text-black">
+            Apply with Devfolio
           </span>
         </button>
+        </a>
       </div>
 
       <div className="flex flex-col">
@@ -37,7 +39,7 @@ const Footer = () => (
         <div className="flex items-center justify-between flex-wrap gap-4">
           <h4 className="font-extrabold text-[24px] text-white">
             NEWTON SCHOOL  <br />
-            CODING CLUB,BPIT
+            CODING CLUB, BPIT
           </h4>
           <p className="font-normal text-[14px] text-white opacity-50">
             Copyright © 2023 - 2024 NEWTON SCHOOL CODING CLUB,BPIT. All rights reserved.

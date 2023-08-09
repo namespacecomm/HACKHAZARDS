@@ -7,12 +7,12 @@ export const exploreWorlds = [
   {
     id: 'world-2',
     imgUrl: '/planet-02.png',
-    title: 'CYBER SECURITY',
+    title: 'BLOCKCHAIN',
   },
   {
     id: 'world-3',
     imgUrl: '/planet-03.png',
-    title: 'BLOCK CHAIN',
+    title: 'CYBER SECURITY',
   },
   {
     id: 'world-4',
@@ -24,55 +24,64 @@ export const exploreWorlds = [
     imgUrl: '/planet-05.png',
     title: 'DATA SCIENCE',
   },
+  {
+    id: 'world-5',
+    imgUrl: '/planet-08.png',
+    title: 'APP DEVELOPMENT',
+  },
 ];
 
 export const startingFeatures = [
   'Find a domain that suits you and you want to hack',
-  'dhcnhfefiobedfoie',
-  'hkfjfjfjfjdivhdjvshdfvghdf;vgsdf',
+  'Assemble a team. (Min. 3 Max. 4)',
+  'Register using Devfolio',
+  'Prepare hard for the day of the Hackathon',
 ];
 
 export const newFeatures = [
   {
     imgUrl: '/vrpano.svg',
-    title: 'cfbhdiufhd',
+    title: 'Website Launch',
     subtitle:
-        'dfcgfjkd',
+        '15.08.2023',
   },
   {
     imgUrl: '/headset.svg',
-    title: 'dcfhbiled',
+    title: 'Registrations Open',
     subtitle:
-        'udicfbydefuceylf',
+        'Stay Tuned',
   },
 ];
 
 export const insights = [
   {
     imgUrl: '/planet-06.png',
-    title: 'hcfuydifo',
+    title: 'XYZ Announced as Judge at HACKHAZARDS',
     subtitle:
-        'ceflneucfcf',
+        '',
   },
   {
     imgUrl: '/planet-07.png',
-    title: 'ciulfu;cfrfr',
+    title: 'Checkout the new track sponsors',
     subtitle:
-        'hkfjcrbfynl;ucrfur;',
+        '',
   },
   {
     imgUrl: '/planet-08.png',
-    title: 'clfnrfurio;furrfg',
+    title: 'Hackathon Checklist before you visit',
     subtitle:
-        'ckjfbyrlfnrf',
+        '',
+  },
+  {
+    imgUrl: '/planet-02.png',
+    title: 'Exciting and Fun activities during HACKHAZARDS',
+    subtitle:
+        '',
   },
 ];
 
 export const socials = [
-  {
-    name: 'twitter',
-    url: '/twitter.svg',
-  },
+  
   {
     name: 'linkedin',
     url: '/linkedin.svg',
@@ -82,7 +91,11 @@ export const socials = [
     url: '/instagram.svg',
   },
   {
-    name: 'facebook',
-    url: '/facebook.svg',
+    name: 'twitter',
+    url: '/twitter.svg',
+  },
+  {
+    name: 'github',
+    url: '/github (2).svg',
   },
 ];
