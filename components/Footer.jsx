@@ -19,7 +19,6 @@ const Footer = () => (
         <h4 className="font-bold md:text-[64px] text-[44px] text-white">
           Enter HACKHAZARDS
         </h4>
-        <a href="#">
         <button type="button" className="flex items-center h-fit py-4 px-6 bg-[#ffffff] rounded-[20px] gap-[12px] hover:bg-blue-400">
           <img
             src="/devfolio.png"
@@ -30,9 +29,7 @@ const Footer = () => (
             Apply with Devfolio
           </span>
         </button>
-        </a>
       </div>
-
       <div className="flex flex-col">
         <div className="mb-[50px] h-[2px] bg-white opacity-10" />
 
