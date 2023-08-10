@@ -19,27 +19,37 @@ const Footer = () => (
         <h4 className="font-bold md:text-[64px] text-[44px] text-white">
           Enter HACKHAZARDS
         </h4>
-        <button type="button" className="flex items-center h-fit py-4 px-6 bg-[#ffffff] rounded-[20px] gap-[12px] hover:bg-blue-400">
-          <img
-            src="/devfolio.png"
-            alt="devfolio"
-            className="w-[48px] h-[48px] object-contain"
-          />
-          <span className="font-normal text-[40px] text-black">
-            Apply with Devfolio
-          </span>
-        </button>
+        <div>
+          <a href="https://devfolio.co/discover?auth=signup">
+            <div>
+              <button
+                type="button"
+                className="flex items-center h-fit py-4 px-6 bg-[#25618B] rounded-[20px] gap-[12px] hover:bg-white"
+              >
+                <img
+                  src="/devfolio.png"
+                  alt="devfolio"
+                  className="w-[48px] h-[48px] object-contain"
+                />
+                <span className="font-normal text-[30px] text-white hover:text-black">
+                  Register with Devfolio
+                </span>
+              </button>
+            </div>
+          </a>
+        </div>
       </div>
       <div className="flex flex-col">
         <div className="mb-[50px] h-[2px] bg-white opacity-10" />
 
         <div className="flex items-center justify-between flex-wrap gap-4">
           <h4 className="font-extrabold text-[24px] text-white">
-            NEWTON SCHOOL  <br />
+            NEWTON SCHOOL <br />
             CODING CLUB, BPIT
           </h4>
           <p className="font-normal text-[14px] text-white opacity-50">
-            Copyright © 2023 - 2024 NEWTON SCHOOL CODING CLUB,BPIT. All rights reserved.
+            Copyright © 2023 - 2024 NEWTON SCHOOL CODING CLUB,BPIT. All rights
+            reserved.
           </p>
 
           <div className="flex gap-4">

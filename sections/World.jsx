@@ -16,7 +16,7 @@ const World = () => (
       className={`${styles.innerWidth} mx-auto flex flex-col`}
     >
 
-      <TypingText title="| Hack it Together" textStyles="text-center text-[25px]" />
+      <TypingText title="| Hack it Together" textStyles="text-center text-[25px] font-bold" />
       <TitleText
         title={(
           <>Invite friends around you to hack together in HACKHAZARDS
@@ -46,13 +46,13 @@ const World = () => (
 
       <div className="flex items-center justify-center my-3 mb-10">
         <a href="#">
-        <button type="button" className="flex items-center h-fit py-4 px-6 bg-[#ffffff] rounded-[20px] gap-[12px] hover:bg-indigo-50">
+        <button type="button" className="flex items-center h-fit py-4 px-6 bg-[#25618B] rounded-[20px] gap-[12px] hover:bg-white">
           <img
             src="/people.png"
             alt="people"
-            className="w-[48px] h-[48px] object-contain"
+            className="w-[48px] h-[48px] object-contain "
           />
-          <span className="font-normal text-[32px] text-black">
+          <span className="font-bold text-[29px] text-white hover:text-black">
             Invite others to HACKHAZARDS
           </span>
         </button>

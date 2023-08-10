@@ -25,7 +25,7 @@ export const exploreWorlds = [
     title: 'DATA SCIENCE',
   },
   {
-    id: 'world-5',
+    id: 'world-6',
     imgUrl: '/planet-08.png',
     title: 'APP DEVELOPMENT',
   },

@@ -18,7 +18,7 @@ const About = () => (
     >
       <TypingText
         title="| About HACKHAZARDS"
-        textStyles="text-center text-[25px]"
+        textStyles="text-center text-[25px] font-bold "
       />
 
       <motion.p

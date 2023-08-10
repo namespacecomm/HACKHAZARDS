@@ -20,7 +20,7 @@ const Explore = () => {
         viewport={{ once: false, amount: 0.25 }}
         className={`${styles.innerWidth} mx-auto flex flex-col`}
       >
-        <TypingText title="| Domains" textStyles="text-center text-[25px]" />
+        <TypingText title="| Domains" textStyles="text-center text-[25px] font-bold" />
         <TitleText
           title={<>Choose the domain you want <br className="md:block hidden" /> to hack</>}
           textStyles="text-center"
