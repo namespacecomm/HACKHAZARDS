@@ -173,13 +173,13 @@ const Feedback = () => (
       </motion.div>
     </motion.div>
     
-    <div className="flex items-center justify-center">
-        <h4 className="font-bold md:text-[28px] text-[28px] text-white mt-3">
+    <div className="flex items-center justify-center mt-4">
+        <h4 className="font-bold md:text-[32px] text-[32px] text-white mt-3">
           Interested in sponsorsing HACKHAZARDS?
         </h4>
     </div>
 
-      <div className="flex items-center justify-center mt-1">
+      <div className="flex items-center justify-center mt-2">
         <a href="https://drive.google.com/file/d/1OtvOCeghTnYlDelbP1Nj_Jiu7d1LYj6X/view">
         <button type="button" className=" flex items-center h-fit py-4 px-6 bg-[#e4dae8] rounded-[20px] gap-[15px] hover:bg-violet-300">
           <img

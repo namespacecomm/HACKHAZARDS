@@ -39,7 +39,7 @@ const About = () => (
         challenges to attract students from various fields and expertise levels.{" "}
         Let's{" "}
         <span className="font-extrabold text-white">explore</span> the madness
-        of the metaverse by scrolling down
+        of <span className="font-extrabold text-white">HACKHAZRDS</span> by scrolling down
       </motion.p>
 
       <motion.img
