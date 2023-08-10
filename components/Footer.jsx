@@ -19,16 +19,21 @@ const Footer = () => (
         <h4 className="font-bold md:text-[64px] text-[44px] text-white">
           Enter HACKHAZARDS
         </h4>
-        <button type="button" className="flex items-center h-fit py-4 px-6 bg-[#ffffff] rounded-[20px] gap-[12px] hover:bg-blue-400">
+        <div>
+          <a href="https://devfolio.co/discover?auth=signup">
+        <button type="button" className="flex items-center h-fit py-4 px-6 bg-[#25618B] rounded-[20px] gap-[12px] hover:bg-white">
           <img
             src="/devfolio.png"
             alt="devfolio"
             className="w-[48px] h-[48px] object-contain"
           />
-          <span className="font-normal text-[40px] text-black">
-            Apply with Devfolio
+          <span className="font-normal text-[30px] text-white hover:text-black">
+            Register with Devfolio
           </span>
         </button>
+        </a>
+        </div>
+        
       </div>
       <div className="flex flex-col">
         <div className="mb-[50px] h-[2px] bg-white opacity-10" />
