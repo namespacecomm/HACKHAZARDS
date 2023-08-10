@@ -19,15 +19,28 @@ export const exploreWorlds = [
     imgUrl: '/planet-04.png',
     title: 'UI/UX',
   },
+];
+
+export const exploreWorldstwo = [
   {
     id: 'world-5',
-    imgUrl: '/planet-05.png',
-    title: 'DATA SCIENCE',
+    imgUrl: '/planet-06.png',
+    title: 'APP DEVELOPMENT',
   },
   {
     id: 'world-6',
+    imgUrl: '/planet-07.png',
+    title: 'DEV OPS',
+  },
+  {
+    id: 'world-7',
     imgUrl: '/planet-08.png',
-    title: 'APP DEVELOPMENT',
+    title: 'AI/ML',
+  },
+  {
+    id: 'world-8',
+    imgUrl: '/planet-09.png',
+    title: 'DATA SCIENCE',
   },
 ];
 
