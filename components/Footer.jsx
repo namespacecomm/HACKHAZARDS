@@ -21,19 +21,21 @@ const Footer = () => (
         </h4>
         <div>
           <a href="https://devfolio.co/discover?auth=signup">
-            <button
-              type="button"
-              className="flex items-center h-fit py-4 px-6 bg-[#25618B] rounded-[20px] gap-[12px] hover:bg-white"
-            >
-              <img
-                src="/devfolio.png"
-                alt="devfolio"
-                className="w-[48px] h-[48px] object-contain"
-              />
-              <span className="font-normal text-[30px] text-white hover:text-black">
-                Register with Devfolio
-              </span>
-            </button>
+            <div>
+              <button
+                type="button"
+                className="flex items-center h-fit py-4 px-6 bg-[#25618B] rounded-[20px] gap-[12px] hover:bg-white"
+              >
+                <img
+                  src="/devfolio.png"
+                  alt="devfolio"
+                  className="w-[48px] h-[48px] object-contain"
+                />
+                <span className="font-normal text-[30px] text-white hover:text-black">
+                  Register with Devfolio
+                </span>
+              </button>
+            </div>
           </a>
         </div>
       </div>
