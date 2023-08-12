@@ -98,17 +98,21 @@ export const socials = [
   {
     name: 'linkedin',
     url: '/linkedin.svg',
+    link: 'https://www.linkedin.com/company/nsccbpit/',
   },
   {
     name: 'instagram',
     url: '/instagram.svg',
+    link: 'https://instagram.com/nscc_bpit?igshid=MzRlODBiNWFlZA==',
   },
   {
     name: 'twitter',
     url: '/twitter.svg',
+    link: 'https://twitter.com/nscc_bpit',
   },
   {
     name: 'github',
     url: '/github (2).svg',
+    link: 'https://github.com/orgs/NSCC-BPIT/',
   },
 ];
