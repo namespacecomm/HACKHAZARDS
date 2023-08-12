@@ -31,6 +31,10 @@ const Navbar = () => {
     router.push('/Faq');
   };
 
+  const openHome = () => {
+    router.push('/');
+  };
+
   const [isopen, setIsOpen] = useState(false);
 
   const toggleOpen = useCallback(() => {
@@ -44,20 +48,35 @@ const Navbar = () => {
       whileInView="show"
       className={`${styles.xPaddings} py-8 relative`}
     >
-      <div className="absolute w-[50%] inset-0 gradient-01" />
       <div
-        className={`${styles.innerWidth} mx-auto flex justify-between gap-8`}
+        className={`${styles.innerWidth} mx-auto flex justify-between gap-8 z-1`}
       >
-        <img
-          src="/search.svg"
-          alt="search"
-          className="w-[24px] h-[24px] object-contain"
-        />
-        <a href="https://www.nsccbpit.tech/">
-          <h2 className="font-extrabold text-[24px] leading-[30.24px] text-white">
-            NEWTON SCHOOL CODING CLUB, BPIT
-          </h2>
-        </a>
+        <div
+          onClick={openHome}
+          className="
+       md:py-1
+       md:px-2
+       flex flex-row
+       gap-3
+       cursor-pointer
+       hover: shadow-md
+       transition"
+        >
+          <img
+            src="/home.png"
+            alt="menu"
+            className="w-[35px] h-[35px] object-contain"
+          />
+        </div>
+
+        <div>
+          <a href="https://www.nsccbpit.tech/">
+            <h2 className="font-extrabold text-[24px] leading-[30.24px] text-white">
+              NEWTON SCHOOL CODING CLUB, BPIT
+            </h2>
+          </a>
+        </div>
+
         <div
           onClick={toggleOpen}
           className="
