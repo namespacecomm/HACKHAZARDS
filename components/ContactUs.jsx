@@ -24,57 +24,76 @@ const ContactUs = () => (
       </div>
     </div>
 
-    <div className={`${styles.container}`}>
+    <div className={`${styles.container} py-5`}>
       <form onSubmit={handleSubmit}>
-        <div className={`${styles.mb3}`}>
-          <label htmlFor="name" className={`${styles.labels}`}>
-            Name:
-          </label>
-          <input
-            type="text"
-            placeholder="Full Name"
-            className={`${styles.input}`}
-            name="name"
-            id="name"
-            aria-describedby="emailHelp"
-          />
+        <div className="flex flex-row">
+          <div className={`${styles.mb3}`}>
+            <label htmlFor="name" className={`${styles.labels}`}>
+              First Name:
+            </label>
+            <br />
+            <input
+              type="text"
+              placeholder="First Name"
+              className={`${styles.input}`}
+              name="name"
+              id="name"
+            />
+          </div>
+
+          <div className={`${styles.mb3}`}>
+            <label htmlFor="name" className={`${styles.labels}`}>
+              Last Name:
+            </label>
+            <br />
+            <input
+              type="text"
+              placeholder="Last Name"
+              className={`${styles.input}`}
+              name="name"
+              id="name"
+            />
+          </div>
         </div>
 
-        <div className={`${styles.mb3}`}>
-          <label htmlFor="email" className={`${styles.labels}`}>
-            Email:
-          </label>
-          <input
-            type="email"
-            placeholder="Email id"
-            className={`${styles.input}`}
-            name="email"
-            id="email"
-            aria-describedby="emailHelp"
-          />
-        </div>
+        <div className="flex flex-row">
+          <div className={`${styles.mb3}`}>
+            <label htmlFor="email" className={`${styles.labels}`}>
+              Email:
+            </label>
+            <br />
+            <input
+              type="email"
+              placeholder="Email id"
+              className={`${styles.input}`}
+              name="email"
+              id="email"
+            />
+          </div>
 
-        <div className={`${styles.mb3}`}>
-          <label htmlFor="phoneNumber" className={`${styles.labels}`}>
-            Contact Number:
-          </label>
-          <input
-            type="phone"
-            placeholder="Phone Number "
-            className={`${styles.input}`}
-            name="phoneNumber"
-            id="phoneNumber"
-            aria-describedby="emailHelp"
-          />
+          <div className={`${styles.mb3}`}>
+            <label htmlFor="phoneNumber" className={`${styles.labels}`}>
+              Contact:
+            </label>
+            <br />
+            <input
+              type="phone"
+              placeholder="Phone Number "
+              className={`${styles.input}`}
+              name="phoneNumber"
+              id="phoneNumber"
+            />
+          </div>
         </div>
 
         <div className={`${styles.mb3}`}>
           <label htmlFor="answers" className={`${styles.labels}`}>
-            Query:
+            Your Query:
           </label>
+          <br />
           <textarea
-            className="min-h-[30vh] min-w-[35vw] bg-[#25618B] p-3 lg:text-[20px] md:text-[10px] sm:text-[6px] text-[10px] text-white rounded"
-            placeholder="Why we should make you one? "
+            className="mt-[5px] mx-[15px] min-h-[30vh] min-w-[52vw] bg-[#25618B] p-3 lg:text-[15px] md:text-[10px] sm:text-[6px] text-[10px] text-white rounded-[13px]"
+            placeholder="Anything you wanna Ask or Suggest "
             name="answers"
             id="answers"
           />

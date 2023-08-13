@@ -13,11 +13,10 @@ const styles = {
   flexEnd: 'flex justify-end',
   navPadding: 'pt-[98px]',
   container:'max-w-[50vw] mx-auto',
-  mb3:'my-[30px] ',
-  labels:'mx-[15px] font-semibold lg:text-[30px] md:text-[20px] sm:text-[10px] text-[15px] text-white',
-  input:'w-[25vw] bg-[#25618B] h-[6vh] p-3  lg:text-[20px] md:text-[10px] sm:text-[6px] text-[10px] text-white rounded',
-  textArea:'',
-
+  mb3:'mt-[15px] ',
+  labels:'mx-[15px] font-semibold lg:text-[25px] md:text-[18px] sm:text-[10px] text-[15px] text-white',
+  input:'mt-[5px] mx-[15px] w-[25vw] bg-[#25618B] h-[6vh] p-3  lg:text-[15px] md:text-[10px] sm:text-[6px] text-[10px] text-white rounded',
+  
   // hero section
   heroHeading:
       'font-bold lg:text-[144px] md:text-[100px] sm:text-[60px] text-[44px] lg:leading-[158.4px] md:leading-[114.4px] sm:leading-[74.4px] leading-[64.4px] uppercase text-white',
