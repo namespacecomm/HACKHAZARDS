@@ -53,14 +53,7 @@ const Navbar = () => {
       >
         <div
           onClick={openHome}
-          className="
-       md:py-1
-       md:px-2
-       flex flex-row
-       gap-3
-       cursor-pointer
-       hover: shadow-md
-       transition"
+          className="cursor-pointer transition"
         >
           <img
             src="/home.png"
@@ -79,14 +72,7 @@ const Navbar = () => {
 
         <div
           onClick={toggleOpen}
-          className="
-       md:py-1
-       md:px-2
-       flex flex-row
-       gap-3
-       cursor-pointer
-       hover: shadow-md
-       transition"
+          className="cursor-pointer"
         >
           <img
             src="/menu.svg"
