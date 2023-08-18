@@ -60,15 +60,15 @@ const Hero = () => (
       </motion.div>
       
       <div className="flex items-center justify-center my-3 mb-10">
-        <a href="https://devfolio.co/discover?auth=signup">
+        <a href="#">
         <button type="button" className="flex items-center h-fit py-4 px-6 bg-[#25618B] rounded-[20px] gap-[12px] hover:bg-white">
-          <img
+          {/* <img
             src="/devfolio.png"
             alt="devfolio"
             className="w-[48px] h-[48px] object-contain"
-          />
+          /> */}
           <span className="font-bold text-[40px] text-white hover:text-black">
-            Apply with Devfolio
+            Registrations Starting Soon!
           </span>
         </button>
         </a>
