@@ -28,12 +28,12 @@ const FAQ = () => {
           </h4>
         </div>
       </div>
-      <div className="mt-[20px] mb-[50px] px-[1px] ">
-        <div className="px-[10px] text-black max-w-[800px] mx-auto ">
+      <div className="mt-[20px] mb-[50px]">
+        <div className="max-w-[800px] mx-auto ">
           {FaqQuestion.map((data, index) => (
-            <div key={index} className="p-[10px]">
+            <div key={index} className="py-[5px] px-[10px]">
               <div
-                className="  bg-[#25618B] py-[8px] px-[10px] text-white flex justify-between items-center cursor-pointer"
+                className="py-[2px] px-[10px] text-white flex justify-between items-center cursor-pointer"
                 onClick={() => toggle(index)}
               >
                 <p className="md:text-[22px] text-[15px] font-bold">{data.title}</p>
@@ -41,8 +41,9 @@ const FAQ = () => {
                   {openIndex === index ? <AiOutlineMinus /> : <AiOutlinePlus />}
                 </div>
               </div>
+              <div className="mb-[5px] h-[2px] bg-white opacity-10" />
               {openIndex === index && (
-                <div className="  bg-[#25618B] px-[10px] py-[10px] text-white md:text-[20px] text-[12px] pb-[20px]">
+                <div className="px-[10px] py-[10px] text-white md:text-[20px] text-[12px] pb-[20px]">
                   {data.description}
                 </div>
               )}
