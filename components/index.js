@@ -6,7 +6,7 @@ import NewFeatures from './NewFeatures';
 import InsightCard from './InsightCard';
 import Footer from './Footer';
 import ContactUs from './ContactUs';
-import Registration from './Registration';
+import Registration from './CA-Registration';
 import TeamGuidelines from './TeamGuidelines';
 import Events from './Events';
 import FAQ from './FAQ';
