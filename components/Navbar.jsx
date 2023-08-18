@@ -87,7 +87,7 @@ const Navbar = () => {
             initial={{ opacity: 0, scale: 0.6 }}
             animate={{ opacity: 1, scale: 1 }}
             exit={{ opacity: 0, scale: 0.6 }}
-            className="w-[17vw] bg-gray-50 shadow-xl rounded-lg flex flex-col overflow-hidden absolute top-15 right-5 z-20 "
+            className="w-[200px] bg-gray-50 shadow-xl rounded-lg flex flex-col overflow-hidden absolute top-12 right-5 z-20 "
           >
             <div className="flex flex-col items-center cursor-pointer">
               <p

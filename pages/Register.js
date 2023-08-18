@@ -1,9 +1,9 @@
 import { Registration, Navbar, Footer } from '../components';
 
 const register = () => (
-  <div className="bg-primary-black overflow-hidden">
+  <div className="bg-primary-black overflow-hidden relative">
     <Navbar />
-    <div className="gradient-03 z-0" />
+    <div className="gradient-05 " />
     <Registration />
     <Footer />
   </div>
