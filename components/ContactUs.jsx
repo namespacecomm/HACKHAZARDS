@@ -24,7 +24,8 @@ const ContactUs = () => (
       </div>
     </div>
 
-    <div className={`${styles.container} py-5 hidden md:flex`}>
+    {/* for large devices  */}
+    <div className="w-[60vw] mx-auto py-5 hidden md:flex">
       <form onSubmit={handleSubmit}>
         <div className="flex flex-row">
           <div className={`${styles.mb3}`}>
@@ -92,7 +93,7 @@ const ContactUs = () => (
           </label>
           <br />
           <textarea
-            className="mt-[5px] mx-[15px] min-h-[30vh] min-w-[52vw] bg-[#25618B] p-3 lg:text-[15px] md:text-[10px] sm:text-[6px] text-[10px] text-white rounded-[13px]"
+            className="mt-[5px] mx-[15px] w-[54vw] bg-[#25618B] p-3 lg:text-[15px] md:text-[10px] sm:text-[6px] text-[10px] text-white rounded-[13px]"
             placeholder="Anything you wanna Ask or Suggest "
             name="answers"
             id="answers"
@@ -109,7 +110,7 @@ const ContactUs = () => (
     </div>
 
     {/* for small devices */}
-    <div className={`${styles.container} py-5 flex-col md:hidden`}>
+    <div className="w-[90vw] mx-[20px] py-5 md:hidden">
       <form onSubmit={handleSubmit}>
         <div className={`${styles.mb3}`}>
           <label htmlFor="name" className={`${styles.labels}`}>
@@ -119,7 +120,7 @@ const ContactUs = () => (
           <input
             type="text"
             placeholder="First Name"
-            className={`${styles.input}`}
+            className={`${styles.inputS}`}
             name="name"
             id="name"
           />
@@ -133,7 +134,7 @@ const ContactUs = () => (
           <input
             type="text"
             placeholder="Last Name"
-            className={`${styles.input}`}
+            className={`${styles.inputS}`}
             name="name"
             id="name"
           />
@@ -147,7 +148,7 @@ const ContactUs = () => (
           <input
             type="email"
             placeholder="Email id"
-            className={`${styles.input}`}
+            className={`${styles.inputS}`}
             name="email"
             id="email"
           />
@@ -161,7 +162,7 @@ const ContactUs = () => (
           <input
             type="phone"
             placeholder="Phone Number "
-            className={`${styles.input}`}
+            className={`${styles.inputS}`}
             name="phoneNumber"
             id="phoneNumber"
           />
@@ -173,7 +174,7 @@ const ContactUs = () => (
           </label>
           <br />
           <textarea
-            className="mt-[5px] mx-[15px] min-h-[30vh] min-w-[52vw] bg-[#25618B] p-3 lg:text-[15px] md:text-[10px] sm:text-[6px] text-[10px] text-white rounded-[13px]"
+            className="mt-[5px] mx-[15px] min-h-[30vh] w-[80%] bg-[#25618B] p-3 lg:text-[15px] md:text-[10px] sm:text-[6px] text-[10px] text-white rounded-[13px]"
             placeholder="Anything you wanna Ask or Suggest "
             name="answers"
             id="answers"

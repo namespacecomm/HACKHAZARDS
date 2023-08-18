@@ -12,10 +12,11 @@ const styles = {
   flexStart: 'flex justify-start items-start',
   flexEnd: 'flex justify-end',
   navPadding: 'pt-[98px]',
-  container:'w-[50vw] mx-auto',
+  container:'w-[90vw] mx-[20px]',
   mb3:'mt-[15px]',
   labels:'mx-[15px] font-semibold lg:text-[25px] md:text-[18px] sm:text-[10px] text-[15px] text-white',
   input:'mt-[5px] mx-[15px] w-[25vw]  bg-[#25618B] h-[6vh] p-3  lg:text-[15px] md:text-[10px] sm:text-[6px] text-[10px] text-white rounded',
+  inputS:'mt-[5px] mx-[15px] w-[80%]  bg-[#25618B] h-[6vh] p-3  lg:text-[15px] md:text-[10px] sm:text-[6px] text-[10px] text-white rounded',
   
   // hero section
   heroHeading:

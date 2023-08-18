@@ -24,7 +24,8 @@ const Registration = () => (
       </div>
     </div>
 
-    <div className={`${styles.container} py-5 hidden md:flex`}>
+    {/* for large devices */}
+    <div className="w-[60vw] mx-auto py-5 hidden md:flex">
       <form onSubmit={handleSubmit}>
         <div className="flex flex-row">
           <div className={`${styles.mb3}`}>
@@ -228,7 +229,7 @@ const Registration = () => (
     </div>
 
     {/* for small devices */}
-    <div className={`${styles.container} py-5 flex-col md:hidden`}>
+    <div className="w-[90vw] mx-[10px] py-5 flex-col md:hidden">
       <form onSubmit={handleSubmit}>
         <div className={`${styles.mb3}`}>
           <label htmlFor="name" className={`${styles.labels}`}>
@@ -238,7 +239,7 @@ const Registration = () => (
           <input
             type="text"
             placeholder="First Name"
-            className={`${styles.input}`}
+            className={`${styles.inputS}`}
             name="name"
             id="name"
           />
@@ -252,7 +253,7 @@ const Registration = () => (
           <input
             type="text"
             placeholder="Last Name"
-            className={`${styles.input}`}
+            className={`${styles.inputS}`}
             name="name"
             id="name"
           />
@@ -266,7 +267,7 @@ const Registration = () => (
           <input
             type="email"
             placeholder="Email id"
-            className={`${styles.input}`}
+            className={`${styles.inputS}`}
             name="email"
             id="email"
           />
@@ -280,7 +281,7 @@ const Registration = () => (
           <input
             type="phone"
             placeholder="Phone Number "
-            className={`${styles.input}`}
+            className={`${styles.inputS}`}
             name="phoneNumber"
             id="phoneNumber"
           />
@@ -294,7 +295,7 @@ const Registration = () => (
           <input
             type="text"
             placeholder="College  Name"
-            className={`${styles.input}`}
+            className={`${styles.inputS}`}
             name="College"
             id="College"
           />
@@ -308,7 +309,7 @@ const Registration = () => (
           <input
             type="text"
             placeholder="City "
-            className={`${styles.input}`}
+            className={`${styles.inputS}`}
             name="CollegeCity"
             id="CollegeCity"
           />
@@ -322,7 +323,7 @@ const Registration = () => (
           <input
             type="text"
             placeholder="Branch Name"
-            className={`${styles.input}`}
+            className={`${styles.inputS}`}
             name="Branch"
             id="Branch"
           />
@@ -336,7 +337,7 @@ const Registration = () => (
           <input
             type="text"
             placeholder="Batch Year"
-            className={`${styles.input}`}
+            className={`${styles.inputS}`}
             name="Batch"
             id="Batch"
           />
@@ -350,7 +351,7 @@ const Registration = () => (
           <input
             type="text"
             placeholder="LinkeIn Id "
-            className={`${styles.input}`}
+            className={`${styles.inputS}`}
             name="LinkedIn"
             id="LinkedIn"
           />
@@ -364,7 +365,7 @@ const Registration = () => (
           <input
             type="text"
             placeholder="Instagram Id "
-            className={`${styles.input}`}
+            className={`${styles.inputS}`}
             name="Instagram"
             id="Instagram"
           />
@@ -378,7 +379,7 @@ const Registration = () => (
           <input
             type="text"
             placeholder="Github Link "
-            className={`${styles.input}`}
+            className={`${styles.inputS}`}
             name="Github"
             id="Github"
           />
@@ -391,7 +392,7 @@ const Registration = () => (
           <input
             type="text"
             placeholder="Twitter Link "
-            className={`${styles.input}`}
+            className={`${styles.inputS}`}
             name="Twitter"
             id="Twitter"
           />
@@ -403,7 +404,7 @@ const Registration = () => (
           </label>
           <br />
           <textarea
-            className="mt-[5px] mx-[15px] min-h-[30vh] min-w-[52vw] bg-[#25618B] p-3 lg:text-[15px] md:text-[10px] sm:text-[6px] text-[10px] text-white rounded-[13px]"
+            className="mt-[5px] mx-[15px] min-h-[30vh] w-[80%] bg-[#25618B] p-3 lg:text-[15px] md:text-[10px] sm:text-[6px] text-[10px] text-white rounded-[13px]"
             placeholder="Why we should make you one? "
             name="answers"
             id="answers"
