@@ -48,7 +48,7 @@ const Footer = () => (
             </h4>
           </a>
           <p className="font-normal text-[14px] text-white opacity-50">
-            Copyright © 2023 - 2024 NEWTON SCHOOL CODING CLUB,BPIT. All rights
+            Copyright © 2023 - 2024 NEWTON SCHOOL CODING CLUB, BPIT. All rights
             reserved.
           </p>
 

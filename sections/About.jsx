@@ -40,6 +40,7 @@ const About = () => (
         <span className="font-extrabold text-white">
           collaboration, exploration
         </span>
+
         , and{" "}
         <span className="font-extrabold text-white">
           thinking beyond boundaries
@@ -83,6 +84,16 @@ const About = () => (
           </div>
         </div>
       </motion.div>
+
+         , making it an unforgettable
+        journey for all participants. HACKHAZARDS embraces diversity and
+        inclusivity by covering multiple domains, ensuring a wide array of
+        challenges to attract students from various fields and expertise levels.{" "}
+        Let's{" "}
+        <span className="font-extrabold text-white">explore</span> the madness
+        of <span className="font-extrabold text-white">HACKHAZARDS</span> by scrolling down
+      </motion.p>
+
 
       <motion.img
         variants={fadeIn("up", "tween", 0.3, 1)}
