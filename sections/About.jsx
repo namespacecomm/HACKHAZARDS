@@ -25,6 +25,7 @@ const About = () => (
         variants={fadeIn("up", "tween", 0.2, 1)}
         className="mt-[8px] font-normal sm:text-[29px] text-[16px] text-center text-secondary-white"
       >
+        <div>
         <span className="font-extrabold text-white">HACKHAZARDS</span>, where
         innovation knows no bounds and challenges are met head-on with creative
         solutions. Step into a whirlwind of{" "}
@@ -48,7 +49,9 @@ const About = () => (
         environment, and more. Unleash your
         <span className="font-extrabold text-white"> imagination </span> and
         join forces with like-minded individuals from various disciplines to
-        create interdisciplinary solutions .
+        create interdisciplinary solutions.
+        </div>
+        
         <div className="md:flex md:justify-around my-[10px] ">
           <div className=" py-[10px] my-[10px]">
             <div className="flex justify-center items-center">
