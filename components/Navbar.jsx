@@ -64,9 +64,10 @@ const Navbar = () => {
 
         <div>
           <a href="https://www.nsccbpit.tech/">
-            <h2 className="font-extrabold text-[24px] leading-[30.24px] text-white">
+            {/* <h2 className="font-extrabold text-[24px] leading-[30.24px] text-white">
               NEWTON SCHOOL CODING CLUB, BPIT
-            </h2>
+            </h2> */}
+            <img src="logoNSCC.png" alt="Nscc Logo" className="md:w-[15vw] w-[100px] object-contain" />
           </a>
         </div>
 
@@ -92,7 +93,7 @@ const Navbar = () => {
             <div className="flex flex-col items-center cursor-pointer">
               <p
                 onClick={openTeamGuidelines}
-                className="px-4 py-2 flex items-center gap-3 cursor-pointer hover:bg-slate-100 transition-all duration-100 ease-in-out text-textColor text-base"
+                className="w-full justify-center px-4 py-2 flex items-center gap-3 cursor-pointer hover:bg-gray-200 transition-all duration-100 ease-in-out text-textColor text-base"
               >
                 Team Guidelines
                 <FaTeamspeak />
@@ -100,21 +101,21 @@ const Navbar = () => {
 
               <p
                 onClick={openEvents}
-                className="px-4 py-2 flex items-center gap-3 cursor-pointer hover:bg-slate-100 transition-all duration-100 ease-in-out text-textColor text-base"
+                className="w-full justify-center px-4 py-2 flex items-center gap-3 cursor-pointer hover:bg-gray-200 transition-all duration-100 ease-in-out text-textColor text-base"
               >
                 Events <MdEmojiEvents />
               </p>
 
               <p
                 onClick={openFAQ}
-                className="px-4 py-2 flex items-center gap-3 cursor-pointer hover:bg-slate-100 transition-all duration-100 ease-in-out text-textColor text-base"
+                className="w-full justify-center px-4 py-2 flex items-center gap-3 cursor-pointer hover:bg-gray-200 transition-all duration-100 ease-in-out text-textColor text-base"
               >
                 FAQ <FaQuestion />
               </p>
 
               <p
                 onClick={openContactUs}
-                className="px-4 py-2 flex items-center gap-3 cursor-pointer hover:bg-slate-100 transition-all duration-100 ease-in-out text-textColor text-base"
+                className="w-full justify-center px-4 py-2 flex  items-center gap-3 cursor-pointer hover:bg-gray-200 transition-all duration-100 ease-in-out text-textColor text-base"
               >
                 Contact Us <IoMdContacts />
               </p>

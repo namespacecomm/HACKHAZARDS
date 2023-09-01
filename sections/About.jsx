@@ -18,29 +18,68 @@ const About = () => (
     >
       <TypingText
         title="| About HACKHAZARDS"
-        textStyles="text-center text-[25px] font-bold "
+        textStyles="text-center text-[25px] font-extrabold "
       />
 
-      <motion.p
+      <motion.div
         variants={fadeIn("up", "tween", 0.2, 1)}
-        className="mt-[8px] font-normal sm:text-[32px] text-[20px] text-center text-secondary-white"
+        className="mt-[8px] font-normal sm:text-[29px] text-[16px] text-center text-secondary-white"
       >
-        <span className="font-extrabold text-white">HACKHAZARDS</span> is not
-        just an ordinary hackathon; it is a remarkable{" "}
-        <span className="font-extrabold text-white">24-hour</span> experience
-        that redefines traditional coding events. It stands out by combining the
-        thrill of{" "}
+        <span className="font-extrabold text-white">HACKHAZARDS</span>, where
+        innovation knows no bounds and challenges are met head-on with creative
+        solutions. Step into a whirlwind of{" "}
+        <span className="font-extrabold text-white">creativity</span> and{" "}
+        <span className="font-extrabold text-white">rapid problem-solving</span>{" "}
+        in this intense{" "}
+        <span className="font-extrabold text-white">24-hour hackathon</span>{" "}
+        experience. Unlike any other event of its kind, HACKHAZARDS combines the
+        thrill of a hackathon with the opportunity to make a meaningful impact
+        on the world's most pressing issues.At HACKHAZARDS, we believe that true
+        innovation doesn't just happen it's nurtured through{" "}
         <span className="font-extrabold text-white">
-          brainstorming, innovation, and entertainment
+          collaboration, exploration
         </span>
-         , making it an unforgettable
-        journey for all participants. HACKHAZARDS embraces diversity and
-        inclusivity by covering multiple domains, ensuring a wide array of
-        challenges to attract students from various fields and expertise levels.{" "}
-        Let's{" "}
-        <span className="font-extrabold text-white">explore</span> the madness
-        of the metaverse by scrolling down
-      </motion.p>
+        , and{" "}
+        <span className="font-extrabold text-white">
+          thinking beyond boundaries
+        </span>
+        . With a diverse array of domains to choose from, participants are
+        invited to delve into fields spanning technology, healthcare,
+        environment, and more. Unleash your
+        <span className="font-extrabold text-white"> imagination </span> and
+        join forces with like-minded individuals from various disciplines to
+        create interdisciplinary solutions .
+        <div className="md:flex md:justify-around my-[10px] ">
+          <div className=" py-[10px] my-[10px]">
+            <div className="flex justify-center items-center">
+              <img
+                src="location.gif"
+                alt="location"
+                className=" w-[100px] h-[120px]"
+              />
+              <div className=" mt-[8px] font-normal sm:text-[29px] text-[16px] text-center text-secondary-white">
+                <span className="font-extrabold text-white">Venue</span> <br />
+                [In-Person] - Bhagwan Parshuram <br />
+                Institute of Technology,Rohini
+              </div>
+            </div>
+          </div>
+          <div className="md:flex md:justify-between  py-[10px]">
+            <div className="flex justify-center items-center">
+              <img
+                src="calendar.gif"
+                alt="location"
+                className=" w-[80px] h-[80px] mt-[20px] mx-[20px]"
+              />
+              <div className=" mt-[8px] font-normal sm:text-[29px] text-[16px] text-center text-secondary-white">
+                <span className="font-extrabold text-white">Date</span> <br />
+                3rd- 4th Febuary 2024 <br />
+                24hr Hackathon
+              </div>
+            </div>
+          </div>
+        </div>
+      </motion.div>
 
       <motion.img
         variants={fadeIn("up", "tween", 0.3, 1)}

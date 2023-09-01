@@ -46,8 +46,8 @@ export const exploreWorldstwo = [
 
 export const startingFeatures = [
   'Find a domain that suits you and you want to hack',
-  'Assemble a team. (Min. 3 Max. 4)',
-  'Register using Devfolio',
+  'Assemble a team. (Min. 2 Max. 4)',
+  'Register using {Platform}',
   'Prepare hard for the day of the Hackathon',
 ];
 
@@ -119,49 +119,36 @@ export const socials = [
 
 export const FaqQuestion = [
   {
-    title: 'What is a hackathon?',
-    description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.',
-
+    title: 'What is HACKHAZARDS?',
+    description: 'HACKHAZARDS is an intensive, software-centric ideation and presentation challenge where participants solve known or unknown problems through innovative coding solutions.',
   },
   {
     title: 'How big a team can be?',
-    description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.',
+    description: 'The team size can be 2 <= size && size <= 4',
 
   },
   {
     title: 'Who all can participate?',
-    description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.',
-
+    description: 'HACKHAZARDS is open to (.....) who are passionate about coding and problem-solving.',
   },
   {
-    title: 'Do I need to have any specific qualifications to be a participant for the hackathon?',
-    description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.',
-
+    title: 'How do I register for HACKHAZARDS?',
+    description: 'Registration details and guidelines will be shared through our official platforms. Stay tuned for updates!',
   },
   {
-    title: 'I am not a citizen of India. Can I participate?',
-    description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.',
-
+    title: 'Is there an entry fee for HACKHAZARDS?',
+    description: 'No, HACKHAZARDS is completely free to participate in.',
   },
   {
-    title: 'I am a newbie, can I hack?',
-    description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.',
-
+    title: 'What are the prizes for winners?',
+    description: 'HACKHAZARDS offers exciting prizes, including cash rewards, tech gadgets, and more. Specific prize details will be revealed soon.',},
+  {
+    title: 'Do I need to be an experienced coder to participate?',
+    description: 'No, HACKHAZARDS welcomes participants of all skill levels. Its a great opportunity to learn, collaborate, and showcase your talents.',
   },
   {
-    title: 'Is there any registration fees for participation?',
-    description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.',
-
-  },
-  {
-    title: 'Can I start working on my hack before the event?',
-    description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.',
-
-  },
-  {
-    title: 'What to bring to the hackathon?',
-    description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.',
-
+    title: 'Will there be mentors available during the event?',
+    description: 'Yes, HACKHAZARDS will have experienced mentors to guide and assist participants throughout the event.',
   },
   {
     title: 'Does HACKHAZARDS provides Internet facility during hackathon?',
@@ -175,11 +162,6 @@ export const FaqQuestion = [
   },
   {
     title: 'Does HACKHAZARDS helps with travel reimbursement?',
-    description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.',
-
-  },
-  {
-    title: 'I am below 18 or a high school student. Can I attend the hackathon?',
     description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.',
 
   },
