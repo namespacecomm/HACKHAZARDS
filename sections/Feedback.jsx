@@ -175,7 +175,7 @@ const Feedback = () => (
     
     <div className="flex items-center justify-center mt-4">
         <h4 className="font-bold md:text-[32px] text-[32px] text-white mt-3">
-          Interested in sponsorsing HACKHAZARDS?
+          Interested in sponsoring HACKHAZARDS?
         </h4>
     </div>
 
