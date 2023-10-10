@@ -19,69 +19,72 @@ const Prizes = () => (
         variants={fadeIn('right', 'tween', 0.2, 1)}
         className="flex-[0.5] lg:max-w-[370px] flex justify-center flex-col gradient-05 sm:p-8 p-4 rounded-[32px] border-[1px] border-[#6A6A6A] relative"
       >
-        <div>
+        <div className='flex flex-col items-center'>
           <h4 className="font-bold sm:text-[32px] text-[26px] sm:leading-[40.32px] leading-[36.32px] text-white">
             1st PRIZE
           </h4>
-          <p className="mt-[8px] font-normal sm:text-[18px] text-[12px] sm:leading-[22.68px] leading-[16.68px] text-white">
-            cash prize amount            
-          </p>
-        </div>
+          < h5 className="mt-[8px] font-normal sm:text-[18px] text-[12px] sm:leading-[22.68px] leading-[16.68px] text-white">
+            cash prize amount
+          </h5>
 
-        <p className="mt-[24px] font-normal sm:text-[24px] text-[18px] sm:leading-[45.6px] leading-[39.6px] text-white">
-          “other prizes it includes”
-        </p>
+          <h5 className="mt-[24px] font-normal sm:text-[20px] text-[18px] sm:leading-[45.6px] leading-[39.6px] text-white">
+            “other prizes it includes”
+          </h5>
+        </div>
       </motion.div>
       <motion.div
         variants={fadeIn('right', 'tween', 0.2, 1)}
         className="flex-[0.5] lg:max-w-[370px] flex justify-center flex-col gradient-05 sm:p-8 p-4 rounded-[32px] border-[1px] border-[#6A6A6A] relative"
       >
-        <div>
+        <div className='flex flex-col items-center'>
           <h4 className="font-bold sm:text-[32px] text-[26px] sm:leading-[40.32px] leading-[36.32px] text-white">
             1st Runner Up
           </h4>
-          <p className="mt-[8px] font-normal sm:text-[18px] text-[12px] sm:leading-[22.68px] leading-[16.68px] text-white">
+          < h5 className="mt-[8px] font-normal sm:text-[18px] text-[12px] sm:leading-[22.68px] leading-[16.68px] text-white">
             cash prize amount
-          </p>
-        </div>
+          </h5>
 
-        <p className="mt-[24px] font-normal sm:text-[24px] text-[18px] sm:leading-[45.6px] leading-[39.6px] text-white">
-          “other prizes it includes”
-        </p>
+          <h5 className="mt-[24px] font-normal sm:text-[20px] text-[18px] sm:leading-[45.6px] leading-[39.6px] text-white">
+            “other prizes it includes”
+          </h5>
+        </div>
       </motion.div>
       <motion.div
         variants={fadeIn('right', 'tween', 0.2, 1)}
         className="flex-[0.5] lg:max-w-[370px] flex justify-center flex-col gradient-05 sm:p-8 p-4 rounded-[32px] border-[1px] border-[#6A6A6A] relative"
       >
-        <div>
+        <div className='flex flex-col items-center'>
           <h4 className="font-bold sm:text-[32px] text-[26px] sm:leading-[40.32px] leading-[36.32px] text-white">
             2nd Runner Up
           </h4>
-          <p className="mt-[8px] font-normal sm:text-[18px] text-[12px] sm:leading-[22.68px] leading-[16.68px] text-white">
+          < h5 className="mt-[8px] font-normal sm:text-[18px] text-[12px] sm:leading-[22.68px] leading-[16.68px] text-white">
             cash prize amount
-          </p>
-        </div>
+          </h5>
 
-        <p className="mt-[24px] font-normal sm:text-[24px] text-[18px] sm:leading-[45.6px] leading-[39.6px] text-white">
-          “other prizes it includes”
-        </p>
+          <h5 className="mt-[24px] font-normal sm:text-[20px] text-[18px] sm:leading-[45.6px] leading-[39.6px] text-white">
+            “other prizes it includes”
+          </h5>
+        </div>
       </motion.div>
       <motion.div
         variants={fadeIn('right', 'tween', 0.2, 1)}
         className="flex-[0.5] lg:max-w-[370px] flex justify-center flex-col gradient-05 sm:p-8 p-4 rounded-[32px] border-[1px] border-[#6A6A6A] relative"
       >
-        <div>
+        <div className='flex flex-col items-center'>
           <h4 className="font-bold sm:text-[32px] text-[26px] sm:leading-[40.32px] leading-[36.32px] text-white">
-            For all Paticipants
+            For all
           </h4>
-          <p className="mt-[8px] font-normal sm:text-[18px] text-[12px] sm:leading-[22.68px] leading-[16.68px] text-white">
+          <h4 className="font-bold sm:text-[32px] text-[26px] sm:leading-[40.32px] leading-[36.32px] text-white">
+            participants
+          </h4>
+          < h5 className="mt-[8px] font-normal sm:text-[18px] text-[12px] sm:leading-[22.68px] leading-[16.68px] text-white">
             swags
-          </p>
-        </div>
+          </h5>
 
-        <p className="mt-[24px] font-normal sm:text-[24px] text-[18px] sm:leading-[45.6px] leading-[39.6px] text-white">
-          “other prizes it includes”
-        </p>
+          <h5 className="mt-[24px] font-normal sm:text-[20px] text-[18px] sm:leading-[45.6px] leading-[39.6px] text-white">
+            “other prizes it includes”
+          </h5>
+        </div>
       </motion.div>
     </motion.div>
   </section>
