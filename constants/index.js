@@ -126,6 +126,12 @@ export const socials = [
     url: '/github (2).svg',
     link: 'https://github.com/orgs/NSCC-BPIT/',
   },
+  {
+    name: 'discord',
+    url: '/github (2).svg',
+    link: 'https://discord.gg/z2fTnXjKMm',
+  },
+  
 ];
 
 export const FaqQuestion = [
