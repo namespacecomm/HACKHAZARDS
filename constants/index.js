@@ -101,15 +101,11 @@ export const insights = [
 
 export const socials = [
   
+  
   {
-    name: 'linkedin',
-    url: '/linkedin.svg',
-    link: 'https://www.linkedin.com/company/nsccbpit/',
-  },
-  {
-    name: 'instagram',
-    url: '/instagram.svg',
-    link: 'https://instagram.com/nscc_bpit?igshid=MzRlODBiNWFlZA==',
+    name: 'youtube',
+    url: '/icons8-youtube-logo.svg',
+    link: 'https://www.youtube.com/@nsccbpit',
   },
   {
     name: 'twitter',
@@ -117,10 +113,26 @@ export const socials = [
     link: 'https://twitter.com/nscc_bpit',
   },
   {
+    name: 'instagram',
+    url: '/instagram.svg',
+    link: 'https://instagram.com/nscc_bpit?igshid=MzRlODBiNWFlZA==',
+  },
+  {
+    name: 'linkedin',
+    url: '/linkedin.svg',
+    link: 'https://www.linkedin.com/company/nsccbpit/',
+  },
+  {
     name: 'github',
     url: '/github (2).svg',
     link: 'https://github.com/orgs/NSCC-BPIT/',
   },
+  {
+    name: 'discord',
+    url: '/discord-mark-white.svg',
+    link: 'https://discord.gg/z2fTnXjKMm',
+  },
+  
 ];
 
 export const FaqQuestion = [
