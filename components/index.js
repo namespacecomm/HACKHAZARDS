@@ -10,6 +10,7 @@ import Registration from './CA-Registration';
 import TeamGuidelines from './TeamGuidelines';
 import Events from './Events';
 import FAQ from './FAQ';
+import CPRegistration from './CP-Registration';
 
 export {
   Navbar,
@@ -25,4 +26,5 @@ export {
   TeamGuidelines,
   Events,
   FAQ,
+  CPRegistration,
 };
