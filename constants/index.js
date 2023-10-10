@@ -2,12 +2,12 @@ export const exploreWorlds = [
   {
     id: 'world-1',
     imgUrl: '/planet-01.png',
-    title: 'WEB DEVELOPMENT',
+    title: 'APP DEVELOPMENT',
   },
   {
     id: 'world-2',
     imgUrl: '/planet-02.png',
-    title: 'BLOCKCHAIN',
+    title: 'WEB DEVELOPMENT',
   },
   {
     id: 'world-3',
@@ -25,7 +25,7 @@ export const exploreWorldstwo = [
   {
     id: 'world-5',
     imgUrl: '/planet-06.png',
-    title: 'APP DEVELOPMENT',
+    title: 'BLOCKCHAIN',
   },
   {
     id: 'world-6',
@@ -44,7 +44,7 @@ export const exploreWorldstwo = [
   },
 
   {
-    id: 'world-8',
+    id: 'world-9',
     imgUrl: '/planet-05.png',
     title: 'OPEN SOURCE',
   },
