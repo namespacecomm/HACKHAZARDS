@@ -113,7 +113,7 @@ export const socials = [
   },
   {
     name: 'youtube',
-    url: '/linkedin.svg',
+    url: '/icons8-youtube-logo.svg',
     link: 'https://www.youtube.com/@nsccbpit',
   },
   {
@@ -128,7 +128,7 @@ export const socials = [
   },
   {
     name: 'discord',
-    url: '/discord.svg',
+    url: '/discord-mark-white.svg',
     link: 'https://discord.gg/z2fTnXjKMm',
   },
   
