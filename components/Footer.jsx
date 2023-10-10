@@ -43,8 +43,7 @@ const Footer = () => (
         <div className="flex items-center justify-between flex-wrap gap-4 flex-col">
           <a href="https://www.nsccbpit.tech/">
             <h4 className="font-extrabold text-[24px] text-white">
-              NEWTON SCHOOL <br />
-              CODING CLUB, BPIT
+              NEWTON SCHOOL CODING CLUB, BPIT
             </h4>
           </a>
           

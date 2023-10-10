@@ -101,16 +101,7 @@ export const insights = [
 
 export const socials = [
   
-  {
-    name: 'instagram',
-    url: '/instagram.svg',
-    link: 'https://instagram.com/nscc_bpit?igshid=MzRlODBiNWFlZA==',
-  },
-  {
-    name: 'linkedin',
-    url: '/linkedin.svg',
-    link: 'https://www.linkedin.com/company/nsccbpit/',
-  },
+  
   {
     name: 'youtube',
     url: '/icons8-youtube-logo.svg',
@@ -120,6 +111,16 @@ export const socials = [
     name: 'twitter',
     url: '/twitter.svg',
     link: 'https://twitter.com/nscc_bpit',
+  },
+  {
+    name: 'instagram',
+    url: '/instagram.svg',
+    link: 'https://instagram.com/nscc_bpit?igshid=MzRlODBiNWFlZA==',
+  },
+  {
+    name: 'linkedin',
+    url: '/linkedin.svg',
+    link: 'https://www.linkedin.com/company/nsccbpit/',
   },
   {
     name: 'github',
