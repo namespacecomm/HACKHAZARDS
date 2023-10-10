@@ -42,6 +42,12 @@ export const exploreWorldstwo = [
     imgUrl: '/planet-09.png',
     title: 'DATA SCIENCE',
   },
+
+  {
+    id: 'world-8',
+    imgUrl: '/planet-05.png',
+    title: 'OPEN SOURCE',
+  },
 ];
 
 export const startingFeatures = [
