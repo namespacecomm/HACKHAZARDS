@@ -128,7 +128,7 @@ export const socials = [
   },
   {
     name: 'discord',
-    url: '/github (2).svg',
+    url: '/discord.svg',
     link: 'https://discord.gg/z2fTnXjKMm',
   },
   
