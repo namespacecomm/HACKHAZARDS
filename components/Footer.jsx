@@ -46,8 +46,6 @@ const Footer = () => (
               NEWTON SCHOOL CODING CLUB, BPIT
             </h4>
           </a>
-          
-
           <div className="flex gap-4">
             {socials.map((social) => (
               <a href={social.link}>
@@ -63,7 +61,7 @@ const Footer = () => (
           <p className="font-normal text-[14px] text-white opacity-50">
             Copyright © 2023 - 2024 NEWTON SCHOOL CODING CLUB, BPIT. All rights
             reserved.
-          </p>  
+          </p>
         </div>
       </div>
     </div>
