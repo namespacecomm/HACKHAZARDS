@@ -102,14 +102,19 @@ export const insights = [
 export const socials = [
   
   {
+    name: 'instagram',
+    url: '/instagram.svg',
+    link: 'https://instagram.com/nscc_bpit?igshid=MzRlODBiNWFlZA==',
+  },
+  {
     name: 'linkedin',
     url: '/linkedin.svg',
     link: 'https://www.linkedin.com/company/nsccbpit/',
   },
   {
-    name: 'instagram',
-    url: '/instagram.svg',
-    link: 'https://instagram.com/nscc_bpit?igshid=MzRlODBiNWFlZA==',
+    name: 'youtube',
+    url: '/linkedin.svg',
+    link: 'https://www.youtube.com/@nsccbpit',
   },
   {
     name: 'twitter',
