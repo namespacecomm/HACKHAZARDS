@@ -55,10 +55,7 @@ const Navbar = () => {
       <div
         className={`${styles.innerWidth} mx-auto flex justify-between gap-8 z-1`}
       >
-        <div
-          onClick={openHome}
-          className="cursor-pointer transition"
-        >
+        <div onClick={openHome} className="cursor-pointer transition">
           <img
             src="/home.png"
             alt="menu"
@@ -71,14 +68,15 @@ const Navbar = () => {
             {/* <h2 className="font-extrabold text-[24px] leading-[30.24px] text-white">
               NEWTON SCHOOL CODING CLUB, BPIT
             </h2> */}
-            <img src="logoNSCC.png" alt="Nscc Logo" className="md:w-[15vw] w-[100px] object-contain" />
+            <img
+              src="logoNSCC.png"
+              alt="Nscc Logo"
+              className="md:w-[15vw] w-[100px] object-contain"
+            />
           </a>
         </div>
 
-        <div
-          onClick={toggleOpen}
-          className="cursor-pointer"
-        >
+        <div onClick={toggleOpen} className="cursor-pointer">
           <img
             src="/menu.svg"
             alt="menu"
@@ -92,7 +90,7 @@ const Navbar = () => {
             initial={{ opacity: 0, scale: 0.6 }}
             animate={{ opacity: 1, scale: 1 }}
             exit={{ opacity: 0, scale: 0.6 }}
-            className="w-[300px] bg-gray-50 shadow-xl rounded-lg flex flex-col overflow-hidden absolute top-12 right-5 z-20 "
+            className="w-[250px] bg-gray-50 shadow-xl rounded-lg flex flex-col overflow-hidden absolute top-12 right-5 z-20 "
           >
             <div className="flex flex-col items-center cursor-pointer">
               <p
@@ -125,18 +123,17 @@ const Navbar = () => {
               </p>
 
               <p
-                onClick={openRegistration}
-                className="m-2 px-4 py-2 rounded-md shadow-md  flex items-center justify-center bg-gray-200 gap-3 cursor-pointer hover:bg-slate-100 transition-all duration-100 ease-in-out text-textColor text-base"
-              >
-                Campus Ambassadors
-                <MdOutlineAppRegistration />
-              </p>
-
-              <p
                 onClick={openCPRegistration}
                 className="m-2 px-4 py-2 rounded-md shadow-md  flex items-center justify-center bg-gray-200 gap-3 cursor-pointer hover:bg-slate-100 transition-all duration-100 ease-in-out text-textColor text-base"
               >
                 Community Partners
+                <MdOutlineAppRegistration />
+              </p>
+              <p
+                onClick={openRegistration}
+                className="m-2 px-4 py-2 rounded-md shadow-md  flex items-center justify-center bg-gray-200 gap-3 cursor-pointer hover:bg-slate-100 transition-all duration-100 ease-in-out text-textColor text-base"
+              >
+                Campus Ambassadors
                 <MdOutlineAppRegistration />
               </p>
             </div>
