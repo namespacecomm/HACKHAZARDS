@@ -28,25 +28,19 @@ const Hero = () => (
         </motion.div>
       </div>
 
-
       <motion.div
-        variants={slideIn('right', 'tween', 0.2, 1)}
+        variants={slideIn("right", "tween", 0.2, 1)}
         className="relative w-full md:-mt-[20px] -mt-[12px]"
       >
-
-        
         <div className="absolute w-full h-[300px] hero-gradient rounded-tl-[140px] z-[0] -top-[30px]" />
-
 
         <img
           src="/cover.png"
           alt="hero_cover"
-          className="w-full sm:h-[500px] h-[350px] object-cover rounded-tl-[140px] z-10 relative"
+          className="w-full sm:h-[500px] h-[350px] object-cover rounded-tl-[140px] z-1 relative"
         />
 
-
         <a href="#explore">
-          
           <div className="w-full flex justify-end sm:-mt-[70px] -mt-[50px] pr-[40px] relative z-10">
             <img
               src="/EXPLORE THE (1).png"
@@ -55,26 +49,42 @@ const Hero = () => (
             />
           </div>
         </a>
-
-        
       </motion.div>
-      
-      <div className="flex items-center justify-center my-3 mb-10">
+
+      <div className="lg:flex flex flex-col items-center justify-center my-3 mb-5">
         <a href="#">
-        <button type="button" className="flex items-center h-fit py-4 px-6 bg-[#25618B] rounded-[20px] gap-[12px] hover:bg-white">
-          {/* <img
-            src="/devfolio.png"
-            alt="devfolio"
-            className="w-[48px] h-[48px] object-contain"
-          /> */}
-          <span className="font-bold text-[40px] text-white hover:text-black">
-            Registrations Starting Soon!
-          </span>
-        </button>
+          <button
+            type="button"
+            className="flex items-center h-fit py-4 px-6 bg-[#25618B] rounded-[20px] gap-[12px] hover:bg-white mr-[50px]"
+          >
+            <img
+              src="/devfolio.png"
+              alt="devfolio"
+              className="w-[48px] h-[48px] object-contain"
+            />
+            <span className="font-bold text-[40px] text-white hover:text-black">
+              Register with Devfolio
+            </span>
+          </button>
         </a>
       </div>
-
-      
+      <div className="lg:flex flex flex-col items-center justify-center my-3 mb-10">
+        <a href="#">
+          <button
+            type="button"
+            className="flex items-center h-fit py-4 px-6 bg-[#25618B] rounded-[20px] gap-[12px] hover:bg-white mr-[50px]"
+          >
+            <img
+              src="/discord-mark-white.svg"
+              alt="devfolio"
+              className="w-[48px] h-[48px] object-contain"
+            />
+            <span className="font-bold text-[40px] text-white hover:text-black">
+              Discord Server
+            </span>
+          </button>
+        </a>
+      </div>
     </motion.div>
   </section>
 );

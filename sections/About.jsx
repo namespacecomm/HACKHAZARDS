@@ -23,7 +23,7 @@ const About = () => (
 
       <motion.div
         variants={fadeIn("up", "tween", 0.2, 1)}
-        className="mt-[8px] font-normal sm:text-[29px] text-[16px] text-center text-secondary-white"
+        className="mt-[8px] font-normal sm:text-[23px] text-[16px] text-center text-secondary-white"
       >
         <div>
         <span className="font-extrabold text-white">HACKHAZARDS</span>, where
@@ -61,7 +61,7 @@ const About = () => (
                 alt="location"
                 className=" w-[100px] h-[120px]"
               />
-              <div className=" mt-[8px] font-normal sm:text-[29px] text-[16px] text-center text-secondary-white">
+              <div className=" mt-[8px] font-normal sm:text-[23px] text-[16px] text-center text-secondary-white">
                 <span className="font-extrabold text-white">Venue</span> <br />
                 [In-Person] - Bhagwan Parshuram <br />
                 Institute of Technology,Rohini
@@ -75,7 +75,7 @@ const About = () => (
                 alt="location"
                 className=" w-[80px] h-[80px] mt-[20px] mx-[20px]"
               />
-              <div className=" mt-[8px] font-normal sm:text-[29px] text-[16px] text-center text-secondary-white">
+              <div className=" mt-[8px] font-normal sm:text-[23px] text-[16px] text-center text-secondary-white">
                 <span className="font-extrabold text-white">Date</span> <br />
                 3rd- 4th Febuary 2024 <br />
                 24hr Hackathon
