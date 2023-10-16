@@ -20,8 +20,9 @@ const Home = () => (
       <div className="gradient-03 z-0" />
       <Explore />
     </div>
+    <Prizes />
     <div className="relative">
-      <Prizes />
+      <Feedback />
       <GetStarted />
       <div className="gradient-04 z-0" />
       <WhatsNew />
@@ -30,7 +31,6 @@ const Home = () => (
     <div className="relative">
       <Insights />
       <div className="gradient-04 z-0" />
-      <Feedback />
     </div>
     <Footer />
   </div>
