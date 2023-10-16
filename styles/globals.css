@@ -32,6 +32,38 @@
     #a134c7 100%
   );
 }
+.hero-gradient1 {
+  background: linear-gradient(
+    97.86deg,
+    #FFD700 0%,
+    #FFD700 53.65%,
+    #FFD700 100%
+  );
+}
+.hero-gradient2 {
+  background: linear-gradient(
+    97.86deg,
+    #e9e8e9 0%,
+    #fafafa 53.65%,
+    #ffffff 100%
+  );
+}
+.hero-gradient3 {
+  background: linear-gradient(
+    97.86deg,
+    #C0C0C0 0%,
+    #C0C0C0 53.65%,
+    #C0C0C0 100%
+  );
+}
+.hero-gradient4 {
+  background: linear-gradient(
+    97.86deg,
+    #CD7F32 0%,
+    #CD7F32 65%,
+    #CD7F32 100%
+  );
+}
 
 .gradient-02 {
   position: absolute;
