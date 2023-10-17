@@ -7,6 +7,7 @@ import World from "./World";
 import Insights from "./Insights";
 import Feedback from "./Feedback";
 import Prizes from "./Prizes";
+import Team from './Team';
 
 export {
   Hero,
@@ -18,4 +19,5 @@ export {
   Insights,
   Feedback,
   Prizes,
+  Team,
 };

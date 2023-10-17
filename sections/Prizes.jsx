@@ -40,7 +40,7 @@ const Prizes = () => {
         initial="hidden"
         whileInView="show"
         viewport={{ once: false, amount: 0.25 }}
-        className={`${styles.innerWidth} ${styles.topPaddings} mx-auto flex lg:flex-row flex-col gap-6 z-[10]`}
+        className={`${styles.innerWidth} ${styles.topPaddings} mx-auto flex justify-center items-center lg:flex-row flex-col gap-6 z-[10]`}
       >
         <motion.div
           variants={fadeIn("right", "tween", 0.2, 1)}
@@ -153,7 +153,7 @@ const Prizes = () => {
         initial="hidden"
         whileInView="show"
         viewport={{ once: false, amount: 0.25 }}
-        className={`${styles.innerWidth} ${styles.topPaddings} mx-auto flex lg:flex-row flex-col gap-6 z-[10] mt-[20px]`}
+        className={`${styles.innerWidth} ${styles.topPaddings} mx-auto flex justify-center items-center lg:flex-row flex-col gap-6 z-[10] mt-[20px]`}
       >
         <motion.div
           variants={fadeIn("right", "tween", 0.2, 1)}
