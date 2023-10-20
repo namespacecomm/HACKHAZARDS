@@ -79,12 +79,12 @@ const Team = () => {
                     >
                       <motion.div
                         variants={fadeIn("right", "tween", 0.2, 1)}
-                        className=" lg:w-[500px] flex justify-center items-center flex-col  gradient-05 sm:p-4  p-4  rounded-[10px] border-[3px]  relative"
+                        className=" lg:w-[500px] flex justify-center items-center flex-col  gradient-05 sm:p-4  p-4  border-radius-[50%] border-[3px]  relative"
                       >
                         <img
                           src={member.image}
-                          alt="anushka photo"
-                          className=" h-[220px] w-[220px] object-fit rounded border-[5px]"
+                          alt="member photo"
+                          className=" h-[200px] w-[180px] object-fit rounded-[50%] border-[5px]"
                         />
                         <div className="flex flex-col items-center ">
                           <h4 className="font-extrabold  xl:text-[20px]  text-[15px] sm:leading-[40.32px] leading-[36.32px] text-white mt-[15px]">
@@ -166,7 +166,7 @@ const Team = () => {
                         <img
                           src={member.image}
                           alt="anushka photo"
-                          className=" h-[220px] w-[220px] object-fit rounded border-[5px]"
+                          className=" h-[200px] w-[180px] object-fit rounded-[50%] border-[5px]"
                         />
                         <div className="flex flex-col items-center ">
                           <h4 className="font-extrabold  xl:text-[20px]  text-[15px] sm:leading-[40.32px] leading-[36.32px] text-white mt-[15px]">

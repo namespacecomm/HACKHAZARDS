@@ -40,52 +40,52 @@ const Hero = () => (
           className="w-full sm:h-[500px] h-[350px] object-cover rounded-tl-[140px] z-1 relative"
         />
 
-        <a href="#explore">
-          <div className="w-full flex justify-end sm:-mt-[70px] -mt-[50px] pr-[40px] relative z-10">
-            <img
-              src="/EXPLORE THE (1).png"
-              alt="stamp"
-              className="sm:w-[155px] w-[100px] sm:h-[155px] h-[100px] object-contain"
-            />
-          </div>
-        </a>
-      </motion.div>
-
-      <div className="lg:flex flex flex-col items-center justify-center my-3 mb-5">
+<div className="md:flex-row flex flex-col justify-center items-center  my-10 mb-5 gap-5 pr-6 z-2">
         <a href="#">
           <button
             type="button"
-            className="flex items-center h-fit py-4 px-6 bg-[#25618B] rounded-[20px] gap-[12px] hover:bg-white mr-[50px]"
+            className="flex items-center h-fit py-4 px-6 bg-[#25618B] rounded-[20px] gap-[12px] hover:bg-[#102f45] "
           >
-            <img
+            {/* <img
               src="/devfolio.png"
               alt="devfolio"
-              className="w-[48px] h-[48px] object-contain"
-            />
-            <span className="font-bold text-[40px] text-white hover:text-black">
-              Register with Devfolio
+              className="lg:w-[48px] lg:h-[48px] w-[35px] h-[35px] object-contain"
+            /> */}
+            <span className="font-bold lg:text-[40px] text-[18px] text-white ">
+              Registers Starting Soon!
             </span>
           </button>
         </a>
-      </div>
-      <div className="lg:flex flex flex-col items-center justify-center my-3 mb-10">
         <a href="#">
           <button
             type="button"
-            className="flex items-center h-fit py-4 px-6 bg-[#25618B] rounded-[20px] gap-[12px] hover:bg-white mr-[50px]"
+            className="flex items-center h-fit py-4 px-6 bg-[#25618B] rounded-[20px] gap-[12px] hover:bg-[#102f45] "
           >
             <img
               src="/discord-mark-white.svg"
               alt="devfolio"
-              className="w-[48px] h-[48px] object-contain"
+              className="lg:w-[48px] lg:h-[48px] w-[35px] h-[35px] object-contain"
             />
-            <span className="font-bold text-[40px] text-white hover:text-black">
+            <span className="font-bold lg:text-[40px] text-[18px] text-white ">
               Discord Server
             </span>
           </button>
         </a>
       </div>
+
+      <div className=" flex justify-center items-center  my-3 mb-5 gap-5 pr-6 font-medium lg:text-[30px] text-[25px] text-white hover:underline hover:text-[#25618B]">
+        <a href="https://docs.google.com/document/d/1rBz992a_-oChxud9umkL8_s_twOhSJx959aE1Bez0R0/edit?usp=sharing">
+          Code of Conduct
+        </a>
+        
+      </div>
+
+        
+      </motion.div>
+
+     
     </motion.div>
+      
   </section>
 );
 

@@ -464,7 +464,7 @@ export const members2 =[
 
   {
     image:
-      "https://user-images.githubusercontent.com/75252077/236656995-6815699e-d7bd-49d0-b0c9-2df920d57884.jpg",
+      "/rajat.jpg",
     name: "Rajat Gupta",
     position: "Founder",
     team: "SC",
@@ -544,5 +544,16 @@ export const members2 =[
     linkedin: "https://www.linkedin.com/in/vishesh-khare-4a8869185",
     instagram: "https://instagram.com/vishesh._.khare?igshid=ZDdkNTZiNTM=",
     twitter: "https://twitter.com/visheshkhare5?t=25AEBGXjQmsCcbE1PuGlzg&s=09",
+  },
+  {
+    image:
+      "/vikas.jpg",
+    name: "Vikas Yadav",
+    position: "Github Campus Expert",
+    team: "SC",
+    github: "https://github.com/Vikash-8090-Yadav",
+    linkedin: "https://www.linkedin.com/in/vikash-kumar-yadav-8090/",
+    instagram: "",
+    twitter: "",
   },
 ];
