@@ -34,7 +34,7 @@ const Home = () => (
       <Team />
       <div className="gradient-04 z-0" />
     </div>
-    <ContactUs/>
+    <ContactUs />
     <Footer />
   </div>
 );
