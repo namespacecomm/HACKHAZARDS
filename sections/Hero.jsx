@@ -52,7 +52,7 @@ const Hero = () => (
               className="lg:w-[48px] lg:h-[48px] w-[35px] h-[35px] object-contain"
             /> */}
             <span className="font-bold lg:text-[40px] text-[18px] text-white ">
-              Registers Starting Soon!
+              Registrations starting soon!
             </span>
           </button>
         </a>

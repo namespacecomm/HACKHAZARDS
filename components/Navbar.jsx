@@ -8,6 +8,19 @@ import { motion } from 'framer-motion';
 import { useRouter } from 'next/router';
 import { navVariants } from '../utils/motion';
 import styles from '../styles';
+import Link from 'next/link';
+import {
+  About,
+  Explore,
+  Feedback,
+  GetStarted,
+  Hero,
+  Insights,
+  WhatsNew,
+  World,
+  Prizes,
+  Team,
+} from '../sections';
 
 const Navbar = () => {
   const router = useRouter();
@@ -63,17 +76,50 @@ const Navbar = () => {
           />
         </div>
 
-        <div>
+        {/* <div>
           <a href="https://www.nsccbpit.tech/">
-            {/* <h2 className="font-extrabold text-[24px] leading-[30.24px] text-white">
+            <h2 className="font-extrabold text-[24px] leading-[30.24px] text-white">
               NEWTON SCHOOL CODING CLUB, BPIT
-            </h2> */}
+            </h2>
             <img
               src="logoNSCC.png"
               alt="Nscc Logo"
               className="md:w-[15vw] w-[100px] object-contain"
             />
           </a>
+        </div> */}
+
+        <div className='flex gap-6 justify-around items-center max-lg:hidden '>
+          <a href="About">
+          <h2 className="font-extrabold text-[18px] leading-[30.24px] text-white">
+              About
+            </h2>
+            </a>
+        
+            <h2 className="font-extrabold text-[18px] leading-[30.24px] text-white">
+              Domains
+            </h2>
+            <h2 className="font-extrabold text-[18px] leading-[30.24px] text-white">
+              Prizes
+            </h2>
+            <h2 className="font-extrabold text-[18px] leading-[30.24px] text-white">
+            Sponsors
+            </h2>
+            <h2 className="font-extrabold text-[18px] leading-[30.24px] text-white">
+            Registrations
+            </h2>
+            <h2 className="font-extrabold text-[18px] leading-[30.24px] text-white">
+            What's new
+            </h2>
+            <h2 className="font-extrabold text-[18px] leading-[30.24px] text-white">
+            Invite
+            </h2>
+            <h2 className="font-extrabold text-[18px] leading-[30.24px] text-white">
+            Insights
+            </h2>
+            <h2 className="font-extrabold text-[18px] leading-[30.24px] text-white">
+            Team
+            </h2>
         </div>
 
         <div onClick={toggleOpen} className="cursor-pointer">

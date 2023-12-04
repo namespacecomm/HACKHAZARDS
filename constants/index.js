@@ -205,20 +205,9 @@ export const members = [
 
   {
     image:
-      "https://res.cloudinary.com/df5hitkbj/image/upload/v1693143855/WhatsApp_Image_2023-08-27_at_19.13.49_njoj6r.jpg",
-    name: "Daxh Khatreja",
-    position: "Vice President",
-    github: "https://github.com/khatrejadaxh04",
-    linkedIn: "https://linkedin.com/in/daxh-khatreja-885641227",
-    instagram: "https://www.instagram.com/_khatrejadaxh4_/",
-    twitter: "https://twitter.com/_khatrejadaxh4_",
-  },
-
-  {
-    image:
       "https://user-images.githubusercontent.com/75252077/236658748-0dd5a22a-52eb-471c-8662-36efa310a38e.jpg",
     name: "Vaibhav Goyal",
-    position: "Director of Operations",
+    position: "Vice President",
     github: "https://github.com/vaiibhav75",
     linkedin: "https://www.linkedin.com/in/vaibhav-goyal-0a5b91235",
     instagram: "https://www.instagram.com/vaiibhav_goyal",
@@ -312,7 +301,7 @@ export const members = [
     image:
       "https://user-images.githubusercontent.com/75252077/236658653-d05fa062-283e-4520-9a71-4d01d7f2b4f4.jpg",
     name: "Rishav Raj",
-    position: "Technical Council",
+    position: "Senior Council",
     github: "https://github.com/Rishav-01",
     linkedin: "https://www.linkedin.com/in/rishav-raj-8128bb228/",
     instagram: "https://www.instagram.com/rishav_th9/",
@@ -322,7 +311,7 @@ export const members = [
   {
     "name": "Arjun Bhardwaj",
     "image": "https://i.postimg.cc/6q3HYS8H/20201202-132827.jpg",
-    position: "Technical Council",
+    position: "Senior Council",
     "github": "https://github.com//Arjun-Y-Bhardwaj",
     "linkedin": "https://www.linkedin.com//in//arjun-bhardwaj-93a4a31a6",
     "instagram": "https://www.instagram.com//N//A"
@@ -331,7 +320,7 @@ export const members = [
    {
       "name": "Gautam Gupta",
       "image": "https://res.cloudinary.com/df5hitkbj/image/upload/v1696347467/WhatsApp_Image_2023-10-03_at_19.48.38_9b68ab3a_pdkmkv.jpg",
-      position: "Technical Council",
+      position: "Senior Council",
       "linkedin": "https://www.linkedin.com//in//gautam-gupta-8a039022a",
       "instagram": "https://www.instagram.com//_gautam.gupta"
    },
@@ -339,7 +328,7 @@ export const members = [
    {
       "name": "Bhawansh Baleja",
       "image": "https://res.cloudinary.com/df5hitkbj/image/upload/v1696348115/WhatsApp_Image_2023-10-03_at_21.18.13_3bd7fcc4_dgtpwq.jpg",
-      position: "Technical Council",
+      position: "Senior Council",
       "linkedin": "https://www.linkedin.com//mwlite//in//bhawansh-baleja-a05450146",
       "instagram": "https://www.instagram.com//bhawansh_"
   },
@@ -347,7 +336,7 @@ export const members = [
   {
     "name": "Anand Mohan",
     "image": "https://i.postimg.cc//NjgdVcvV//unnamed.jpg",
-    position: "Technical Council",
+    position: "Senior Council",
     "github": "https://github.com//Anand18m",
     "linkedin": "https://www.linkedin.com//in//anand-mohan-50324118b//",
     "instagram": "https://www.instagram.com//anand18mohan",
@@ -357,7 +346,7 @@ export const members = [
    {
       "name": "Aakash Gupta",
       "image": "https://res.cloudinary.com/df5hitkbj/image/upload/v1696347467/WhatsApp_Image_2023-10-03_at_19.48.37_f778fcc2_m1gihp.jpg",
-      position: "Technical Council",
+      position: "Senior Council",
       "linkedin": "https://www.linkedin.com//in//aakashgupta46",
       "instagram": "https://www.instagram.com//itss_aakash_"
   },

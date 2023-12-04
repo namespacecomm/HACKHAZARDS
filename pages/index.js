@@ -1,4 +1,4 @@
-import { Footer, Navbar } from '../components';
+import { ContactUs, Footer, Navbar } from '../components';
 import {
   About,
   Explore,
@@ -34,6 +34,7 @@ const Home = () => (
       <Team />
       <div className="gradient-04 z-0" />
     </div>
+    <ContactUs/>
     <Footer />
   </div>
 );
