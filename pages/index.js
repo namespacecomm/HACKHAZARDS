@@ -1,4 +1,4 @@
-import { Footer, Navbar } from '../components';
+import { ContactUs, Footer, Navbar } from '../components';
 import {
   About,
   Explore,
@@ -9,6 +9,7 @@ import {
   WhatsNew,
   World,
   Prizes,
+  Team,
 } from '../sections';
 
 const Home = () => (
@@ -30,8 +31,10 @@ const Home = () => (
     <World />
     <div className="relative">
       <Insights />
+      <Team />
       <div className="gradient-04 z-0" />
     </div>
+    <ContactUs />
     <Footer />
   </div>
 );

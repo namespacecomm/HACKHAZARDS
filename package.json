@@ -10,6 +10,7 @@
     "export": "npm run build && next export -o _static"
   },
   "dependencies": {
+    "@next/font": "^13.5.6",
     "axios": "^1.5.1",
     "eslint-config-next": "13.0.3",
     "framer-motion": "^7.6.7",
@@ -17,10 +18,12 @@
     "mongodb": "^6.1.0",
     "mongoose": "^7.6.1",
     "next": "13.0.3",
+    "owl.carousel": "^2.3.4",
     "react": "18.2.0",
     "react-collapse": "^5.1.1",
     "react-dom": "18.2.0",
     "react-icons": "^4.10.1",
+    "react-owl-carousel": "^2.3.3",
     "react-toastify": "^9.1.3"
   },
   "devDependencies": {
