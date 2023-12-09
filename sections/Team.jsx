@@ -17,7 +17,7 @@ if (typeof window !== "undefined") {
 
 // This is for Next.js. On Rect JS remove this line
 const OwlCarousel = dynamic(() => import("react-owl-carousel"), {
-  ssr: true,
+  ssr: false,
 });
 
 const Team = () => {
