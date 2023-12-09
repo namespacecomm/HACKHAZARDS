@@ -215,15 +215,6 @@ export const members = [
   },
 
   {
-    name: "Khushi Kulshreshtha",
-    image: "https://i.postimg.cc/66vvXLD7/IMG-20230124-161335.jpg",
-    position: "Senior Council",
-    github: "khushi1712 (Khushi Kulshreshtha) (github.com)",
-    linkedin: "https://www.linkedin.com/in/khushi-kulshreshtha-79439422b",
-    instagram: "https://www.instagram.com/Khushi.kulshreshtha",
-  },
-
-  {
     image:
       "https://user-images.githubusercontent.com/75252077/236658902-912d6d6c-6790-41ee-b65b-5ccd4e2eea40.jpeg",
     name: "Raj Verma",
@@ -243,16 +234,6 @@ export const members = [
     linkedin: "https://www.linkedin.com/in/ayushjaswal",
     instagram: "https://instagram.com/ayujaswal?igshid=ZDdkNTZiNTM=",
     twitter: "https://twitter.com/ayujas",
-  },
-
-  {
-    name: "Vibhuti Gupta",
-    image: "https://i.postimg.cc/zv4m8YMQ/IMG-20230507-WA0038.jpg",
-    position: "Senior Council",
-    github: "https://github.com/Vibhuti270",
-    linkedin: "https://www.linkedin.com/in/vibhuti-gupta-ab841522b",
-    instagram: "https://www.instagram.com/N/A",
-    twitter: "https://twitter.com/Vibhuti_27?t=g3wf-ea-GtRS4LUMef-qKg&amp;s=08",
   },
 
   {
@@ -278,17 +259,6 @@ export const members = [
   
   {
     image:
-      "https://user-images.githubusercontent.com/75252077/236659017-3bdddc9a-1494-4d65-b48d-1a0fa07596df.jpg",
-    name: "Gracy Dhamija",
-    position: "Senior Council",
-    github: "https://github.com/gracy27",
-    linkedIn: " https://www.linkedin.com/in/gracy-dhamija-4b2261239     ",
-    instagram: "https://instagram.com/dhamijagracy?igshid=ZDdkNTZiNTM=",
-    twitter: "https://twitter.com/dhamija_gracy?t=y0V-IH-0CrxhI-ZybbYc2w&s=09",
-  },
-
-  {
-    image:
       "https://res.cloudinary.com/df5hitkbj/image/upload/v1693143933/WhatsApp_Image_2023-08-27_at_19.15.17_xg2f0b.jpg",
     name: "Sneha Nautiyal",
     position: "Senior Council",
@@ -307,15 +277,6 @@ export const members = [
     instagram: "https://www.instagram.com/rishav_th9/",
     twitter: "",
   },
-
-  {
-    "name": "Arjun Bhardwaj",
-    "image": "https://i.postimg.cc/6q3HYS8H/20201202-132827.jpg",
-    position: "Senior Council",
-    "github": "https://github.com//Arjun-Y-Bhardwaj",
-    "linkedin": "https://www.linkedin.com//in//arjun-bhardwaj-93a4a31a6",
-    "instagram": "https://www.instagram.com//N//A"
-   },
 
    {
       "name": "Gautam Gupta",
@@ -352,6 +313,15 @@ export const members = [
   },
 
   {
+    "name": "Akshit Shroff",
+    "image": "https://res.cloudinary.com/df5hitkbj/image/upload/v1701314230/Akshit_Shroff_mgbxhf.jpg",
+    position: "Technical Head",
+    github: "https://github.com/Akay-Code",
+    "linkedin": "https://www.linkedin.com//in//akshit-shroff",
+    "instagram": ""
+   },
+
+   {
     name: "Aanya Sharma",
     image: "https://i.postimg.cc/hGsHhd6T/IMG-20221027-120758.jpg",
     position: "Junior Council",
@@ -397,7 +367,7 @@ export const members = [
     linkedin: "https://www.linkedin.com/in/mokshit-garg-283b27247",
     instagram: "https://www.instagram.com/mokshu_123",
     twitter:
-      "https://twitter.com/Mokshit0068?t=nl9HjgHS2NRY8FfCQiVo8Q&amp;s=09",
+      "https://twitter.com/Mokshit0068",
   },
 
   {
@@ -414,6 +384,7 @@ export const members = [
     position: "Junior Council",
     linkedin: "https://www.linkedin.com/in/prerna-jha-6080a9253",
     instagram: "https://www.instagram.com/_prerna.____",
+    twitter: "https://twitter.com/PrernaJha04"
   },
 
   {
@@ -435,6 +406,67 @@ export const members = [
     github: "https://github.com/sgmna",
     linkedin: "https://www.linkedin.com/in/sujal-gupta-117154247/",
     instagram: "https://www.instagram.com/sujalgupta1214",
+  },
+
+  {
+    name: "Diksha Sharma",
+    image:
+      "https://res.cloudinary.com/df5hitkbj/image/upload/v1699865733/Diksha_Sharma_ins2c5.jpg",
+    position: "Junior Council",
+    github: "https://github.com/DikshaDhasmana",
+    linkedin: "https://www.linkedin.com/in/diksha-sharma-1650b1258",
+    instagram: "",
+  },
+
+  {
+    name: "Pranav Barthwal",
+    image:
+      "https://res.cloudinary.com/df5hitkbj/image/upload/v1699865734/PranavBarthwal_1_ycli1h.jpg",
+    position: "Junior Council",
+    github: "https://github.com/PranavBarthwal",
+    linkedin: "https://www.linkedin.com/in/pranav-barthwal-b1a3631ba",
+    instagram: "https://instagram.com/pranavbarthwal",
+  },
+
+  {
+    name: "Himanshi Hans",
+    image:
+      "https://res.cloudinary.com/df5hitkbj/image/upload/v1699865734/Himanshi_Hans_1_p8xxtj.jpg",
+    position: "Junior Council",
+    github: "https://github.com/Himanshihans/",
+    linkedin: "https://www.linkedin.com/in/himanshi-hans-23b895234",
+    instagram: "",
+  },
+
+  {
+    name: "Yuvan Grover",
+    image:
+      "https://res.cloudinary.com/df5hitkbj/image/upload/v1699865734/Yuvan_pic_2_1_wtwurh.jpg",
+    position: "Junior Council",
+    github: "https://github.com/coderyuvan",
+    linkedin: "https://www.linkedin.com/in/yuvan-grover-85b03526a",
+    instagram: "",
+  },
+
+  {
+    name: "Niharika Khanna",
+    image:
+      "https://res.cloudinary.com/df5hitkbj/image/upload/v1699865733/NiharikaKhanna_pzwkmx.jpg",
+    position: "Junior Council",
+    github: "https://github.com/nkhanna94",
+    linkedin: "https://www.linkedin.com/in/niharika-khanna-197236248/",
+    instagram: "",
+    twitter: "https://www.twitter.com/nkhanna94"
+  },
+
+  {
+    name: "Sahil Tyagi",
+    image:
+      "https://res.cloudinary.com/df5hitkbj/image/upload/v1699865734/Sahil_Tyagi_1_pe2crg.jpg",
+    position: "Junior Council",
+    github: "https://github.com/SahilTyagii",
+    linkedin: "https://www.linkedin.com/in/sahil-tyagi-b4a02325a/",
+    instagram: "https://www.instagram.com/sahil.tyagii/",
   },
 ];
 
@@ -534,7 +566,8 @@ export const members2 =[
     instagram: "https://instagram.com/vishesh._.khare?igshid=ZDdkNTZiNTM=",
     twitter: "https://twitter.com/visheshkhare5?t=25AEBGXjQmsCcbE1PuGlzg&s=09",
   },
-  {
+
+  /* {
     image:
       "/vikas.jpg",
     name: "Vikas Yadav",
@@ -544,5 +577,5 @@ export const members2 =[
     linkedin: "https://www.linkedin.com/in/vikash-kumar-yadav-8090/",
     instagram: "",
     twitter: "",
-  },
+  }, */
 ];
