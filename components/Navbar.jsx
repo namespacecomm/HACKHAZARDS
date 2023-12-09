@@ -70,7 +70,7 @@ const Navbar = () => {
           <img
             src="/logo.png"
             alt="menu"
-            className="w-[180px] object-contain"
+            className="md:w-[180px] w-[120px] object-contain"
           />
         </div>
 

@@ -141,12 +141,12 @@ const Feedback = () => (
       initial="hidden"
       whileInView="show"
       viewport={{ once: false, amount: 0.25 }}
-      className={`${styles.innerWidth} sm:pt-5 xs:pt-8 pt-10 mx-auto flex md:flex-row flex-col gap-10 justify-center items-center`}
+      className={`${styles.innerWidth} sm:pt-5 xs:pt-8 pt-10 mx-auto flex gap-5 md:flex-row flex-col  justify-center items-center`}
     >
       {/* media sponsor */}
       <motion.div
         variants={fadeIn("right", "tween", 0.2, 1)}
-        className="flex-[0.5]  flex-col items-center justify-center w-[80vw]    relative  "
+        className="flex-[0.5]  flex-col items-center justify-center    relative  "
       >
         <div className="flex flex-col items-center z-[1] mt-[5px]">
           <h4 className="font-bold lg:text-[29px] text-[24px] sm:leading-[40.32px] leading-[36.32px] text-white mt-[20px] mb-[10px]">
@@ -165,7 +165,7 @@ const Feedback = () => (
           <h4 className="font-bold lg:text-[29px] text-[26px] sm:leading-[40.32px] leading-[36.32px] text-white mt-[20px] mb-[10px]">
             PLATFORM SPONSORS
           </h4>
-          <img src="revealing.png" alt="revealing poster" className="w-[450px]  rounded-[25px]" />
+          <img src="1.png" alt="revealing poster" className="w-[450px]  rounded-[25px]" />
         </div>
       </motion.div>
     </motion.div>
@@ -186,7 +186,7 @@ const Feedback = () => (
         className="flex-[0.5] items-center justify-center w-[90vw] flex md:flex-row flex-col lg:gap-5 gap-2 relative  "
       >
         <div className="flex flex-col items-center z-[1] mt-[5px]">
-          <img src="revealing.png" alt="revealing poster" className="w-[450px] rounded-[15px]" />
+          <img src="2.png" alt="revealing poster" className="w-[450px] rounded-[15px]" />
         </div>
         <div className="flex flex-col items-center z-[1] mt-[5px]">
           <img src="revealing.png" alt="revealing poster" className="w-[450px] rounded-[15px]" />
@@ -273,7 +273,7 @@ const Feedback = () => (
         className="flex-[0.5] items-center justify-center w-[90vw] flex md:flex-row flex-col lg:gap-5 gap-2 relative  "
       >
         <div className="flex flex-col items-center z-[1] mt-[5px]">
-          <img src="revealing.png" alt="revealing poster" className="w-[900px] rounded-[15px]" />
+          <img src="3.png" alt="revealing poster" className="w-[900px] rounded-[15px]" />
         </div>
         <div className="flex flex-col items-center z-[1] mt-[5px]">
           <img src="revealing.png" alt="revealing poster" className="w-[900px] rounded-[15px]" />
