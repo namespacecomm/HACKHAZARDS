@@ -6,7 +6,7 @@ import styles from '../styles';
 import { slideIn, staggerContainer, textVariant } from '../utils/motion';
 
 const Hero = () => (
-  <section className="sm:py-8 xs:py-4 py-5 sm:pl-16 pl-6">
+  <section className="sm:py-2 xs:py-4 py-5 sm:pl-16 pl-6">
     <motion.div
       variants={staggerContainer}
       initial="hidden"

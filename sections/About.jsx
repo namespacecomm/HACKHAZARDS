@@ -77,7 +77,7 @@ const About = () => (
               />
               <div className=" mt-[8px] font-normal sm:text-[23px] text-[16px] text-center text-secondary-white">
                 <span className="font-extrabold text-white">Date</span> <br />
-                 Febuary 2024 <br />
+                 March 2024 <br />
                 24hr Hackathon
               </div>
             </div>

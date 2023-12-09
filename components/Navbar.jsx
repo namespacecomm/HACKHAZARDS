@@ -63,16 +63,14 @@ const Navbar = () => {
       variants={navVariants}
       initial="hidden"
       whileInView="show"
-      className={`${styles.xPaddings} py-8 relative`}
+      className="sm:pl-10 pr-10 px-6 py-6 relative"
     >
-      <div
-        className={`${styles.innerWidth} mx-auto flex justify-between gap-8 z-1`}
-      >
+      <div className={`${styles.innerWidth}  flex justify-between gap-2 z-1`}>
         <div onClick={openHome} className="cursor-pointer transition">
           <img
-            src="/home.png"
+            src="/logo.png"
             alt="menu"
-            className="w-[35px] h-[35px] object-contain"
+            className="w-[180px] object-contain"
           />
         </div>
 
@@ -89,7 +87,7 @@ const Navbar = () => {
           </a>
         </div> */}
 
-        <div className="flex gap-6 justify-around items-center max-lg:hidden ">
+        <div className="flex gap-8 justify-around py-6 max-lg:hidden ">
           <a href="About">
             <h2 className="font-extrabold text-[18px] leading-[30.24px] text-white">
               About
@@ -97,36 +95,38 @@ const Navbar = () => {
           </a>
 
           <h2 className="font-extrabold text-[18px] leading-[30.24px] text-white">
-            Domains
+            Themes
           </h2>
           <h2 className="font-extrabold text-[18px] leading-[30.24px] text-white">
             Prizes
           </h2>
           <h2 className="font-extrabold text-[18px] leading-[30.24px] text-white">
+            Schedule
+          </h2>
+
+          <h2 className="font-extrabold text-[18px] leading-[30.24px] text-white">
             Sponsors
           </h2>
-          <h2 className="font-extrabold text-[18px] leading-[30.24px] text-white">
-            Registrations
-          </h2>
-          <h2 className="font-extrabold text-[18px] leading-[30.24px] text-white">
-            What's new
-          </h2>
-          <h2 className="font-extrabold text-[18px] leading-[30.24px] text-white">
-            Invite
-          </h2>
+
           <h2 className="font-extrabold text-[18px] leading-[30.24px] text-white">
             Insights
           </h2>
           <h2 className="font-extrabold text-[18px] leading-[30.24px] text-white">
             Team
           </h2>
+          <h2 className="font-extrabold text-[18px] leading-[30.24px] text-white">
+            NSCC
+          </h2>
         </div>
 
-        <div onClick={toggleOpen} className="cursor-pointer">
+        <div
+          onClick={toggleOpen}
+          className="py-5 cursor-pointer justify-center items-center "
+        >
           <img
             src="/menu.svg"
             alt="menu"
-            className="w-[24px] h-[24px] object-contain"
+            className="w-[30px] h-[30px] object-contain"
           />
         </div>
       </div>
@@ -136,7 +136,7 @@ const Navbar = () => {
             initial={{ opacity: 0, scale: 0.6 }}
             animate={{ opacity: 1, scale: 1 }}
             exit={{ opacity: 0, scale: 0.6 }}
-            className="w-[250px] bg-gray-50 shadow-xl rounded-lg flex flex-col overflow-hidden absolute top-12 right-5 z-20 "
+            className="w-[250px] bg-gray-50 shadow-xl rounded-lg flex flex-col overflow-hidden absolute top-14 right-5 z-20 "
           >
             <div className="flex flex-col items-center cursor-pointer">
               <p

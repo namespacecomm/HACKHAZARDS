@@ -2,52 +2,40 @@ export const exploreWorlds = [
   {
     id: 'world-1',
     imgUrl: '/planet-01.png',
-    title: 'APP DEVELOPMENT',
+    title: 'FinTech',
   },
   {
     id: 'world-2',
     imgUrl: '/planet-02.png',
-    title: 'WEB DEVELOPMENT',
+    title: 'Edtech',
   },
   {
     id: 'world-3',
     imgUrl: '/planet-03.png',
-    title: 'CYBER SECURITY',
+    title: 'AR/VR',
   },
-  {
-    id: 'world-4',
-    imgUrl: '/planet-04.png',
-    title: 'UI/UX',
-  },
+ 
 ];
 
 export const exploreWorldstwo = [
-  {
-    id: 'world-5',
-    imgUrl: '/planet-06.png',
-    title: 'BLOCKCHAIN',
-  },
+ 
   {
     id: 'world-6',
     imgUrl: '/planet-07.png',
-    title: 'DEV OPS',
+    title: 'Health Care',
   },
   {
     id: 'world-7',
     imgUrl: '/planet-08.png',
-    title: 'AI/ML',
+    title: 'Open Innovation',
   },
   {
     id: 'world-8',
     imgUrl: '/planet-09.png',
-    title: 'DATA SCIENCE',
+    title: 'Web3',
   },
 
-  {
-    id: 'world-9',
-    imgUrl: '/planet-05.png',
-    title: 'OPEN SOURCE',
-  },
+  
 ];
 
 export const startingFeatures = [

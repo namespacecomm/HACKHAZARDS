@@ -21,19 +21,19 @@ const Explore = () => {
         className={`${styles.innerWidth} mx-auto flex flex-col`}
       >
         <TypingText
-          title="| Domains"
+          title="| Themes"
           textStyles="text-center text-[25px] font-bold"
         />
         <TitleText
           title={
             <>
-              Choose the domain you want <br className="md:block hidden" /> to
+              Choose the theme you want <br className="md:block hidden" /> to
               hack
             </>
           }
           textStyles="text-center"
         />
-        <div className="mt-[50px] flex lg:flex-row flex-col min-h-[70vh] gap-5">
+        <div className="mt-[50px] flex lg:flex-row flex-col min-h-[70vh]  gap-5">
           {exploreWorlds.map((world, index) => (
             <ExploreCard
               key={world.id}
