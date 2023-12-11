@@ -98,7 +98,7 @@ const Navbar = () => {
             <Link
               to="Prizes"
               activeClass="active"
-              offset={-100}
+              offset={-80}
               duration={500}
             >
               <h2 className="font-extrabold text-[18px] leading-[30.24px] text-white">
