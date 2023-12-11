@@ -46,7 +46,7 @@ const Navbar = () => {
   }, []);
 
   return (
-    <nav className="flex items-center justify-center relative ">
+    <nav className=" fixed top-0 z-30 flex w-full flex items-center justify-center relative ">
       <div className=" fixed top-0 z-30 flex w-full  2xl:max-w-[1280px]   justify-center sm:pb-10 pr-10 px-10 pb-4 mb-20 relative ">
         <div
           className={`${styles.innerWidth} fixed flex justify-between gap-2  bg-primary-black  `}
@@ -166,16 +166,13 @@ const Navbar = () => {
               alt="menu"
               className="w-[30px] h-[30px] object-contain"
             />
-          </div>
-        </div>
-      </div>
-      <div>
+            <div>
         {isopen && (
           <motion.div
             initial={{ opacity: 0, scale: 0.6 }}
             animate={{ opacity: 1, scale: 1 }}
             exit={{ opacity: 0, scale: 0.6 }}
-            className="w-[250px] bg-gray-50 shadow-xl rounded-lg flex flex-col overflow-hidden absolute top-14 right-5 z-40 "
+            className=" w-[250px] bg-gray-50 shadow-xl rounded-lg flex flex-col overflow-hidden absolute top-14 right-5 z-40 "
           >
             <div className="flex flex-col items-center cursor-pointer">
               <p
@@ -225,6 +222,10 @@ const Navbar = () => {
           </motion.div>
         )}
       </div>
+          </div>
+        </div>
+      </div>
+      
     </nav>
   );
 };
