@@ -28,7 +28,7 @@ const Prizes = () => {
 
   return (
     <Fragment>
-    <section className={`${styles.paddings}`}>
+    <section className={`${styles.paddings}`} id='Prizes'>
       
 
       <TypingText

@@ -64,7 +64,7 @@ const Team = () => {
     },
 };
   return (
-    <section className={`${styles.paddings}`}>
+    <section className={`${styles.paddings}`} id="Team">
       <TypingText
         title="| Organizing Team"
         textStyles="text-center text-[25px] font-bold"

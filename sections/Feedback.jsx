@@ -6,7 +6,7 @@ import styles from "../styles";
 import { fadeIn, staggerContainer, zoomIn } from "../utils/motion";
 
 const Feedback = () => (
-  <section className={`${styles.paddings}`}>
+  <section className={`${styles.paddings}`} id="Sponsors">
     <TypingText title="| OUR SPONSORS" textStyles="text-center text-[25px]" />
 
     {/* <motion.div

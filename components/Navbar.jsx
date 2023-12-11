@@ -6,21 +6,8 @@ import { IoMdContacts } from 'react-icons/io';
 import { FaTeamspeak, FaQuestion } from 'react-icons/fa';
 import { motion } from 'framer-motion';
 import { useRouter } from 'next/router';
-import { navVariants } from '../utils/motion';
+import { Link } from 'react-scroll';
 import styles from '../styles';
-
-// import {
-//   About,
-//   Explore,
-//   Feedback,
-//   GetStarted,
-//   Hero,
-//   Insights,
-//   WhatsNew,
-//   World,
-//   Prizes,
-//   Team,
-// } from '../sections';
 
 const Navbar = () => {
   const router = useRouter();
@@ -59,22 +46,20 @@ const Navbar = () => {
   }, []);
 
   return (
-    <motion.nav
-      variants={navVariants}
-      initial="hidden"
-      whileInView="show"
-      className="sm:pl-10 pr-10 px-6 py-6 relative"
-    >
-      <div className={`${styles.innerWidth}  flex justify-between gap-2 z-1`}>
-        <div onClick={openHome} className="cursor-pointer transition">
-          <img
-            src="/logo.png"
-            alt="menu"
-            className="md:w-[180px] w-[120px] object-contain"
-          />
-        </div>
+    <nav className="flex items-center justify-center relative ">
+      <div className=" fixed top-0 z-30 flex w-full  2xl:max-w-[1280px]   justify-center sm:pb-10 pr-10 px-10 pb-4 mb-20 relative ">
+        <div
+          className={`${styles.innerWidth} fixed flex justify-between gap-2  bg-primary-black  `}
+        >
+          <div onClick={openHome} className="cursor-pointer transition">
+            <img
+              src="/logo.png"
+              alt="menu"
+              className="md:w-[180px] w-[120px] object-contain mx-6 my-3 "
+            />
+          </div>
 
-        {/* <div>
+          {/* <div>
           <a href="https://www.nsccbpit.tech/">
             <h2 className="font-extrabold text-[24px] leading-[30.24px] text-white">
               NEWTON SCHOOL CODING CLUB, BPIT
@@ -87,47 +72,101 @@ const Navbar = () => {
           </a>
         </div> */}
 
-        <div className="flex gap-8 justify-around py-6 max-lg:hidden ">
-          <a href="About">
-            <h2 className="font-extrabold text-[18px] leading-[30.24px] text-white">
-              About
-            </h2>
-          </a>
+          <div className="flex gap-10 justify-around py-10 max-lg:hidden cursor-pointer ">
+            <Link
+              to="About"
+              activeClass="active"
+              offset={-100}
+              duration={500}
+            >
+              <h2 className="font-extrabold text-[18px] leading-[30.24px] text-white">
+                About
+              </h2>
+            </Link>
 
-          <h2 className="font-extrabold text-[18px] leading-[30.24px] text-white">
-            Themes
-          </h2>
-          <h2 className="font-extrabold text-[18px] leading-[30.24px] text-white">
-            Prizes
-          </h2>
-          <h2 className="font-extrabold text-[18px] leading-[30.24px] text-white">
-            Schedule
-          </h2>
+            <Link
+              to="Themes"
+              activeClass="active"
+              offset={-100}
+              duration={500}
+            >
+              <h2 className="font-extrabold text-[18px] leading-[30.24px] text-white">
+                Themes
+              </h2>
+            </Link>
 
-          <h2 className="font-extrabold text-[18px] leading-[30.24px] text-white">
-            Sponsors
-          </h2>
+            <Link
+              to="Prizes"
+              activeClass="active"
+              offset={-100}
+              duration={500}
+            >
+              <h2 className="font-extrabold text-[18px] leading-[30.24px] text-white">
+                Prizes
+              </h2>
+            </Link>
 
-          <h2 className="font-extrabold text-[18px] leading-[30.24px] text-white">
-            Insights
-          </h2>
-          <h2 className="font-extrabold text-[18px] leading-[30.24px] text-white">
-            Team
-          </h2>
-          <h2 className="font-extrabold text-[18px] leading-[30.24px] text-white">
-            NSCC
-          </h2>
-        </div>
+            <Link
+              to="Schedule"
+              activeClass="active"
+              offset={-100}
+              duration={500}
+            >
+              <h2 className="font-extrabold text-[18px] leading-[30.24px] text-white">
+                Schedule
+              </h2>
+            </Link>
 
-        <div
-          onClick={toggleOpen}
-          className="py-5 cursor-pointer justify-center items-center "
-        >
-          <img
-            src="/menu.svg"
-            alt="menu"
-            className="w-[30px] h-[30px] object-contain"
-          />
+            <Link
+              to="Sponsors"
+              activeClass="active"
+              offset={-100}
+              duration={500}
+            >
+              <h2 className="font-extrabold text-[18px] leading-[30.24px] text-white">
+                Sponsors
+              </h2>
+            </Link>
+
+            <Link
+              to="Insights"
+              activeClass="active"
+              offset={-100}
+              duration={500}
+            >
+              <h2 className="font-extrabold text-[18px] leading-[30.24px] text-white">
+                Insights
+              </h2>
+            </Link>
+
+            <Link
+              to="Team"
+              activeClass="active"
+              offset={-100}
+              duration={500}
+            >
+              <h2 className="font-extrabold text-[18px] leading-[30.24px] text-white">
+                Team
+              </h2>
+            </Link>
+
+            <a href="https://www.nsccbpit.tech/">
+              <h2 className="font-extrabold text-[18px] leading-[30.24px] text-white">
+                NSCC
+              </h2>
+            </a>
+          </div>
+
+          <div
+            onClick={toggleOpen}
+            className="py-10 mx-3 cursor-pointer justify-center items-center "
+          >
+            <img
+              src="/menu.svg"
+              alt="menu"
+              className="w-[30px] h-[30px] object-contain"
+            />
+          </div>
         </div>
       </div>
       <div>
@@ -136,7 +175,7 @@ const Navbar = () => {
             initial={{ opacity: 0, scale: 0.6 }}
             animate={{ opacity: 1, scale: 1 }}
             exit={{ opacity: 0, scale: 0.6 }}
-            className="w-[250px] bg-gray-50 shadow-xl rounded-lg flex flex-col overflow-hidden absolute top-14 right-5 z-20 "
+            className="w-[250px] bg-gray-50 shadow-xl rounded-lg flex flex-col overflow-hidden absolute top-14 right-5 z-40 "
           >
             <div className="flex flex-col items-center cursor-pointer">
               <p
@@ -186,7 +225,7 @@ const Navbar = () => {
           </motion.div>
         )}
       </div>
-    </motion.nav>
+    </nav>
   );
 };
 
