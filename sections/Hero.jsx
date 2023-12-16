@@ -1,11 +1,25 @@
 'use client';
+import React, { useEffect } from "react";
+import { motion } from "framer-motion";
+import styles from "../styles";
+import { slideIn, staggerContainer, textVariant } from "../utils/motion";
 
-import { motion } from 'framer-motion';
 
-import styles from '../styles';
-import { slideIn, staggerContainer, textVariant } from '../utils/motion';
 
-const Hero = () => (
+const Hero = () => {
+  
+  useEffect(() => {
+    const script = document.createElement("script");
+    script.src = "https://apply.devfolio.co/v2/sdk.js";
+    script.async = true;
+    script.defer = true;
+    document.body.appendChild(script);
+    return () => {
+      document.body.removeChild(script);
+    };
+  }, []);
+  
+  return (
   <section className="sm:py-2 xs:py-4 py-5 sm:pl-16 pl-6">
     <motion.div
       variants={staggerContainer}
@@ -40,53 +54,54 @@ const Hero = () => (
           className="w-full sm:h-[500px] h-[350px] object-cover rounded-tl-[140px] z-1 relative"
         />
 
-<div className="md:flex-row flex flex-col justify-center items-center  my-10 mb-5 gap-5 pr-6 z-2">
-        <a href="#">
-          <button
-            type="button"
-            className="flex items-center h-fit py-4 px-6 bg-[#25618B] rounded-[20px] gap-[12px] hover:bg-[#102f45] "
-          >
-            {/* <img
+        <div
+          class="apply-button"
+          data-hackathon-slug="hackhazards24"
+          data-button-theme="light"
+          style={{ height: "44px", width: "312px" }}
+        ></div>
+        <div className="md:flex-row flex flex-col justify-center items-center  my-10 mb-5 gap-5 pr-6 z-2">
+          <a href="#">
+            <button
+              type="button"
+              className="flex items-center h-fit py-4 px-6 bg-[#25618B] rounded-[20px] gap-[12px] hover:bg-[#102f45] "
+            >
+              {/* <img
               src="/devfolio.png"
               alt="devfolio"
               className="lg:w-[48px] lg:h-[48px] w-[35px] h-[35px] object-contain"
             /> */}
-            <span className="font-bold lg:text-[40px] text-[18px] text-white ">
-              Registrations starting soon!
-            </span>
-          </button>
-        </a>
-        <a href="#">
-          <button
-            type="button"
-            className="flex items-center h-fit py-4 px-6 bg-[#25618B] rounded-[20px] gap-[12px] hover:bg-[#102f45] "
-          >
-            <img
-              src="/discord-mark-white.svg"
-              alt="devfolio"
-              className="lg:w-[48px] lg:h-[48px] w-[35px] h-[35px] object-contain"
-            />
-            <span className="font-bold lg:text-[40px] text-[18px] text-white ">
-              Discord Server
-            </span>
-          </button>
-        </a>
-      </div>
+              <span className="font-bold lg:text-[40px] text-[18px] text-white ">
+                Registrations starting soon!
+              </span>
+            </button>
+          </a>
+          <a href="#">
+            <button
+              type="button"
+              className="flex items-center h-fit py-4 px-6 bg-[#25618B] rounded-[20px] gap-[12px] hover:bg-[#102f45] "
+            >
+              <img
+                src="/discord-mark-white.svg"
+                alt="devfolio"
+                className="lg:w-[48px] lg:h-[48px] w-[35px] h-[35px] object-contain"
+              />
+              <span className="font-bold lg:text-[40px] text-[18px] text-white ">
+                Discord Server
+              </span>
+            </button>
+          </a>
+        </div>
 
-      <div className=" flex justify-center items-center  my-3 mb-5 gap-5 pr-6 font-medium lg:text-[30px] text-[25px] text-white hover:underline hover:text-[#25618B]">
-        <a href="https://docs.google.com/document/d/1rBz992a_-oChxud9umkL8_s_twOhSJx959aE1Bez0R0/edit?usp=sharing">
-          Code of Conduct
-        </a>
-        
-      </div>
-
-        
+        <div className=" flex justify-center items-center  my-3 mb-5 gap-5 pr-6 font-medium lg:text-[30px] text-[25px] text-white hover:underline hover:text-[#25618B]">
+          <a href="https://docs.google.com/document/d/1rBz992a_-oChxud9umkL8_s_twOhSJx959aE1Bez0R0/edit?usp=sharing">
+            Code of Conduct
+          </a>
+        </div>
       </motion.div>
-
-     
     </motion.div>
-      
   </section>
-);
+  );
+};
 
 export default Hero;
