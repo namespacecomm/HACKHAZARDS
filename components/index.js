@@ -28,5 +28,5 @@ export {
   Events,
   FAQ,
   CPRegistration,
-  mentorRegistration,
+  mentorRegistration
 };
