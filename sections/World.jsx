@@ -61,7 +61,7 @@ const World = () => (
         </div>
       </motion.div>
 
-      <div className="flex flex-col items-center justify-center my-3 mb-10 h-fit py-4 px-6 bg-[#25618B] rounded-[20px] gap-[12px]">
+      <div className="flex flex-col items-center justify-center mx-auto my-3 mb-10 h-fit py-4 px-6 bg-[#25618B] rounded-[20px] gap-[12px] w-3/5">
         <div className="flex justify-center mt-4 space-x-4">
           <FacebookShareButton
             url="https://your-hackathon-website.com"
