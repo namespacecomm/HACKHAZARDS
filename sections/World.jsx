@@ -1,10 +1,24 @@
-'use client';
+"use client";
 
-import { motion } from 'framer-motion';
-
-import styles from '../styles';
-import { TitleText, TypingText } from '../components';
-import { fadeIn, staggerContainer } from '../utils/motion';
+import { motion } from "framer-motion";
+import { SocialShare } from "next-share";
+import {
+  FacebookShareButton,
+  FacebookIcon,
+  WhatsappShareButton,
+  WhatsappIcon,
+  TwitterShareButton,
+  TwitterIcon,
+  InstagramIcon,
+  InstagramShareButton,
+  TelegramShareButton,
+  TelegramIcon,
+  LinkedinShareButton,
+  LinkedinIcon,
+} from "next-share";
+import styles from "../styles";
+import { TitleText, TypingText } from "../components";
+import { fadeIn, staggerContainer } from "../utils/motion";
 
 const World = () => (
   <section className={`${styles.paddings} relative z-10`}>
@@ -15,18 +29,17 @@ const World = () => (
       viewport={{ once: false, amount: 0.25 }}
       className={`${styles.innerWidth} mx-auto flex flex-col`}
     >
-
-      <TypingText title="| Hack it Together" textStyles="text-center text-[25px] font-bold" />
+      <TypingText
+        title="| Hack it Together"
+        textStyles="text-center text-[25px] font-bold"
+      />
       <TitleText
-        title={(
-          <>Invite friends around you to hack together in HACKHAZARDS
-          </>
-        )}
+        title={<>Invite friends around you to hack together in HACKHAZARDS</>}
         textStyles="text-center"
       />
 
       <motion.div
-        variants={fadeIn('up', 'tween', 0.3, 1)}
+        variants={fadeIn("up", "tween", 0.3, 1)}
         className="relative mt-[68px] flex w-full h-[550px]"
       >
         <img src="/map.png" alt="map" className="w-full h-full object-cover" />
@@ -44,18 +57,70 @@ const World = () => (
         </div>
       </motion.div>
 
+      <div>
+        <FacebookShareButton
+          url={"https://github.com/next-share"}
+          quote={
+            "next-share is a social share buttons for your next React apps."
+          }
+          hashtag={"#nextshare"}
+        >
+          <FacebookIcon size={32} round />
+        </FacebookShareButton>
+        <WhatsappShareButton
+          url={"https://github.com/next-share"}
+          title={
+            "next-share is a social share buttons for your next React apps."
+          }
+          separator=":: "
+        >
+          <WhatsappIcon size={32} round />
+        </WhatsappShareButton>
+        <TwitterShareButton
+          url={"https://github.com/next-share"}
+          title={
+            "next-share is a social share buttons for your next React apps."
+          }
+        >
+          <TwitterIcon size={32} round />
+        </TwitterShareButton>
+        {/* <InstagramShareButton
+          url={"https://github.com/next-share"}
+          title={
+            "next-share is a social share buttons for your next React apps."
+          }
+        >
+          <InstagramIcon size={32} round />
+        </InstagramShareButton> */}
+        <TelegramShareButton
+          url={"https://github.com/next-share"}
+          title={
+            "next-share is a social share buttons for your next React apps."
+          }
+        >
+          <TelegramIcon size={32} round />
+        </TelegramShareButton>
+
+        <LinkedinShareButton url={"https://github.com/next-share"}>
+          <LinkedinIcon size={32} round />
+        </LinkedinShareButton>
+      </div>
+
       <div className="flex items-center justify-center my-3 mb-10">
         <a href="#">
-        <button type="button" className="flex items-center h-fit py-4 px-6 bg-[#25618B] rounded-[20px] gap-[12px] hover:bg-white">
-          <img
-            src="/people.png"
-            alt="people"
-            className="w-[48px] h-[48px] object-contain "
-          />
-          <span className="font-bold text-[29px] text-white hover:text-black">
-            Invite others to HACKHAZARDS
-          </span>
-        </button>
+          <button
+            type="button"
+            className="flex items-center h-fit py-4 px-6 bg-[#25618B] rounded-[20px] gap-[12px] hover:bg-white"
+          >
+            <img
+              src="/people.png"
+              alt="people"
+              className="w-[48px] h-[48px] object-contain "
+            />
+            <span className="font-bold text-[29px] text-white hover:text-black">
+              Invite others to HACKHAZARDS
+            </span>
+          </button>
         </a>
       </div>
     </motion.div>
