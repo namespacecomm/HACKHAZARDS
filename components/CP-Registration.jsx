@@ -49,8 +49,6 @@ const CPRegistration = () => {
       whileInView="show"
       className={`${styles.xPaddings}  relative`}
     >
-      
-
       <div className={`${styles.innerWidth} mx-auto flex flex-col gap-3`}>
         <div className="flex items-center justify-between flex-wrap gap-5">
           <h4 className="font-bold md:text-[64px] text-[44px] text-white">
@@ -60,11 +58,11 @@ const CPRegistration = () => {
       </div>
 
       <div style={{ marginTop: "50px" }}>
-        <iframe
+        <iframe 
+          title="Unique Title for Accessibility"
           src="https://lu.ma/embed-checkout/evt-t4HvA1JBHu0lPqY"
           width="100%"
           height="800"
-          frameborder="0"
           style={{
             border: "1px solid #bfcbda88",
             borderRadius: "24px",
@@ -74,8 +72,7 @@ const CPRegistration = () => {
           }}
           allowfullscreen=""
           aria-hidden="false"
-          tabindex="0"
-        ></iframe>
+        />
       </div>
 
       {/* for large devices */}
