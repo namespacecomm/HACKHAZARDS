@@ -7,7 +7,7 @@ import styles from "../styles";
 import { footerVariants } from "../utils/motion";
 
 const CPRegistration = () => {
-  const [firstName, setFirstName] = useState("");
+  /* const [firstName, setFirstName] = useState("");
   const [lastName, setLastName] = useState("");
   const [email, setEmail] = useState("");
   const [contactNumber, setContactNumber] = useState("");
@@ -41,7 +41,7 @@ const CPRegistration = () => {
       expectations,
     };
     await axios.post("/api/cpData", data);
-  }
+  } */
   return (
     <motion.footer
       variants={footerVariants}
