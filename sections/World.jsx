@@ -65,7 +65,7 @@ const World = () => (
         <div className="flex justify-center mt-4 space-x-4">
           {/* Facebook */}
           <FacebookShareButton
-            url="https://your-hackathon-website.com"
+            url="https://hackhazards.tech"
             quote="Check out HACKHAZARDS '24"
           >
             <FacebookIcon
@@ -78,7 +78,7 @@ const World = () => (
 
           {/* Twitter */}
           <TwitterShareButton
-            url="https://your-hackathon-website.com"
+            url="https://hackhazards.tech"
             title="Check out HACKHAZARDS '24"
           >
             <TwitterIcon
@@ -91,7 +91,7 @@ const World = () => (
 
           {/* LinkedIn */}
           <LinkedinShareButton
-            url="https://your-hackathon-website.com"
+            url="https://hackhazards.tech"
             title="Check out HACKHAZARDS '24"
           >
             <LinkedinIcon
@@ -103,7 +103,7 @@ const World = () => (
           </LinkedinShareButton>
 
           {/* WhatsApp */}
-          <WhatsappShareButton url="https://your-hackathon-website.com">
+          <WhatsappShareButton url="https://hackhazards.tech">
             <WhatsappIcon
               size={48}
               round
@@ -114,7 +114,7 @@ const World = () => (
 
           {/* Telegram */}
           <TelegramShareButton
-            url="https://your-hackathon-website.com"
+            url="https://hackhazards.tech"
             title="Check out HACKHAZARDS '24"
           >
             <TelegramIcon
