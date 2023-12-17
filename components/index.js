@@ -11,6 +11,7 @@ import TeamGuidelines from './TeamGuidelines';
 import Events from './Events';
 import FAQ from './FAQ';
 import CPRegistration from './CP-Registration';
+import mentorRegistration from './mentors';
 
 export {
   Navbar,
@@ -27,4 +28,5 @@ export {
   Events,
   FAQ,
   CPRegistration,
+  mentorRegistration,
 };
