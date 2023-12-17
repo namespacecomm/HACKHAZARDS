@@ -1,21 +1,25 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { SocialShare } from "next-share";
+
 import {
   FacebookShareButton,
-  FacebookIcon,
-  WhatsappShareButton,
-  WhatsappIcon,
   TwitterShareButton,
-  TwitterIcon,
-  InstagramIcon,
-  InstagramShareButton,
-  TelegramShareButton,
-  TelegramIcon,
   LinkedinShareButton,
+  WhatsappShareButton,
+  TelegramShareButton,
+  InstapaperShareButton,
+} from "react-share";
+
+import {
+  FacebookIcon,
+  TwitterIcon,
   LinkedinIcon,
-} from "next-share";
+  WhatsappIcon,
+  TelegramIcon,
+  InstapaperIcon,
+} from "react-share";
+
 import styles from "../styles";
 import { TitleText, TypingText } from "../components";
 import { fadeIn, staggerContainer } from "../utils/motion";
@@ -57,71 +61,70 @@ const World = () => (
         </div>
       </motion.div>
 
-      <div>
-        <FacebookShareButton
-          url={"https://github.com/next-share"}
-          quote={
-            "next-share is a social share buttons for your next React apps."
-          }
-          hashtag={"#nextshare"}
-        >
-          <FacebookIcon size={32} round />
-        </FacebookShareButton>
-        <WhatsappShareButton
-          url={"https://github.com/next-share"}
-          title={
-            "next-share is a social share buttons for your next React apps."
-          }
-          separator=":: "
-        >
-          <WhatsappIcon size={32} round />
-        </WhatsappShareButton>
-        <TwitterShareButton
-          url={"https://github.com/next-share"}
-          title={
-            "next-share is a social share buttons for your next React apps."
-          }
-        >
-          <TwitterIcon size={32} round />
-        </TwitterShareButton>
-        {/* <InstagramShareButton
-          url={"https://github.com/next-share"}
-          title={
-            "next-share is a social share buttons for your next React apps."
-          }
-        >
-          <InstagramIcon size={32} round />
-        </InstagramShareButton> */}
-        <TelegramShareButton
-          url={"https://github.com/next-share"}
-          title={
-            "next-share is a social share buttons for your next React apps."
-          }
-        >
-          <TelegramIcon size={32} round />
-        </TelegramShareButton>
-
-        <LinkedinShareButton url={"https://github.com/next-share"}>
-          <LinkedinIcon size={32} round />
-        </LinkedinShareButton>
-      </div>
-
-      <div className="flex items-center justify-center my-3 mb-10">
-        <a href="#">
-          <button
-            type="button"
-            className="flex items-center h-fit py-4 px-6 bg-[#25618B] rounded-[20px] gap-[12px] hover:bg-white"
+      <div className="flex flex-col items-center justify-center my-3 mb-10 h-fit py-4 px-6 bg-[#25618B] rounded-[20px] gap-[12px]">
+        <div className="flex justify-center mt-4 space-x-4">
+          <FacebookShareButton
+            url="https://your-hackathon-website.com"
+            quote="Check out HACKHAZARDS '24"
           >
-            <img
-              src="/people.png"
-              alt="people"
-              className="w-[48px] h-[48px] object-contain "
+            <FacebookIcon
+              size={48}
+              round
+              className="cursor-pointer transform transition-transform duration-300 hover:scale-110"
             />
-            <span className="font-bold text-[29px] text-white hover:text-black">
-              Invite others to HACKHAZARDS
-            </span>
-          </button>
-        </a>
+          </FacebookShareButton>
+
+          <TwitterShareButton
+            url="https://your-hackathon-website.com"
+            title="Check out HACKHAZARDS '24"
+          >
+            <TwitterIcon
+              size={48}
+              round
+              className="cursor-pointer transform transition-transform duration-300 hover:scale-110"
+            />
+          </TwitterShareButton>
+
+          <LinkedinShareButton
+            url="https://your-hackathon-website.com"
+            title="Check out HACKHAZARDS '24"
+          >
+            <LinkedinIcon
+              size={48}
+              round
+              className="cursor-pointer transform transition-transform duration-300 hover:scale-110"
+            />
+          </LinkedinShareButton>
+
+          <WhatsappShareButton url="https://your-hackathon-website.com">
+            <WhatsappIcon
+              size={48}
+              round
+              className="cursor-pointer transform transition-transform duration-300 hover:scale-110"
+            />
+          </WhatsappShareButton>
+
+          <TelegramShareButton
+            url="https://your-hackathon-website.com"
+            title="Check out HACKHAZARDS '24"
+          >
+            <TelegramIcon
+              size={48}
+              round
+              className="cursor-pointer transform transition-transform duration-300 hover:scale-110"
+            />
+          </TelegramShareButton>
+        </div>
+        <div className="flex items-center h-fit py-4 px-6 bg-[#25618B] rounded-[20px] gap-[12px]">
+          <img
+            src="/people.png"
+            alt="people"
+            className="w-[48px] h-[48px] object-contain "
+          />
+          <span className="font-bold text-[29px] text-white">
+            Invite others to HACKHAZARDS
+          </span>
+        </div>
       </div>
     </motion.div>
   </section>
