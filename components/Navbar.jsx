@@ -55,7 +55,7 @@ const Navbar = () => {
             <img
               src="/logo.png"
               alt="menu"
-              className="md:w-[180px] w-[120px] object-contain mx-6 my-3 "
+              className="md:w-[150px] w-[120px] object-contain mx-6 my-3 "
             />
           </div>
 
@@ -74,19 +74,19 @@ const Navbar = () => {
 
           <div className="flex gap-10 justify-around py-10 max-lg:hidden cursor-pointer ">
             <Link to="About" activeClass="active" offset={-100} duration={500}>
-              <h2 className="font-extrabold text-[18px] leading-[30.24px] text-white">
+              <h2 className="font-extrabold text-[21px] leading-[30.24px] text-white">
                 About
               </h2>
             </Link>
 
             <Link to="Themes" activeClass="active" offset={-100} duration={500}>
-              <h2 className="font-extrabold text-[18px] leading-[30.24px] text-white">
+              <h2 className="font-extrabold text-[21px] leading-[30.24px] text-white">
                 Themes
               </h2>
             </Link>
 
             <Link to="Prizes" activeClass="active" offset={-80} duration={500}>
-              <h2 className="font-extrabold text-[18px] leading-[30.24px] text-white">
+              <h2 className="font-extrabold text-[21px] leading-[30.24px] text-white">
                 Prizes
               </h2>
             </Link>
@@ -97,7 +97,7 @@ const Navbar = () => {
               offset={-100}
               duration={500}
             >
-              <h2 className="font-extrabold text-[18px] leading-[30.24px] text-white">
+              <h2 className="font-extrabold text-[21px] leading-[30.24px] text-white">
                 Schedule
               </h2>
             </Link>
@@ -108,7 +108,7 @@ const Navbar = () => {
               offset={-100}
               duration={500}
             >
-              <h2 className="font-extrabold text-[18px] leading-[30.24px] text-white">
+              <h2 className="font-extrabold text-[21px] leading-[30.24px] text-white">
                 Sponsors
               </h2>
             </Link>
@@ -119,19 +119,19 @@ const Navbar = () => {
               offset={-100}
               duration={500}
             >
-              <h2 className="font-extrabold text-[18px] leading-[30.24px] text-white">
+              <h2 className="font-extrabold text-[21px] leading-[30.24px] text-white">
                 Insights
               </h2>
             </Link>
 
             <Link to="Team" activeClass="active" offset={-100} duration={500}>
-              <h2 className="font-extrabold text-[18px] leading-[30.24px] text-white">
+              <h2 className="font-extrabold text-[21px] leading-[30.24px] text-white">
                 Team
               </h2>
             </Link>
 
             <a href="https://www.nsccbpit.tech/">
-              <h2 className="font-extrabold text-[18px] leading-[30.24px] text-white">
+              <h2 className="font-extrabold text-[21px] leading-[30.24px] text-white">
                 NSCC
               </h2>
             </a>
@@ -203,8 +203,11 @@ const Navbar = () => {
               )}
             </div>
           </div>
+
+
         </div>
       </div>
+      
     </nav>
   );
 };
