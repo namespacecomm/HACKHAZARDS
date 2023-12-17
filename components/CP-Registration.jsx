@@ -1,26 +1,26 @@
-'use client';
+"use client";
 
-import { useState } from 'react';
-import axios from 'axios';
-import { motion } from 'framer-motion';
-import styles from '../styles';
-import { footerVariants } from '../utils/motion';
+import { useState } from "react";
+import axios from "axios";
+import { motion } from "framer-motion";
+import styles from "../styles";
+import { footerVariants } from "../utils/motion";
 
 const CPRegistration = () => {
-  const [firstName, setFirstName] = useState('');
-  const [lastName, setLastName] = useState('');
-  const [email, setEmail] = useState('');
-  const [contactNumber, setContactNumber] = useState('');
-  const [community, setCommunity] = useState('');
-  const [designation, setDesignation] = useState('');
-  const [strength, setStrength] = useState('');
-  const [logoLink, setLogoLink] = useState('');
-  const [registrations, setRegistrations] = useState('');
-  const [linkdin, setLinkdin] = useState('');
-  const [twitter, setTwitter] = useState('');
-  const [instagram, setInstagram] = useState('');
-  const [github, setGithub] = useState('');
-  const [expectations, setExpectations] = useState('');
+  const [firstName, setFirstName] = useState("");
+  const [lastName, setLastName] = useState("");
+  const [email, setEmail] = useState("");
+  const [contactNumber, setContactNumber] = useState("");
+  const [community, setCommunity] = useState("");
+  const [designation, setDesignation] = useState("");
+  const [strength, setStrength] = useState("");
+  const [logoLink, setLogoLink] = useState("");
+  const [registrations, setRegistrations] = useState("");
+  const [linkdin, setLinkdin] = useState("");
+  const [twitter, setTwitter] = useState("");
+  const [instagram, setInstagram] = useState("");
+  const [github, setGithub] = useState("");
+  const [expectations, setExpectations] = useState("");
 
   async function handleSubmit() {
     // ev.preventDefault();
@@ -40,7 +40,7 @@ const CPRegistration = () => {
       github,
       expectations,
     };
-    await axios.post('/api/cpData', data);
+    await axios.post("/api/cpData", data);
   }
   return (
     <motion.footer
@@ -49,12 +49,33 @@ const CPRegistration = () => {
       whileInView="show"
       className={`${styles.xPaddings}  relative`}
     >
+      
+
       <div className={`${styles.innerWidth} mx-auto flex flex-col gap-3`}>
         <div className="flex items-center justify-between flex-wrap gap-5">
           <h4 className="font-bold md:text-[64px] text-[44px] text-white">
             Community Partner Registration
           </h4>
         </div>
+      </div>
+
+      <div style={{ marginTop: "50px" }}>
+        <iframe
+          src="https://lu.ma/embed-checkout/evt-t4HvA1JBHu0lPqY"
+          width="100%"
+          height="800"
+          frameborder="0"
+          style={{
+            border: "1px solid #bfcbda88",
+            borderRadius: "24px",
+            maxWidth: "", // Set maximum width if needed
+            margin: "0 auto", // Center the iframe
+            boxShadow: "10px 10px 20px rgba(0, 0, 0, 0.9)", // Example box shadow
+          }}
+          allowfullscreen=""
+          aria-hidden="false"
+          tabindex="0"
+        ></iframe>
       </div>
 
       {/* for large devices */}
