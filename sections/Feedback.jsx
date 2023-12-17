@@ -276,10 +276,10 @@ const Feedback = () => (
           <img src="3.png" alt="replit" className="w-[900px] rounded-[15px]" />
         </div>
         <div className="flex flex-col items-center z-[1] mt-[5px]">
-          <img src="revealing.png" alt="revealing poster" className="w-[900px] rounded-[15px]" />
+          <img src="4.png" alt="rosenfeld" className="w-[900px] rounded-[15px]" />
         </div>
         <div className="flex flex-col items-center z-[1] mt-[5px]">
-          <img src="revealing.png" alt="revealing poster" className="w-[900px] rounded-[15px]" />
+          <img src="5.png" alt="xyz.com" className="w-[900px] rounded-[15px]" />
         </div>
         <div className="flex flex-col items-center z-[1] mt-[5px]">
           <img src="revealing.png" alt="revealing poster" className="w-[900px] rounded-[15px]" />
