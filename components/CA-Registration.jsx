@@ -22,7 +22,7 @@ const Registration = () => (
     <div style={{ marginTop: "50px" }}>
       <iframe
         title="Unique Title for Accessibility"
-        src="https://lu.ma/embed-checkout/evt-t4HvA1JBHu0lPqY"
+        src="https://lu.ma/embed-checkout/evt-k8KjynXVBVWKWWZ"
         width="100%"
         height="800"
         style={{
