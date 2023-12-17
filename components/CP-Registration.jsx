@@ -1,48 +1,10 @@
 "use client";
 
-import { useState } from "react";
-import axios from "axios";
 import { motion } from "framer-motion";
 import styles from "../styles";
 import { footerVariants } from "../utils/motion";
 
-const CPRegistration = () => {
-  /* const [firstName, setFirstName] = useState("");
-  const [lastName, setLastName] = useState("");
-  const [email, setEmail] = useState("");
-  const [contactNumber, setContactNumber] = useState("");
-  const [community, setCommunity] = useState("");
-  const [designation, setDesignation] = useState("");
-  const [strength, setStrength] = useState("");
-  const [logoLink, setLogoLink] = useState("");
-  const [registrations, setRegistrations] = useState("");
-  const [linkdin, setLinkdin] = useState("");
-  const [twitter, setTwitter] = useState("");
-  const [instagram, setInstagram] = useState("");
-  const [github, setGithub] = useState("");
-  const [expectations, setExpectations] = useState("");
-
-  async function handleSubmit() {
-    // ev.preventDefault();
-    const data = {
-      firstName,
-      lastName,
-      email,
-      contactNumber,
-      community,
-      designation,
-      strength,
-      logoLink,
-      registrations,
-      linkdin,
-      twitter,
-      instagram,
-      github,
-      expectations,
-    };
-    await axios.post("/api/cpData", data);
-  } */
-  return (
+const CPRegistration = () => (
     <motion.footer
       variants={footerVariants}
       initial="hidden"
@@ -565,6 +527,5 @@ const CPRegistration = () => {
       </div> */}
     </motion.footer>
   );
-};
 
 export default CPRegistration;
