@@ -1,63 +1,44 @@
-'use client';
+"use client";
 
-import { useState } from 'react';
-import axios from 'axios';
-import { motion } from 'framer-motion';
-import styles from '../styles';
-import { footerVariants } from '../utils/motion';
+import { motion } from "framer-motion";
+import styles from "../styles";
+import { footerVariants } from "../utils/motion";
 
-const Registration = () => {
-  const [firstName, setFirstName] = useState('');
-  const [lastName, setLastName] = useState('');
-  const [email, setEmail] = useState('');
-  const [contactNumber, setContactNumber] = useState('');
-  const [college, setCollege] = useState('');
-  const [collegeCity, setCollegeCity] = useState('');
-  const [branch, setBranch] = useState('');
-  const [graduationYear, setGraduationYear] = useState('');
-  const [linkdin, setLinkdin] = useState('');
-  const [instagram, setInstagram] = useState('');
-  const [github, setGithub] = useState('');
-  const [twitter, setTwitter] = useState('');
-  const [whyPart, setWhyPart] = useState('');
-
-  async function handleSubmit() {
-    // ev.preventDefault();
-    const data = {
-      firstName,
-      lastName,
-      email,
-      contactNumber,
-      college,
-      collegeCity,
-      branch,
-      graduationYear,
-      linkdin,
-      instagram,
-      github,
-      twitter,
-      whyPart,
-    };
-    await axios.post('/api/caData', data);
-  }
-
-  return (
-    <motion.footer
-      variants={footerVariants}
-      initial="hidden"
-      whileInView="show"
-      className={`${styles.xPaddings}  relative`}
-    >
-      <div className={`${styles.innerWidth} mx-auto flex flex-col gap-3`}>
-        <div className="flex items-center justify-between flex-wrap gap-5">
-          <h4 className="font-bold md:text-[64px] text-[44px] text-white">
-            Campus Ambassador Registration
-          </h4>
-        </div>
+const Registration = () => (
+  <motion.footer
+    variants={footerVariants}
+    initial="hidden"
+    whileInView="show"
+    className={`${styles.xPaddings}  relative`}
+  >
+    <div className={`${styles.innerWidth} mx-auto flex flex-col gap-3`}>
+      <div className="flex items-center justify-between flex-wrap gap-5">
+        <h4 className="font-bold md:text-[64px] text-[44px] text-white">
+          Hackathon Evangelist Registration
+        </h4>
       </div>
+    </div>
 
-      {/* for large devices */}
-      <div className="w-[60vw] mx-auto py-5 hidden md:flex">
+    <div style={{ marginTop: "50px" }}>
+      <iframe
+        title="Unique Title for Accessibility"
+        src="https://lu.ma/embed-checkout/evt-k8KjynXVBVWKWWZ"
+        width="100%"
+        height="800"
+        style={{
+          border: "1px solid #bfcbda88",
+          borderRadius: "24px",
+          maxWidth: "", // Set maximum width if needed
+          margin: "0 auto", // Center the iframe
+          boxShadow: "10px 10px 20px rgba(0, 0, 0, 0.9)", // Example box shadow
+        }}
+        allowfullscreen=""
+        aria-hidden="false"
+      />
+    </div>
+
+    {/* for large devices */}
+    {/* <div className="w-[60vw] mx-auto py-5 hidden md:flex">
         <form onSubmit={handleSubmit}>
           <div className="flex flex-row">
             <div className={`${styles.mb3}`}>
@@ -130,14 +111,14 @@ const Registration = () => {
           <div className="flex flex-row">
             <div className={`${styles.mb3}`}>
               <label htmlFor="College" className={`${styles.labels}`}>
-                College:
+                Community Name:
               </label>
               <br />
               <input
                 type="text"
-                value={college}
-                onChange={(ev) => setCollege(ev.target.value)}
-                placeholder="College  Name"
+                value={community}
+                onChange={(ev) => setCommunity(ev.target.value)}
+                placeholder="Community Name"
                 className={`${styles.input}`}
                 name="College"
                 id="College"
@@ -146,14 +127,14 @@ const Registration = () => {
 
             <div className={`${styles.mb3}`}>
               <label htmlFor="CollegeCity" className={`${styles.labels}`}>
-                College City:
+                Designation in Community:
               </label>
               <br />
               <input
                 type="text"
-                value={collegeCity}
-                onChange={(ev) => setCollegeCity(ev.target.value)}
-                placeholder="City "
+                value={designation}
+                onChange={(ev) => setDesignation(ev.target.value)}
+                placeholder="Designation"
                 className={`${styles.input}`}
                 name="CollegeCity"
                 id="CollegeCity"
@@ -164,14 +145,14 @@ const Registration = () => {
           <div className="flex flex-row">
             <div className={`${styles.mb3}`}>
               <label htmlFor="Branch" className={`${styles.labels}`}>
-                Branch:
+                Strength of Community:
               </label>
               <br />
               <input
                 type="text"
-                value={branch}
-                onChange={(ev) => setBranch(ev.target.value)}
-                placeholder="Branch Name"
+                value={strength}
+                onChange={(ev) => setStrength(ev.target.value)}
+                placeholder="Strength"
                 className={`${styles.input}`}
                 name="Branch"
                 id="Branch"
@@ -180,14 +161,14 @@ const Registration = () => {
 
             <div className={`${styles.mb3}`}>
               <label htmlFor="Batch" className={`${styles.labels}`}>
-                Graduation Year:
+                Community's Logo Link:
               </label>
               <br />
               <input
                 type="text"
-                value={graduationYear}
-                onChange={(ev) => setGraduationYear(ev.target.value)}
-                placeholder="Batch Year"
+                value={logoLink}
+                onChange={(ev) => setLogoLink(ev.target.value)}
+                placeholder="Logo"
                 className={`${styles.input}`}
                 name="Batch"
                 id="Batch"
@@ -198,7 +179,7 @@ const Registration = () => {
           <div className="flex flex-row">
             <div className={`${styles.mb3}`}>
               <label htmlFor="LinkedIn" className={`${styles.labels}`}>
-                LinkedIn:
+                Community's LinkedIn:
               </label>
               <br />
               <input
@@ -214,7 +195,7 @@ const Registration = () => {
 
             <div className={`${styles.mb3}`}>
               <label htmlFor="Instagram" className={`${styles.labels}`}>
-                Instagram:
+                Community's Instagram:
               </label>
               <br />
               <input
@@ -232,7 +213,7 @@ const Registration = () => {
           <div className="flex flex-row">
             <div className={`${styles.mb3}`}>
               <label htmlFor="Github" className={`${styles.labels}`}>
-                Github:
+                Community's Github:
               </label>
               <br />
               <input
@@ -247,7 +228,7 @@ const Registration = () => {
             </div>
             <div className={`${styles.mb3}`}>
               <label htmlFor="Twitter" className={`${styles.labels}`}>
-                Twitter:
+                Community's Twitter:
               </label>
               <br />
               <input
@@ -264,14 +245,37 @@ const Registration = () => {
 
           <div className={`${styles.mb3}`}>
             <label htmlFor="answers" className={`${styles.labels}`}>
-              Why you wanna be a part of HACKHAZARDS:
+              How many registrations we can expect from your
+            </label>
+            <br />
+            <label htmlFor="answers" className={`${styles.labels}`}>
+              community?
+            </label>
+            <br />
+            <input
+              type="text"
+              value={registrations}
+              onChange={(ev) => setRegistrations(ev.target.value)}
+              placeholder="No of Registrations "
+              className="mt-[5px] mx-[15px] w-[52vw]  bg-[#25618B] h-[6vh] p-3  lg:text-[15px] md:text-[10px] sm:text-[6px] text-[10px] text-white rounded"
+              name="Twitter"
+              id="Twitter"
+            />
+          </div>
+          <div className={`${styles.mb3}`}>
+            <label htmlFor="answers" className={`${styles.labels}`}>
+              What are you expecting from hackathon for your
+            </label>
+            <br />
+            <label htmlFor="answers" className={`${styles.labels}`}>
+              Community?
             </label>
             <br />
             <textarea
               className="mt-[5px] mx-[15px] min-h-[30vh] min-w-[52vw] bg-[#25618B] p-3 lg:text-[15px] md:text-[10px] sm:text-[6px] text-[10px] text-white rounded-[13px]"
-              value={whyPart}
-              onChange={(ev) => setWhyPart(ev.target.value)}
-              placeholder="Why we should make you one? "
+              placeholder="Expectations "
+              value={expectations}
+              onChange={(ev) => setExpectations(ev.target.value)}
               name="answers"
               id="answers"
             />
@@ -284,10 +288,10 @@ const Registration = () => {
             Submit
           </button>
         </form>
-      </div>
+      </div> */}
 
-      {/* for small devices */}
-      <div className="w-[90vw] mx-[10px] py-5 flex-col md:hidden">
+    {/* for small devices */}
+    {/* <div className="w-[90vw] mx-[10px] py-5 flex-col md:hidden">
         <form onSubmit={handleSubmit}>
           <div className={`${styles.mb3}`}>
             <label htmlFor="name" className={`${styles.labels}`}>
@@ -296,9 +300,9 @@ const Registration = () => {
             <br />
             <input
               type="text"
+              placeholder="First Name"
               value={firstName}
               onChange={(ev) => setFirstName(ev.target.value)}
-              placeholder="First Name"
               className={`${styles.inputS}`}
               name="name"
               id="name"
@@ -312,9 +316,9 @@ const Registration = () => {
             <br />
             <input
               type="text"
+              placeholder="Last Name"
               value={lastName}
               onChange={(ev) => setLastName(ev.target.value)}
-              placeholder="Last Name"
               className={`${styles.inputS}`}
               name="name"
               id="name"
@@ -355,14 +359,14 @@ const Registration = () => {
 
           <div className={`${styles.mb3}`}>
             <label htmlFor="College" className={`${styles.labels}`}>
-              College:
+              Community Name:
             </label>
             <br />
             <input
               type="text"
-              value={college}
-              onChange={(ev) => setCollege(ev.target.value)}
-              placeholder="College  Name"
+              value={community}
+              onChange={(ev) => setCommunity(ev.target.value)}
+              placeholder="Community Name"
               className={`${styles.inputS}`}
               name="College"
               id="College"
@@ -371,14 +375,14 @@ const Registration = () => {
 
           <div className={`${styles.mb3}`}>
             <label htmlFor="CollegeCity" className={`${styles.labels}`}>
-              College City:
+              Your designation in Community:
             </label>
             <br />
             <input
               type="text"
-              value={collegeCity}
-              onChange={(ev) => setCollegeCity(ev.target.value)}
-              placeholder="City "
+              value={designation}
+              onChange={(ev) => setDesignation(ev.target.value)}
+              placeholder="Designation "
               className={`${styles.inputS}`}
               name="CollegeCity"
               id="CollegeCity"
@@ -387,14 +391,14 @@ const Registration = () => {
 
           <div className={`${styles.mb3}`}>
             <label htmlFor="Branch" className={`${styles.labels}`}>
-              Branch:
+              Strength of Community:
             </label>
             <br />
             <input
               type="text"
-              value={branch}
-              onChange={(ev) => setBranch(ev.target.value)}
-              placeholder="Branch Name"
+              value={strength}
+              onChange={(ev) => setStrength(ev.target.value)}
+              placeholder="Strength"
               className={`${styles.inputS}`}
               name="Branch"
               id="Branch"
@@ -403,14 +407,14 @@ const Registration = () => {
 
           <div className={`${styles.mb3}`}>
             <label htmlFor="Batch" className={`${styles.labels}`}>
-              Graduation Year:
+              Community's Logo Link:
             </label>
             <br />
             <input
               type="text"
-              value={graduationYear}
-              onChange={(ev) => setGraduationYear(ev.target.value)}
-              placeholder="Batch Year"
+              value={logoLink}
+              onChange={(ev) => setLogoLink(ev.target.value)}
+              placeholder="Logo"
               className={`${styles.inputS}`}
               name="Batch"
               id="Batch"
@@ -419,7 +423,7 @@ const Registration = () => {
 
           <div className={`${styles.mb3}`}>
             <label htmlFor="LinkedIn" className={`${styles.labels}`}>
-              LinkedIn:
+              Community LinkedIn:
             </label>
             <br />
             <input
@@ -435,7 +439,7 @@ const Registration = () => {
 
           <div className={`${styles.mb3}`}>
             <label htmlFor="Instagram" className={`${styles.labels}`}>
-              Instagram:
+              Community's Instagram:
             </label>
             <br />
             <input
@@ -451,7 +455,7 @@ const Registration = () => {
 
           <div className={`${styles.mb3}`}>
             <label htmlFor="Github" className={`${styles.labels}`}>
-              Github:
+              Community's Github:
             </label>
             <br />
             <input
@@ -466,7 +470,7 @@ const Registration = () => {
           </div>
           <div className={`${styles.mb3}`}>
             <label htmlFor="Twitter" className={`${styles.labels}`}>
-              Twitter:
+              Community's Twitter:
             </label>
             <br />
             <input
@@ -482,14 +486,32 @@ const Registration = () => {
 
           <div className={`${styles.mb3}`}>
             <label htmlFor="answers" className={`${styles.labels}`}>
-              Why you wanna be a part of HACKHAZARDS:
+              How many registrations we can expect from your Community?
             </label>
             <br />
+
+            <input
+              type="text"
+              value={registrations}
+              onChange={(ev) => setRegistrations(ev.target.value)}
+              placeholder="No of Registrations "
+              className={`${styles.inputS}`}
+              name="Twitter"
+              id="Twitter"
+            />
+          </div>
+
+          <div className={`${styles.mb3}`}>
+            <label htmlFor="answers" className={`${styles.labels}`}>
+              What are you expecting from hackathon for your Community?
+            </label>
+            <br />
+
             <textarea
               className="mt-[5px] mx-[15px] min-h-[30vh] w-[80%] bg-[#25618B] p-3 lg:text-[15px] md:text-[10px] sm:text-[6px] text-[10px] text-white rounded-[13px]"
-              value={whyPart}
-              onChange={(ev) => setWhyPart(ev.target.value)}
-              placeholder="Why we should make you one? "
+              value={expectations}
+              onChange={(ev) => setExpectations(ev.target.value)}
+              placeholder="Expectations "
               name="answers"
               id="answers"
             />
@@ -502,9 +524,8 @@ const Registration = () => {
             Submit
           </button>
         </form>
-      </div>
-    </motion.footer>
-  );
-};
+      </div> */}
+  </motion.footer>
+);
 
 export default Registration;
