@@ -64,29 +64,66 @@ const World = () => (
       <div className="flex flex-col items-center justify-center mx-auto my-3 mb-10 h-fit py-4 px-6 bg-[#25618B] rounded-[20px] gap-[12px] w-3/5">
         <div className="flex justify-center mt-4 space-x-4">
           {/* Facebook */}
-  <FacebookShareButton url="https://your-hackathon-website.com" quote="Check out HACKHAZARDS '24">
-    <FacebookIcon size={48} round iconFillColor="white" className="cursor-pointer transform transition-transform duration-300 hover:scale-110" />
-  </FacebookShareButton>
+          <FacebookShareButton
+            url="https://your-hackathon-website.com"
+            quote="Check out HACKHAZARDS '24"
+          >
+            <FacebookIcon
+              size={48}
+              round
+              iconFillColor="white"
+              className="cursor-pointer transform transition-transform duration-300 hover:scale-110"
+            />
+          </FacebookShareButton>
 
-  {/* Twitter */}
-  <TwitterShareButton url="https://your-hackathon-website.com" title="Check out HACKHAZARDS '24">
-    <TwitterIcon size={48} round iconFillColor="white" className="cursor-pointer transform transition-transform duration-300 hover:scale-110" />
-  </TwitterShareButton>
+          {/* Twitter */}
+          <TwitterShareButton
+            url="https://your-hackathon-website.com"
+            title="Check out HACKHAZARDS '24"
+          >
+            <TwitterIcon
+              size={48}
+              round
+              iconFillColor="white"
+              className="cursor-pointer transform transition-transform duration-300 hover:scale-110"
+            />
+          </TwitterShareButton>
 
-  {/* LinkedIn */}
-  <LinkedinShareButton url="https://your-hackathon-website.com" title="Check out HACKHAZARDS '24">
-    <LinkedinIcon size={48} round iconFillColor="white" className="cursor-pointer transform transition-transform duration-300 hover:scale-110" />
-  </LinkedinShareButton>
+          {/* LinkedIn */}
+          <LinkedinShareButton
+            url="https://your-hackathon-website.com"
+            title="Check out HACKHAZARDS '24"
+          >
+            <LinkedinIcon
+              size={48}
+              round
+              iconFillColor="white"
+              className="cursor-pointer transform transition-transform duration-300 hover:scale-110"
+            />
+          </LinkedinShareButton>
 
-  {/* WhatsApp */}
-  <WhatsappShareButton url="https://your-hackathon-website.com">
-    <WhatsappIcon size={48} round iconFillColor="white" className="cursor-pointer transform transition-transform duration-300 hover:scale-110" />
-  </WhatsappShareButton>
+          {/* WhatsApp */}
+          <WhatsappShareButton url="https://your-hackathon-website.com">
+            <WhatsappIcon
+              size={48}
+              round
+              iconFillColor="white"
+              className="cursor-pointer transform transition-transform duration-300 hover:scale-110"
+            />
+          </WhatsappShareButton>
 
-  {/* Telegram */}
-  <TelegramShareButton url="https://your-hackathon-website.com" title="Check out HACKHAZARDS '24">
-    <TelegramIcon size={48} round iconFillColor="white" className="cursor-pointer transform transition-transform duration-300 hover:scale-110" />
-  </TelegramShareButton>
+          {/* Telegram */}
+          <TelegramShareButton
+            url="https://your-hackathon-website.com"
+            title="Check out HACKHAZARDS '24"
+          >
+            <TelegramIcon
+              size={48}
+              round
+              iconFillColor="white"
+              className="cursor-pointer transform transition-transform duration-300 hover:scale-110"
+            />
+          </TelegramShareButton>
         </div>
         <div className="flex items-center h-fit py-4 px-6 bg-[#25618B] rounded-[20px] gap-[12px]">
           <img
