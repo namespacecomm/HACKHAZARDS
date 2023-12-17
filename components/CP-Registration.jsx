@@ -76,7 +76,7 @@ const CPRegistration = () => {
       </div>
 
       {/* for large devices */}
-      <div className="w-[60vw] mx-auto py-5 hidden md:flex">
+      {/* <div className="w-[60vw] mx-auto py-5 hidden md:flex">
         <form onSubmit={handleSubmit}>
           <div className="flex flex-row">
             <div className={`${styles.mb3}`}>
@@ -326,10 +326,10 @@ const CPRegistration = () => {
             Submit
           </button>
         </form>
-      </div>
+      </div> */}
 
       {/* for small devices */}
-      <div className="w-[90vw] mx-[10px] py-5 flex-col md:hidden">
+      {/* <div className="w-[90vw] mx-[10px] py-5 flex-col md:hidden">
         <form onSubmit={handleSubmit}>
           <div className={`${styles.mb3}`}>
             <label htmlFor="name" className={`${styles.labels}`}>
@@ -562,7 +562,7 @@ const CPRegistration = () => {
             Submit
           </button>
         </form>
-      </div>
+      </div> */}
     </motion.footer>
   );
 };
