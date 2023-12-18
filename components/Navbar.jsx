@@ -24,7 +24,7 @@ const Navbar = () => {
 
   const openMentorRegistration = () => {
     router.push('/mentors');
-  }
+  };
 
   const openEvents = () => {
     router.push('/Event');
