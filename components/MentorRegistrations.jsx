@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 import styles from "../styles";
 import { footerVariants } from "../utils/motion";
 
-const CPRegistration = () => (
+const MentorRegistration = () => (
   <motion.footer
     variants={footerVariants}
     initial="hidden"
@@ -14,7 +14,7 @@ const CPRegistration = () => (
     <div className={`${styles.innerWidth} mx-auto flex flex-col gap-3`}>
       <div className="flex items-center justify-between flex-wrap gap-5">
         <h4 className="font-bold md:text-[64px] text-[44px] text-white mt-[100px]">
-          Community Partner Registration
+          Call for Mentors
         </h4>
       </div>
     </div>
@@ -22,7 +22,7 @@ const CPRegistration = () => (
     <div style={{ marginTop: "50px" }}>
       <iframe
         title="Unique Title for Accessibility"
-        src="https://lu.ma/embed-checkout/evt-t4HvA1JBHu0lPqY"
+        src="https://lu.ma/embed-checkout/evt-cPIsbjh5uMZ1Vx6"
         width="100%"
         height="800"
         style={{
@@ -39,4 +39,4 @@ const CPRegistration = () => (
   </motion.footer>
 );
 
-export default CPRegistration;
+export default MentorRegistration;
