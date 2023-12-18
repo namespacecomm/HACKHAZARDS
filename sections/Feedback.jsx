@@ -165,7 +165,7 @@ const Feedback = () => (
           <h4 className="font-bold lg:text-[29px] text-[26px] sm:leading-[40.32px] leading-[36.32px] text-white mt-[20px] mb-[10px]">
             PLATFORM SPONSORS
           </h4>
-          <img src="1.png" alt="devfolio" className="w-[450px]  rounded-[25px]" />
+          <img src="1.png" alt="DEVFOLIO LOGO" className="w-[450px]  rounded-[25px]" />
         </div>
       </motion.div>
     </motion.div>
@@ -186,7 +186,7 @@ const Feedback = () => (
         className="flex-[0.5] items-center justify-center w-[90vw] flex md:flex-row flex-col lg:gap-5 gap-2 relative  "
       >
         <div className="flex flex-col items-center z-[1] mt-[5px]">
-          <img src="2.png" alt="polygon" className="w-[450px] rounded-[15px]" />
+          <img src="2.png" alt="POLYGON LOGO" className="w-[450px] rounded-[15px]" />
         </div>
         <div className="flex flex-col items-center z-[1] mt-[5px]">
           <img src="revealing.png" alt="revealing poster" className="w-[450px] rounded-[15px]" />
@@ -273,7 +273,7 @@ const Feedback = () => (
         className="flex-[0.5] items-center justify-center w-[90vw] flex md:flex-row flex-col lg:gap-5 gap-2 relative  "
       >
         <div className="flex flex-col items-center z-[1] mt-[5px]">
-          <img src="3.png" alt="replit" className="w-[900px] rounded-[15px]" />
+          <img src="3.png" alt="REPLIT LOGO" className="w-[900px] rounded-[15px]" />
         </div>
         <div className="flex flex-col items-center z-[1] mt-[5px]">
           <img src="4.png" alt="rosenfeld" className="w-[900px] rounded-[15px]" />
