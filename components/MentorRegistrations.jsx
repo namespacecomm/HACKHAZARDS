@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 import styles from "../styles";
 import { footerVariants } from "../utils/motion";
 
-const mentorRegistration = () => (
+const MentorRegistration = () => (
   <motion.footer
     variants={footerVariants}
     initial="hidden"
@@ -13,7 +13,7 @@ const mentorRegistration = () => (
   >
     <div className={`${styles.innerWidth} mx-auto flex flex-col gap-3`}>
       <div className="flex items-center justify-between flex-wrap gap-5">
-        <h4 className="font-bold md:text-[64px] text-[44px] text-white">
+        <h4 className="font-bold md:text-[64px] text-[44px] text-white mt-[100px]">
           Call for Mentors
         </h4>
       </div>
@@ -39,4 +39,4 @@ const mentorRegistration = () => (
   </motion.footer>
 );
 
-export default mentorRegistration;
+export default MentorRegistration;

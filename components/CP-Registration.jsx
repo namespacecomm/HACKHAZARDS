@@ -13,7 +13,7 @@ const CPRegistration = () => (
   >
     <div className={`${styles.innerWidth} mx-auto flex flex-col gap-3`}>
       <div className="flex items-center justify-between flex-wrap gap-5">
-        <h4 className="font-bold md:text-[64px] text-[44px] text-white">
+        <h4 className="font-bold md:text-[64px] text-[44px] text-white mt-[100px]">
           Community Partner Registration
         </h4>
       </div>
