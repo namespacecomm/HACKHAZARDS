@@ -42,7 +42,7 @@ const Footer = () => (
         <div className="flex items-center justify-between flex-wrap gap-4 flex-col">
           <a href="https://www.namespacecomm.in/">
             <h4 className="font-extrabold text-[24px] text-white">
-              nameSpace, BPIT
+              nameSpace formerly NSCC BPIT
             </h4>
           </a>
           <div className="flex gap-4">

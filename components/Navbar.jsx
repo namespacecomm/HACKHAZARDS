@@ -52,7 +52,7 @@ const Navbar = () => {
       <div className=" w-[100%] top-0 z-30  flex justify-between bg-primary-black sm:h-[110px] h-[90px]">
         <div onClick={openHome} className="cursor-pointer transition">
           <img
-            src="/logo.png"
+            src="/mainlogo.png"
             alt="menu"
             className="md:w-[150px] w-[120px] object-contain mx-6 my-3 "
           />
