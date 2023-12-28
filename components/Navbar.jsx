@@ -101,9 +101,9 @@ const Navbar = () => {
             </h2>
           </Link>
 
-          <a href="https://www.nsccbpit.tech/">
+          <a href="https://www.namespacecomm.in/">
             <h2 className="font-extrabold text-[20px] leading-[30.24px] text-white">
-              NSCC
+              nameSpace
             </h2>
           </a>
 

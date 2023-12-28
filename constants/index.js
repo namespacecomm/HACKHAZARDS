@@ -14,11 +14,11 @@ export const exploreWorlds = [
     imgUrl: '/planet-03.png',
     title: 'AR/VR',
   },
- 
+
 ];
 
 export const exploreWorldstwo = [
- 
+
   {
     id: 'world-6',
     imgUrl: '/planet-07.png',
@@ -35,7 +35,7 @@ export const exploreWorldstwo = [
     title: 'Web3',
   },
 
-  
+
 ];
 
 export const startingFeatures = [
@@ -50,13 +50,13 @@ export const newFeatures = [
     imgUrl: '/vrpano.svg',
     title: 'Website Launch',
     subtitle:
-        '15.08.2023',
+      '15.08.2023',
   },
   {
     imgUrl: '/headset.svg',
     title: 'Registrations Open',
     subtitle:
-        'Stay Tuned',
+      'Stay Tuned',
   },
 ];
 
@@ -65,50 +65,50 @@ export const insights = [
     imgUrl: '/planet-06.png',
     title: 'XYZ Announced as Judge at HACKHAZARDS',
     subtitle:
-        '',
+      '',
   },
   {
     imgUrl: '/planet-07.png',
     title: 'Checkout the new track sponsors',
     subtitle:
-        '',
+      '',
   },
   {
     imgUrl: '/planet-08.png',
     title: 'Hackathon Checklist before you visit',
     subtitle:
-        '',
+      '',
   },
   {
     imgUrl: '/planet-02.png',
     title: 'Exciting and Fun activities during HACKHAZARDS',
     subtitle:
-        '',
+      '',
   },
 ];
 
 export const socials = [
-  
-  
+
+
   {
     name: 'youtube',
     url: '/icons8-youtube-logo.svg',
-    link: 'https://www.youtube.com/@nsccbpit',
+    link: 'https://www.youtube.com/@namespacecomm',
   },
   {
     name: 'twitter',
     url: '/twitter.svg',
-    link: 'https://twitter.com/nscc_bpit',
+    link: 'https://twitter.com/namespacecomm',
   },
   {
     name: 'instagram',
     url: '/instagram.svg',
-    link: 'https://instagram.com/nscc_bpit?igshid=MzRlODBiNWFlZA==',
+    link: 'https://www.instagram.com/namespacecomm/',
   },
   {
     name: 'linkedin',
     url: '/linkedin.svg',
-    link: 'https://www.linkedin.com/company/nsccbpit/',
+    link: 'https://www.linkedin.com/company/namespacecomm/',
   },
   {
     name: 'github',
@@ -120,7 +120,7 @@ export const socials = [
     url: '/discord-mark-white.svg',
     link: 'https://discord.gg/z2fTnXjKMm',
   },
-  
+
 ];
 
 export const FaqQuestion = [
@@ -147,7 +147,8 @@ export const FaqQuestion = [
   },
   {
     title: 'What are the prizes for winners?',
-    description: 'HACKHAZARDS offers exciting prizes, including cash rewards, tech gadgets, and more. Specific prize details will be revealed soon.',},
+    description: 'HACKHAZARDS offers exciting prizes, including cash rewards, tech gadgets, and more. Specific prize details will be revealed soon.',
+  },
   {
     title: 'Do I need to be an experienced coder to participate?',
     description: 'No, HACKHAZARDS welcomes participants of all skill levels. Its a great opportunity to learn, collaborate, and showcase your talents.',
@@ -244,7 +245,7 @@ export const members = [
     instagram: "https://www.instagram.com/its.girlygirl_",
     twitter: "https://twitter.com/LavanshiB?t=PJYiDx8vaxalebL9-Zb4qA&amp;s=09",
   },
-  
+
   {
     image:
       "https://res.cloudinary.com/df5hitkbj/image/upload/v1693143933/WhatsApp_Image_2023-08-27_at_19.15.17_xg2f0b.jpg",
@@ -266,20 +267,20 @@ export const members = [
     twitter: "",
   },
 
-   {
-      "name": "Gautam Gupta",
-      "image": "https://res.cloudinary.com/df5hitkbj/image/upload/v1696347467/WhatsApp_Image_2023-10-03_at_19.48.38_9b68ab3a_pdkmkv.jpg",
-      position: "Senior Council",
-      "linkedin": "https://www.linkedin.com//in//gautam-gupta-8a039022a",
-      "instagram": "https://www.instagram.com//_gautam.gupta"
-   },
+  {
+    "name": "Gautam Gupta",
+    "image": "https://res.cloudinary.com/df5hitkbj/image/upload/v1696347467/WhatsApp_Image_2023-10-03_at_19.48.38_9b68ab3a_pdkmkv.jpg",
+    position: "Senior Council",
+    "linkedin": "https://www.linkedin.com//in//gautam-gupta-8a039022a",
+    "instagram": "https://www.instagram.com//_gautam.gupta"
+  },
 
-   {
-      "name": "Bhawansh Baleja",
-      "image": "https://res.cloudinary.com/df5hitkbj/image/upload/v1696348115/WhatsApp_Image_2023-10-03_at_21.18.13_3bd7fcc4_dgtpwq.jpg",
-      position: "Senior Council",
-      "linkedin": "https://www.linkedin.com//mwlite//in//bhawansh-baleja-a05450146",
-      "instagram": "https://www.instagram.com//bhawansh_"
+  {
+    "name": "Bhawansh Baleja",
+    "image": "https://res.cloudinary.com/df5hitkbj/image/upload/v1696348115/WhatsApp_Image_2023-10-03_at_21.18.13_3bd7fcc4_dgtpwq.jpg",
+    position: "Senior Council",
+    "linkedin": "https://www.linkedin.com//mwlite//in//bhawansh-baleja-a05450146",
+    "instagram": "https://www.instagram.com//bhawansh_"
   },
 
   {
@@ -290,14 +291,14 @@ export const members = [
     "linkedin": "https://www.linkedin.com//in//anand-mohan-50324118b//",
     "instagram": "https://www.instagram.com//anand18mohan",
     "twitter": "https://twitter.com//Anand18m"
-   },
+  },
 
-   {
-      "name": "Aakash Gupta",
-      "image": "https://res.cloudinary.com/df5hitkbj/image/upload/v1696347467/WhatsApp_Image_2023-10-03_at_19.48.37_f778fcc2_m1gihp.jpg",
-      position: "Senior Council",
-      "linkedin": "https://www.linkedin.com//in//aakashgupta46",
-      "instagram": "https://www.instagram.com//itss_aakash_"
+  {
+    "name": "Aakash Gupta",
+    "image": "https://res.cloudinary.com/df5hitkbj/image/upload/v1696347467/WhatsApp_Image_2023-10-03_at_19.48.37_f778fcc2_m1gihp.jpg",
+    position: "Senior Council",
+    "linkedin": "https://www.linkedin.com//in//aakashgupta46",
+    "instagram": "https://www.instagram.com//itss_aakash_"
   },
 
   {
@@ -307,9 +308,9 @@ export const members = [
     github: "https://github.com/Akay-Code",
     "linkedin": "https://www.linkedin.com//in//akshit-shroff",
     "instagram": ""
-   },
+  },
 
-   {
+  {
     name: "Aanya Sharma",
     image: "https://i.postimg.cc/hGsHhd6T/IMG-20221027-120758.jpg",
     position: "Junior Council",
@@ -458,7 +459,7 @@ export const members = [
   },
 ];
 
-export const members2 =[ 
+export const members2 = [
   {
     image:
       "https://res.cloudinary.com/df5hitkbj/image/upload/v1693141355/WhatsApp_Image_2023-08-27_at_18.31.44_bcdpq4.jpg",
