@@ -133,8 +133,6 @@ const Feedback = () => (
       </motion.div>
     </motion.div>
 
-    
-    
     {/* platform &  media sponsor */}
     <motion.div
       variants={staggerContainer}
@@ -178,10 +176,10 @@ const Feedback = () => (
       viewport={{ once: false, amount: 0.25 }}
       className={`${styles.innerWidth} sm:pt-5 xs:pt-8 pt-10 mx-auto flex flex-col justify-center items-center`}
     >
-          <h4 className="font-bold sm:text-[29px] text-[26px] sm:leading-[40.32px] leading-[36.32px] text-white mt-[20px] mb-[10px]">
-            ASSOCIATE SPONSORS
-          </h4>
-          <motion.div
+      <h4 className="font-bold sm:text-[29px] text-[26px] sm:leading-[40.32px] leading-[36.32px] text-white mt-[20px] mb-[10px]">
+        ASSOCIATE SPONSORS
+      </h4>
+      <motion.div
         variants={fadeIn("right", "tween", 0.2, 1)}
         className="flex-[0.5] items-center justify-center w-[90vw] flex md:flex-row flex-col lg:gap-5 gap-2 relative  "
       >
@@ -191,8 +189,8 @@ const Feedback = () => (
         <div className="flex flex-col items-center z-[1] mt-[5px]">
           <img src="revealing.png" alt="revealing poster" className="w-[450px] rounded-[15px]" />
         </div>
-       
-        
+
+
       </motion.div>
     </motion.div>
 
@@ -204,10 +202,10 @@ const Feedback = () => (
       viewport={{ once: false, amount: 0.25 }}
       className={`${styles.innerWidth} sm:pt-5 xs:pt-8 pt-10 mx-auto flex flex-col justify-center items-center`}
     >
-          <h4 className="font-bold sm:text-[29px] text-[26px] sm:leading-[40.32px] leading-[36.32px] text-white mt-[20px] mb-[10px]">
-            SWAG SPONSORS
-          </h4>
-          <motion.div
+      <h4 className="font-bold sm:text-[29px] text-[26px] sm:leading-[40.32px] leading-[36.32px] text-white mt-[20px] mb-[10px]">
+        SWAG SPONSORS
+      </h4>
+      <motion.div
         variants={fadeIn("right", "tween", 0.2, 1)}
         className="flex-[0.5] items-center justify-center w-[90vw] flex md:flex-row flex-col lg:gap-5 gap-2 relative  "
       >
@@ -220,8 +218,8 @@ const Feedback = () => (
         <div className="flex flex-col items-center z-[1] mt-[5px]">
           <img src="revealing.png" alt="revealing poster" className="w-[400px] rounded-[15px]" />
         </div>
-        
-        
+
+
       </motion.div>
     </motion.div>
 
@@ -233,10 +231,10 @@ const Feedback = () => (
       viewport={{ once: false, amount: 0.25 }}
       className={`${styles.innerWidth} sm:pt-5 xs:pt-8 pt-10 mx-auto flex flex-col justify-center items-center`}
     >
-          <h4 className="font-bold sm:text-[29px] text-[26px] sm:leading-[40.32px] leading-[36.32px] text-white mt-[20px] mb-[10px]">
-            REFRESHMENT SPONSORS
-          </h4>
-          <motion.div
+      <h4 className="font-bold sm:text-[29px] text-[26px] sm:leading-[40.32px] leading-[36.32px] text-white mt-[20px] mb-[10px]">
+        REFRESHMENT SPONSORS
+      </h4>
+      <motion.div
         variants={fadeIn("right", "tween", 0.2, 1)}
         className="flex-[0.5] items-center justify-center w-[90vw] flex md:flex-row flex-col lg:gap-5 gap-2 relative  "
       >
@@ -252,8 +250,8 @@ const Feedback = () => (
         <div className="flex flex-col items-center z-[1] mt-[5px]">
           <img src="revealing.png" alt="revealing poster" className="w-[350px] rounded-[15px]" />
         </div>
-        
-        
+
+
       </motion.div>
     </motion.div>
 
@@ -265,9 +263,9 @@ const Feedback = () => (
       viewport={{ once: false, amount: 0.25 }}
       className={`${styles.innerWidth} sm:pt-5 xs:pt-8 pt-10 mx-auto flex flex-col justify-center items-center`}
     >
-          <h4 className="flex flex-col items-center z-[1] mt-[5px] font-bold sm:text-[29px] text-[26px] sm:leading-[40.32px] leading-[36.32px] text-white mt-[20px] mb-[10px]">
-            GENERAL SPONSORS
-          </h4>
+      <h4 className="flex flex-col items-center z-[1] mt-[5px] font-bold sm:text-[29px] text-[26px] sm:leading-[40.32px] leading-[36.32px] text-white mt-[20px] mb-[10px]">
+        GENERAL SPONSORS
+      </h4>
       <motion.div
         variants={fadeIn("right", "tween", 0.2, 1)}
         className="flex-[0.5] items-center justify-center w-[90vw] flex md:flex-row flex-col lg:gap-5 gap-2 relative  "
@@ -282,9 +280,9 @@ const Feedback = () => (
           <img src="5.png" alt="xyz.com" className="w-[900px] rounded-[15px]" />
         </div>
         <div className="flex flex-col items-center z-[1] mt-[5px]">
-          <img src="revealing.png" alt="revealing poster" className="w-[900px] rounded-[15px]" />
+          <img src="6.png" alt="axure.com" className="w-[900px] rounded-[15px]" />
         </div>
-        
+
       </motion.div>
 
       <motion.div
@@ -292,24 +290,43 @@ const Feedback = () => (
         className="flex-[0.5] items-center justify-center w-[90vw] flex md:flex-row flex-col lg:gap-5 gap-2 relative mt-[10px] "
       >
         <div className="flex flex-col items-center z-[1] mt-[5px]">
-          <img src="revealing.png" alt="revealing poster" className="w-[900px] rounded-[15px]" />
+          <img src="7.png" alt="slido.com" className="w-[900px] rounded-[15px]" />
         </div>
         <div className="flex flex-col items-center z-[1] mt-[5px]">
-          <img src="revealing.png" alt="revealing poster" className="w-[900px] rounded-[15px]" />
+          <img src="8.png" alt="beeceptor.com" className="w-[900px] rounded-[15px]" />
         </div>
         <div className="flex flex-col items-center z-[1] mt-[5px]">
-          <img src="revealing.png" alt="revealing poster" className="w-[900px] rounded-[15px]" />
+          <img src="9.png" alt="revealing poster" className="w-[900px] rounded-[15px]" />
         </div>
         <div className="flex flex-col items-center z-[1] mt-[5px]">
-          <img src="revealing.png" alt="revealing poster" className="w-[900px] rounded-[15px]" />
+          <img src="10.png" alt="revealing poster" className="w-[900px] rounded-[15px]" />
         </div>
-        
+
       </motion.div>
-      
-      
+      <motion.div
+        variants={fadeIn("right", "tween", 0.2, 1)}
+        className="flex-[0.5] items-center justify-center w-[90vw] flex md:flex-row flex-col lg:gap-5 gap-2 relative mt-[10px] "
+      >
+        <div className="flex flex-col items-center z-[1] mt-[5px]">
+          <img src="11.png" alt="slido.com" className="w-[900px] rounded-[15px]" />
+        </div>
+        <div className="flex flex-col items-center z-[1] mt-[5px]">
+          <img src="12.png" alt="beeceptor.com" className="w-[900px] rounded-[15px]" />
+        </div>
+        <div className="flex flex-col items-center z-[1] mt-[5px]">
+          <img src="13.png" alt="revealing poster" className="w-[900px] rounded-[15px]" />
+        </div>
+        <div className="flex flex-col items-center z-[1] mt-[5px]">
+          <img src="14.png" alt="revealing poster" className="w-[900px] rounded-[15px]" />
+        </div>
+
+      </motion.div>
+
+
+
     </motion.div>
-    
-    
+
+
 
     <div className="flex items-center justify-center mt-4">
       <h4 className="font-bold md:text-[32px] text-[32px] text-white mt-3">

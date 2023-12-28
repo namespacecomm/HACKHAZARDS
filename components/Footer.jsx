@@ -40,9 +40,9 @@ const Footer = () => (
         <div className="mb-[50px] h-[2px] bg-white opacity-10" />
 
         <div className="flex items-center justify-between flex-wrap gap-4 flex-col">
-          <a href="https://www.nsccbpit.tech/">
+          <a href="https://www.namespacecomm.in/">
             <h4 className="font-extrabold text-[24px] text-white">
-              NEWTON SCHOOL CODING CLUB, BPIT
+              nameSpace, BPIT
             </h4>
           </a>
           <div className="flex gap-4">
@@ -58,7 +58,7 @@ const Footer = () => (
             ))}
           </div>
           <p className="font-normal text-[14px] text-white opacity-50">
-            Copyright © 2023 - 2024 NEWTON SCHOOL CODING CLUB, BPIT. All rights
+            Copyright © 2023 - 2024 nameSpace, BPIT. All rights
             reserved.
           </p>
         </div>
