@@ -13,7 +13,7 @@ const ContactUs = () => {
   const [contactNumber, setContactNumber] = useState("");
   const [query, setQuery] = useState("");
 
-  const [state, handleSubmit] = useForm("xkndgbep");
+  const [state, handleSubmit] = useForm("xjvnkrdd");
   if (state.succeeded) {
     return <p>Thanks for joining!</p>;
   }
