@@ -1,23 +1,28 @@
-'use client';
+"use client";
 
-import { useState } from 'react';
-import axios from 'axios';
-import { motion } from 'framer-motion';
-import styles from '../styles';
-import { footerVariants } from '../utils/motion';
+import { useState } from "react";
+import { useForm } from "@formspree/react";
+import { motion } from "framer-motion";
+import styles from "../styles";
+import { footerVariants } from "../utils/motion";
 
 const ContactUs = () => {
-  const [firstName, setFirstName] = useState('');
-  const [lastName, setLastName] = useState('');
-  const [email, setEmail] = useState('');
-  const [contactNumber, setContactNumber] = useState('');
-  const [query, setQuery] = useState('');
+  const [firstName, setFirstName] = useState("");
+  const [lastName, setLastName] = useState("");
+  const [email, setEmail] = useState("");
+  const [contactNumber, setContactNumber] = useState("");
+  const [query, setQuery] = useState("");
 
-  async function handleSubmit() {
+  const [state, handleSubmit] = useForm("xkndgbep");
+  if (state.succeeded) {
+    return <p>Thanks for joining!</p>;
+  }
+
+  /* async function handleSubmit() {
     // ev.preventDefault();
     const data = { firstName, lastName, email, contactNumber, query };
     await axios.post('/api/contactData', data);
-  }
+  } */
 
   return (
     <motion.footer
@@ -26,7 +31,7 @@ const ContactUs = () => {
       whileInView="show"
       className={`${styles.xPaddings} relative`}
     >
-      <div className={`${styles.innerWidth} mx-auto flex flex-col gap-8`}>
+      <div className={`${styles.innerWidth} mx-auto flex flex-col gap-8 mt-32`}>
         <div className="flex items-center justify-between flex-wrap gap-5">
           <h4 className="font-bold md:text-[64px] text-[44px] text-white">
             Contact Us
