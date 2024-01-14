@@ -6,7 +6,6 @@ import { useForm } from "@formspree/react";
 import { motion } from "framer-motion";
 import styles from "../styles";
 import { footerVariants } from "../utils/motion";
-import { useForm } from "@formspree/react";
 
 const ContactUs = () => {
   const [firstName, setFirstName] = useState("");
