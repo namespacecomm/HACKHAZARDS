@@ -1,7 +1,6 @@
 "use client";
 
 import { useState } from "react";
-//import axios from 'axios';
 import { useForm } from "@formspree/react";
 import { motion } from "framer-motion";
 import styles from "../styles";
