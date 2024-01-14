@@ -296,10 +296,10 @@ const Feedback = () => (
           <img src="8.png" alt="beeceptor.com" className="w-[900px] rounded-[15px]" />
         </div>
         <div className="flex flex-col items-center z-[1] mt-[5px]">
-          <img src="9.png" alt="revealing poster" className="w-[900px] rounded-[15px]" />
+          <img src="9.png" alt="taskade.com" className="w-[900px] rounded-[15px]" />
         </div>
         <div className="flex flex-col items-center z-[1] mt-[5px]">
-          <img src="10.png" alt="revealing poster" className="w-[900px] rounded-[15px]" />
+          <img src="10.png" alt="interviewbuddy.net" className="w-[900px] rounded-[15px]" />
         </div>
 
       </motion.div>
@@ -308,16 +308,35 @@ const Feedback = () => (
         className="flex-[0.5] items-center justify-center w-[90vw] flex md:flex-row flex-col lg:gap-5 gap-2 relative mt-[10px] "
       >
         <div className="flex flex-col items-center z-[1] mt-[5px]">
-          <img src="11.png" alt="slido.com" className="w-[900px] rounded-[15px]" />
+          <img src="11.png" alt="interviewcake.com" className="w-[900px] rounded-[15px]" />
         </div>
         <div className="flex flex-col items-center z-[1] mt-[5px]">
-          <img src="12.png" alt="beeceptor.com" className="w-[900px] rounded-[15px]" />
+          <img src="12.png" alt="1password.com" className="w-[900px] rounded-[15px]" />
         </div>
         <div className="flex flex-col items-center z-[1] mt-[5px]">
-          <img src="13.png" alt="revealing poster" className="w-[900px] rounded-[15px]" />
+          <img src="13.png" alt="verbwire.com" className="w-[900px] rounded-[15px]" />
         </div>
         <div className="flex flex-col items-center z-[1] mt-[5px]">
-          <img src="14.png" alt="revealing poster" className="w-[900px] rounded-[15px]" />
+          <img src="14.png" alt="oreilly.com" className="w-[900px] rounded-[15px]" />
+        </div>
+
+      </motion.div>
+
+      <motion.div
+        variants={fadeIn("right", "tween", 0.2, 1)}
+        className="flex-[0.5] items-center justify-center w-[90vw] flex md:flex-row flex-col lg:gap-5 gap-2 relative mt-[10px] "
+      >
+        <div className="flex flex-col items-center z-[1] mt-[5px]">
+          <img src="15.png" alt="echo3d.com" className="w-[900px] rounded-[15px]" />
+        </div>
+        <div className="flex flex-col items-center z-[1] mt-[5px]">
+          <img src="16.png" alt="cybrancee.com" className="w-[900px] rounded-[15px]" />
+        </div>
+        <div className="flex flex-col items-center z-[1] mt-[5px]">
+          <img src="17.png" alt="sublimetext.com" className="w-[900px] rounded-[15px]" />
+        </div>
+        <div className="flex flex-col items-center z-[1] mt-[5px]">
+          <img src="revealing.png" alt="revealing poster" className="w-[900px] rounded-[15px]" />
         </div>
 
       </motion.div>
