@@ -5,6 +5,7 @@ import axios from 'axios';
 import { motion } from 'framer-motion';
 import styles from '../styles';
 import { footerVariants } from '../utils/motion';
+import { useForm, ValidationError } from '@formspree/react';
 
 const ContactUs = () => {
   const [firstName, setFirstName] = useState('');
@@ -13,11 +14,16 @@ const ContactUs = () => {
   const [contactNumber, setContactNumber] = useState('');
   const [query, setQuery] = useState('');
 
-  async function handleSubmit() {
+  const [state, handleSubmit] = useForm("xkndgbep");
+  if (state.succeeded) {
+      return <p>Thanks for joining!</p>;
+  }
+
+  /* async function handleSubmit() {
     // ev.preventDefault();
     const data = { firstName, lastName, email, contactNumber, query };
     await axios.post('/api/contactData', data);
-  }
+  } */
 
   return (
     <motion.footer
@@ -26,7 +32,7 @@ const ContactUs = () => {
       whileInView="show"
       className={`${styles.xPaddings} relative`}
     >
-      <div className={`${styles.innerWidth} mx-auto flex flex-col gap-8`}>
+      <div className={`${styles.innerWidth} mx-auto flex flex-col gap-8 mt-32`}>
         <div className="flex items-center justify-between flex-wrap gap-5">
           <h4 className="font-bold md:text-[64px] text-[44px] text-white">
             Contact Us
