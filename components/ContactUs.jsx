@@ -1,22 +1,23 @@
-'use client';
+"use client";
 
-import { useState } from 'react';
-import axios from 'axios';
-import { motion } from 'framer-motion';
-import styles from '../styles';
-import { footerVariants } from '../utils/motion';
-import { useForm, ValidationError } from '@formspree/react';
+import { useState } from "react";
+//import axios from 'axios';
+import { useForm } from "@formspree/react";
+import { motion } from "framer-motion";
+import styles from "../styles";
+import { footerVariants } from "../utils/motion";
+import { useForm } from "@formspree/react";
 
 const ContactUs = () => {
-  const [firstName, setFirstName] = useState('');
-  const [lastName, setLastName] = useState('');
-  const [email, setEmail] = useState('');
-  const [contactNumber, setContactNumber] = useState('');
-  const [query, setQuery] = useState('');
+  const [firstName, setFirstName] = useState("");
+  const [lastName, setLastName] = useState("");
+  const [email, setEmail] = useState("");
+  const [contactNumber, setContactNumber] = useState("");
+  const [query, setQuery] = useState("");
 
   const [state, handleSubmit] = useForm("xkndgbep");
   if (state.succeeded) {
-      return <p>Thanks for joining!</p>;
+    return <p>Thanks for joining!</p>;
   }
 
   /* async function handleSubmit() {
