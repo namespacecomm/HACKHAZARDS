@@ -1,4 +1,5 @@
-import '../styles/globals.css'; 
+import '../styles/globals.css';
+import { Analytics } from '@vercel/analytics/react'; 
 const RootLayout = ({ children }) => (
   <html lang="en">
     <head>
@@ -6,6 +7,7 @@ const RootLayout = ({ children }) => (
       <link rel="stylesheet" href="https://stijndv.com/fonts/Eudoxus-Sans.css" />
     </head>
     <body>{children}</body>
+    <Analytics />
   </html>
 );
 
