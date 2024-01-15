@@ -50,13 +50,13 @@ export const newFeatures = [
     imgUrl: '/vrpano.svg',
     title: 'Website Launch',
     subtitle:
-      '15.08.2023',
+      '20.02.2024',
   },
   {
     imgUrl: '/headset.svg',
     title: 'Registrations Open',
     subtitle:
-      'Stay Tuned',
+      '28.02.2024',
   },
 ];
 
@@ -298,7 +298,8 @@ export const members = [
     "image": "https://res.cloudinary.com/df5hitkbj/image/upload/v1696347467/WhatsApp_Image_2023-10-03_at_19.48.37_f778fcc2_m1gihp.jpg",
     position: "Senior Council",
     "linkedin": "https://www.linkedin.com//in//aakashgupta46",
-    "instagram": "https://www.instagram.com//itss_aakash_"
+    "instagram": "https://www.instagram.com//itss_aakash_",
+    "twitter": "https://twitter.com/Alpha__aakash"
   },
 
   {

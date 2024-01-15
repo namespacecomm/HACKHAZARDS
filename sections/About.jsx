@@ -26,33 +26,33 @@ const About = () => (
         className="mt-[8px] font-normal sm:text-[23px] text-[16px] text-center text-secondary-white"
       >
         <div>
-        <span className="font-extrabold text-white">HACKHAZARDS</span>, where
-        innovation knows no bounds and challenges are met head-on with creative
-        solutions. Step into a whirlwind of{" "}
-        <span className="font-extrabold text-white">creativity</span> and{" "}
-        <span className="font-extrabold text-white">rapid problem-solving</span>{" "}
-        in this intense{" "}
-        <span className="font-extrabold text-white">24-hour hackathon</span>{" "}
-        experience. Unlike any other event of its kind, HACKHAZARDS combines the
-        thrill of a hackathon with the opportunity to make a meaningful impact
-        on the world's most pressing issues.At HACKHAZARDS, we believe that true
-        innovation doesn't just happen it's nurtured through{" "}
-        <span className="font-extrabold text-white">
-          collaboration, exploration
-        </span>
+          <span className="font-extrabold text-white">HACKHAZARDS</span>, where
+          innovation knows no bounds and challenges are met head-on with creative
+          solutions. Step into a whirlwind of{" "}
+          <span className="font-extrabold text-white">creativity</span> and{" "}
+          <span className="font-extrabold text-white">rapid problem-solving</span>{" "}
+          in this intense{" "}
+          <span className="font-extrabold text-white">24-hour hackathon</span>{" "}
+          experience. Unlike any other event of its kind, HACKHAZARDS combines the
+          thrill of a hackathon with the opportunity to make a meaningful impact
+          on the world's most pressing issues.At HACKHAZARDS, we believe that true
+          innovation doesn't just happen it's nurtured through{" "}
+          <span className="font-extrabold text-white">
+            collaboration, exploration
+          </span>
 
-        , and{" "}
-        <span className="font-extrabold text-white">
-          thinking beyond boundaries
-        </span>
-        . With a diverse array of domains to choose from, participants are
-        invited to delve into fields spanning technology, healthcare,
-        environment, and more. Unleash your
-        <span className="font-extrabold text-white"> imagination </span> and
-        join forces with like-minded individuals from various disciplines to
-        create interdisciplinary solutions.
+          , and{" "}
+          <span className="font-extrabold text-white">
+            thinking beyond boundaries
+          </span>
+          . With a diverse array of domains to choose from, participants are
+          invited to delve into fields spanning technology, healthcare,
+          environment, and more. Unleash your
+          <span className="font-extrabold text-white"> imagination </span> and
+          join forces with like-minded individuals from various disciplines to
+          create interdisciplinary solutions.
         </div>
-        
+
         <div className="md:flex md:justify-around my-[10px] ">
           <div className=" py-[10px] my-[10px]">
             <div className="flex justify-center items-center">
@@ -77,7 +77,7 @@ const About = () => (
               />
               <div className=" mt-[8px] font-normal sm:text-[23px] text-[16px] text-center text-secondary-white">
                 <span className="font-extrabold text-white">Date</span> <br />
-                 March 2024 <br />
+                16th-17th March 2024 <br />
                 24hr Hackathon
               </div>
             </div>
