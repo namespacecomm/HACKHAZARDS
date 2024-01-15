@@ -50,7 +50,7 @@ const Hero = () => {
         <div
           class="apply-button"
           data-hackathon-slug="hackhazards24"
-          data-button-theme="light"
+          data-button-theme="dark-inverted"
           style={{ height: "44px", width: "312px" }}
         ></div>
         <div className="md:flex-row flex flex-col justify-center items-center  my-10 mb-5 gap-5 pr-6 z-2">
