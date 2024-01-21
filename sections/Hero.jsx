@@ -60,7 +60,7 @@ const Hero = () => {
               class="apply-button"
               data-hackathon-slug="hackhazards24"
               data-button-theme="dark-inverted"
-              style={{ height: "44px", width: "312px", margin: "20px auto 0", display: "block", textAlign: "center" }}
+              style={{ height: "96px", width: "340px", margin: "20px auto 0", display: "block", textAlign: "center" }}
             ></div>
 
 
