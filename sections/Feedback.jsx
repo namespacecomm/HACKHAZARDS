@@ -370,10 +370,10 @@ const Feedback = () => (
           </Link>
         </div>
         <div className="flex flex-col items-center z-[1] mt-[5px]">
-          <img src="revealing.png" alt="revealing poster" className="w-[900px] rounded-[15px]" />
+          <img src="18.png" alt="revealing poster" className="w-[900px] rounded-[15px]" />
         </div>
         <div className="flex flex-col items-center z-[1] mt-[5px]">
-          <img src="revealing.png" alt="revealing poster" className="w-[900px] rounded-[15px]" />
+          <img src="19.png" alt="revealing poster" className="w-[900px] rounded-[15px]" />
         </div>
 
       </motion.div>
