@@ -267,7 +267,7 @@ const Feedback = () => (
       viewport={{ once: false, amount: 0.25 }}
       className={`${styles.innerWidth} sm:pt-5 xs:pt-8 pt-10 mx-auto flex flex-col justify-center items-center`}
     >
-      <h4 className="flex flex-col items-center z-[1] mt-[5px] font-bold sm:text-[29px] text-[26px] sm:leading-[40.32px] leading-[36.32px] text-white mt-[20px] mb-[10px]">
+      <h4 className="flex flex-col items-center z-[1] font-bold sm:text-[29px] text-[26px] sm:leading-[40.32px] leading-[36.32px] text-white mt-[20px] mb-[10px]">
         GENERAL SPONSORS
       </h4>
       <motion.div

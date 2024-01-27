@@ -135,11 +135,11 @@ export const FaqQuestion = [
   },
   {
     title: 'Who all can participate?',
-    description: 'HACKHAZARDS is open to (.....) who are passionate about coding and problem-solving.',
+    description: 'HACKHAZARDS is open to all those who are passionate about coding and problem-solving and can utilise their development skills in building sustainable and scalable products in a limited time.',
   },
   {
     title: 'How do I register for HACKHAZARDS?',
-    description: 'Registration details and guidelines will be shared through our official platforms. Stay tuned for updates!',
+    description: 'Register is through devfolio. The apply button is there in the home page of this website',
   },
   {
     title: 'Is there an entry fee for HACKHAZARDS?',
@@ -158,23 +158,28 @@ export const FaqQuestion = [
     description: 'Yes, HACKHAZARDS will have experienced mentors to guide and assist participants throughout the event.',
   },
   {
-    title: 'Does HACKHAZARDS provides Internet facility during hackathon?',
-    description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.',
+    title: 'Does HACKHAZARDS provides internet and power facility during hackathon?',
+    description: 'While the organizers will try to ensure optimal network coverage and power points. It is advisable that each team carry their own internet and atleast one extension board',
+
+  },
+  {
+    title: 'Will there be food during the hackathon?',
+    description: 'Yes, all the second round participants will get meals during the course of HACKHAZARDS',
 
   },
   {
     title: 'What is the shortlisting procedure?',
-    description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.',
+    description: 'Shortlisting procedure wil be shared with all participants in due course of time',
 
   },
   {
-    title: 'Does HACKHAZARDS helps with travel reimbursement?',
-    description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.',
+    title: 'Will HACKHAZARDS help with travel reimbursement?',
+    description: 'No, the participants are requested to arrange for their own travel expenses to take part in the 2nd round of HACKHAZARDS',
 
   },
   {
     title: 'Error 404 question not found?',
-    description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.',
+    description: 'You can email us at namespace@bpitindia.com in case you have any further doubts.',
 
   },
 ];
