@@ -50,26 +50,38 @@ export const newFeatures = [
     imgUrl: '/vrpano.svg',
     title: 'Website Launch',
     subtitle:
-      '20.02.2024',
+      '01.01.2024',
   },
   {
-    imgUrl: '/headset.svg',
+    imgUrl: '/vrpano.svg',
     title: 'Registrations Open',
     subtitle:
-      '28.02.2024',
+      '28.01.2024',
+  },
+  {
+    imgUrl: '/vrpano.svg',
+    title: 'Registrations Close',
+    subtitle:
+      '22.02.2024',
+  },
+  {
+    imgUrl: '/vrpano.svg',
+    title: 'Shortlisting',
+    subtitle:
+      '01.03.2024 - 10.03.2024',
   },
 ];
 
 export const insights = [
   {
     imgUrl: '/planet-06.png',
-    title: 'XYZ Announced as Judge at HACKHAZARDS',
+    title: 'List of Judges and Mentors at HACKHAZARDS',
     subtitle:
       '',
   },
   {
     imgUrl: '/planet-07.png',
-    title: 'Checkout the new track sponsors',
+    title: 'Checkout our track sponsors',
     subtitle:
       '',
   },

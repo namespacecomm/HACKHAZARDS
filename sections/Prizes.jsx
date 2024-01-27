@@ -263,8 +263,42 @@ const Prizes = () => {
             </h5>
           </div>
         </motion.div>
+        <motion.div
+          variants={fadeIn("right", "tween", 0.2, 1)}
+          className="flex-[0.5] lg:max-w-[370px] flex justify-center items-center flex-col gradient-05 sm:p-8  p-4 rounded-[32px] border-[1px] border-[#6A6A6A] relative lg:mb-[0px] mb-[60px]"
+        >
+          <div className="justify-center items-center w-full flex">
+            {/* <img
+              src="/.png"
+              alt="TRACK LOGO"
+              className="absolute z-[2] -top-[65px] sm:w-[70px] w-[70px] sm:h-[155px] h-[150px] object-contain"
+            /> */}
+            
+            <div className=" absolute w-[150px] h-[150px] hero-gradient rounded-[100px] z-[0] -top-[60px] " />
+            <div className=" absolute w-[110px] h-[110px] hero-gradient2 rounded-[100px] z-[1] -top-[40px]  " />
+          </div>
 
-       
+          <div className="flex flex-col items-center z-[1] mt-[80px]">
+            <h4 className="font-bold sm:text-[32px] text-[26px] sm:leading-[40.32px] leading-[36.32px] text-white mt-[20px] mb-[30px]">
+              Track 
+            </h4>
+            <h5 className="mt-[8px] font-normal sm:text-[22px] text-[18px] sm:leading-[22.68px] leading-[16.68px] text-white mb-[10px]">
+              Total prize of{" "}
+              <span className="font-extrabold text-white">$ XXX</span>
+              <br />
+            </h5>
+            <h5 className="mt-[8px] font-normal sm:text-[22px] text-[18px] sm:leading-[22.68px] leading-[16.68px] text-white">
+              Cash prize of{" "}
+              <span className="font-extrabold text-white">₹ X,XXX</span> <br />
+            </h5>
+            <h5
+              className="mt-[8px] font-extrabold sm:text-[22px] text-[20px] sm:leading-[22.68px] leading-[16.68px] text-white mt-[50px] hover:underline cursor-pointer mb-[15px]"
+              onClick={toggleOpen}
+            >
+              Know More <br />
+            </h5>
+          </div>
+        </motion.div>     
       </motion.div>
       
       <Model isVisible={isopen} onClose={toggleOpen} />
