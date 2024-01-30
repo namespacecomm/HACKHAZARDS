@@ -191,7 +191,19 @@ const Feedback = () => (
           </Link>
         </div>
         <div className="flex flex-col items-center z-[1] mt-[5px]">
-          <img src="revealing.png" alt="revealing poster" className="w-[450px] rounded-[15px]" />
+          <Link href="https://tezos.com/" target="_blank">
+            <img src="21.png" alt="revealing poster" className="w-[450px] rounded-[15px]" />
+          </Link>
+        </div>
+        <div className="flex flex-col items-center z-[1] mt-[5px]">
+          <Link href="https://www.quillaudits.com/smart-contract-audit" target="_blank">
+            <img src="22.png" alt="POLYGON LOGO" className="w-[450px] rounded-[15px]" />
+          </Link>
+        </div>
+        <div className="flex flex-col items-center z-[1] mt-[5px]">
+          <Link href="https://push.org/" target="_blank">
+            <img src="23.png" alt="revealing poster" className="w-[450px] rounded-[15px]" />
+          </Link>
         </div>
 
 
@@ -360,9 +372,6 @@ const Feedback = () => (
             <img src="15.png" alt="echo3d.com" className="w-[900px] rounded-[15px]" />
           </Link>
         </div>
-        {/* <div className="flex flex-col items-center z-[1] mt-[5px]">
-          <img src="16.png" alt="cybrancee.com" className="w-[900px] rounded-[15px]" />
-        </div> */}
 
         <div className="flex flex-col items-center z-[1] mt-[5px]">
           <Link href="https://www.sublimetext.com/" target="_blank">
@@ -370,10 +379,36 @@ const Feedback = () => (
           </Link>
         </div>
         <div className="flex flex-col items-center z-[1] mt-[5px]">
-          <img src="18.png" alt="revealing poster" className="w-[900px] rounded-[15px]" />
+          <Link href="https://streamyard.com/" target="_blank">
+            <img src="18.png" alt="revealing poster" className="w-[900px] rounded-[15px]" />
+          </Link>
         </div>
         <div className="flex flex-col items-center z-[1] mt-[5px]">
-          <img src="19.png" alt="revealing poster" className="w-[900px] rounded-[15px]" />
+          <Link href="https://www.quicknode.com/" target="_blank">
+            <img src="19.png" alt="revealing poster" className="w-[900px] rounded-[15px]" />
+          </Link>
+        </div>
+
+      </motion.div>
+      <motion.div
+        variants={fadeIn("right", "tween", 0.2, 1)}
+        className="flex-[0.5] items-center justify-center w-[90vw] flex md:flex-row flex-col lg:gap-5 gap-2 relative mt-[10px] "
+      >
+        <div className="flex flex-col items-center z-[1] mt-[5px]">
+          <Link href="https://cybrancee.com/" target="_blank">
+            <img src="16.png" alt="cybrancee.com" className="w-[900px] rounded-[15px]" />
+          </Link>
+        </div>
+        <div className="flex flex-col items-center z-[1] mt-[5px]">
+          <Link href="https://www.wolframalpha.com/" target="_blank">
+            <img src="20.png" alt="wolfram alpha" className="w-[900px] rounded-[15px]" />
+          </Link>
+        </div>
+        <div className="flex flex-col items-center z-[1] mt-[5px]">
+          <img src="revealing.png" alt="" className="w-[900px] rounded-[15px]" />
+        </div>
+        <div className="flex flex-col items-center z-[1] mt-[5px]">
+          <img src="revealing.png" alt="" className="w-[900px] rounded-[15px]" />
         </div>
 
       </motion.div>
