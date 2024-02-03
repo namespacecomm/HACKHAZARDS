@@ -8,6 +8,7 @@ import Insights from "./Insights";
 import Feedback from "./Feedback";
 import Prizes from "./Prizes";
 import Team from './Team';
+import Communitypartner from './CommunityPartner';
 
 export {
   Hero,
@@ -20,4 +21,5 @@ export {
   Feedback,
   Prizes,
   Team,
+  Communitypartner,
 };

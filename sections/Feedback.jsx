@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 import { TypingText } from "../components";
 import styles from "../styles";
 import { fadeIn, staggerContainer, zoomIn } from "../utils/motion";
-import Link from "next/link"
+import Link from "next/link";
 const Feedback = () => (
   <section className={`${styles.paddings}`} id="Sponsors">
     <TypingText title="| OUR SPONSORS" textStyles="text-center text-[25px]" />
@@ -101,19 +101,23 @@ const Feedback = () => (
     >
       <motion.div
         variants={fadeIn("right", "tween", 0.2, 1)}
-        className="flex-[0.5] items-center justify-center w-[80vw]  flex-col   rounded-[32px]  relative  "
+        className="flex-[0.5] items-center justify-center w-[80vw] flex-col rounded-[32px] relative  "
       >
         <div className="flex flex-col items-center z-[1] mt-[5px]">
           <h4 className="font-bold sm:text-[29px] text-[26px] sm:leading-[40.32px] leading-[36.32px] text-white mt-[20px] mb-[10px]">
             TITLE SPONSOR
           </h4>
-          <img src="revealing.png" alt="revealing poster" className="w-[700px] h-[250px] rounded-[25px]" />
+          <img
+            src="24.png"
+            alt="revealing poster"
+            className="w-[500px] h-[250px] rounded-[25px]"
+          />
         </div>
       </motion.div>
     </motion.div>
 
     {/* power sponsor */}
-    <motion.div
+    {/* <motion.div
       variants={staggerContainer}
       initial="hidden"
       whileInView="show"
@@ -131,7 +135,7 @@ const Feedback = () => (
           <img src="revealing.png" alt="revealing poster" className="w-[700px] h-[250px] rounded-[25px]" />
         </div>
       </motion.div>
-    </motion.div>
+    </motion.div> */}
 
     {/* platform &  media sponsor */}
     <motion.div
@@ -139,18 +143,22 @@ const Feedback = () => (
       initial="hidden"
       whileInView="show"
       viewport={{ once: false, amount: 0.25 }}
-      className={`${styles.innerWidth} sm:pt-5 xs:pt-8 pt-10 mx-auto flex gap-5 md:flex-row flex-col  justify-center items-center`}
+      className={`${styles.innerWidth} sm:pt-5 xs:pt-8 pt-10  flex gap-5 md:flex-row flex-col  justify-center items-center`}
     >
       {/* media sponsor */}
       <motion.div
         variants={fadeIn("right", "tween", 0.2, 1)}
-        className="flex-[0.5]  flex-col items-center justify-center    relative  "
+        className="flex-[0.5]  flex-col items-center justify-center relative  "
       >
         <div className="flex flex-col items-center z-[1] mt-[5px]">
           <h4 className="font-bold lg:text-[29px] text-[24px] sm:leading-[40.32px] leading-[36.32px] text-white mt-[20px] mb-[10px]">
             MEDIA SPONSORS
           </h4>
-          <img src="revealing.png" alt="revealing poster" className="w-[450px]  rounded-[25px]" />
+          <img
+            src="25.png"
+            alt="revealing poster"
+            className="lg:w-[350px] w-[250px] rounded-[25px]"
+          />
         </div>
       </motion.div>
 
@@ -159,12 +167,16 @@ const Feedback = () => (
         variants={fadeIn("right", "tween", 0.2, 1)}
         className="flex-[0.5] items-center justify-center w-[80vw]  flex-col  relative  "
       >
-        <div className="flex flex-col items-center z-[1] mt-[5px]">
+        <div className="flex flex-col items-center z-[1] mt-[5px] ">
           <h4 className="font-bold lg:text-[29px] text-[26px] sm:leading-[40.32px] leading-[36.32px] text-white mt-[20px] mb-[10px]">
             PLATFORM SPONSORS
           </h4>
           <Link href="https://devfolio.co/" target="_blank">
-            <img src="1.png" alt="DEVFOLIO LOGO" className="w-[450px]  rounded-[25px]" />
+            <img
+              src="1.png"
+              alt="DEVFOLIO LOGO"
+              className="lg:w-[350px] w-[250px]  rounded-[25px]"
+            />
           </Link>
         </div>
       </motion.div>
@@ -181,243 +193,263 @@ const Feedback = () => (
       <h4 className="font-bold sm:text-[29px] text-[26px] sm:leading-[40.32px] leading-[36.32px] text-white mt-[20px] mb-[10px]">
         ASSOCIATE SPONSORS
       </h4>
+
+      {/* row1 */}
       <motion.div
         variants={fadeIn("right", "tween", 0.2, 1)}
         className="flex-[0.5] items-center justify-center w-[90vw] flex md:flex-row flex-col lg:gap-5 gap-2 relative  "
       >
-        <div className="flex flex-col items-center z-[1] mt-[5px]">
+        <div className="flex flex-col items-center z-[1] mt-[5px] w-[250px]">
           <Link href="https://polygon.technology/" target="_blank">
-            <img src="2.png" alt="POLYGON LOGO" className="w-[450px] rounded-[15px]" />
+            <img src="2.png" alt="POLYGON LOGO" className="rounded-[15px]" />
           </Link>
         </div>
-        <div className="flex flex-col items-center z-[1] mt-[5px]">
+        <div className="flex flex-col items-center z-[1] mt-[5px] w-[250px]">
           <Link href="https://tezos.com/" target="_blank">
-            <img src="21.png" alt="revealing poster" className="w-[450px] rounded-[15px]" />
+            <img
+              src="21.png"
+              alt="revealing poster"
+              className="rounded-[15px]"
+            />
           </Link>
         </div>
-        <div className="flex flex-col items-center z-[1] mt-[5px]">
-          <Link href="https://www.quillaudits.com/smart-contract-audit" target="_blank">
-            <img src="22.png" alt="POLYGON LOGO" className="w-[450px] rounded-[15px]" />
+        <div className="flex flex-col items-center z-[1] mt-[5px] w-[250px]">
+          <Link
+            href="https://www.quillaudits.com/smart-contract-audit"
+            target="_blank"
+          >
+            <img src="22.png" alt="POLYGON LOGO" className="rounded-[15px]" />
           </Link>
         </div>
-        <div className="flex flex-col items-center z-[1] mt-[5px]">
+        <div className="flex flex-col items-center z-[1] mt-[5px] w-[250px]">
           <Link href="https://push.org/" target="_blank">
-            <img src="23.png" alt="revealing poster" className="w-[450px] rounded-[15px]" />
+            <img
+              src="23.png"
+              alt="revealing poster"
+              className="rounded-[15px]"
+            />
           </Link>
         </div>
-
-
       </motion.div>
-    </motion.div>
 
-    {/* swag sponsor */}
-    <motion.div
-      variants={staggerContainer}
-      initial="hidden"
-      whileInView="show"
-      viewport={{ once: false, amount: 0.25 }}
-      className={`${styles.innerWidth} sm:pt-5 xs:pt-8 pt-10 mx-auto flex flex-col justify-center items-center`}
-    >
-      <h4 className="font-bold sm:text-[29px] text-[26px] sm:leading-[40.32px] leading-[36.32px] text-white mt-[20px] mb-[10px]">
-        SWAG SPONSORS
-      </h4>
+      {/* row2 */}
       <motion.div
         variants={fadeIn("right", "tween", 0.2, 1)}
-        className="flex-[0.5] items-center justify-center w-[90vw] flex md:flex-row flex-col lg:gap-5 gap-2 relative  "
+        className="flex-[0.5] items-center justify-center mt-[10px] w-[90vw] flex md:flex-row flex-col lg:gap-5 gap-2 relative  "
       >
-        <div className="flex flex-col items-center z-[1] mt-[5px]">
-          <img src="revealing.png" alt="revealing poster" className="w-[400px] rounded-[15px]" />
+        <div className="flex flex-col items-center z-[1] mt-[5px] w-[250px]">
+          <Link href="https://polygon.technology/" target="_blank">
+            <img src="26.png" alt="POLYGON LOGO" className="rounded-[15px]" />
+          </Link>
         </div>
-        <div className="flex flex-col items-center z-[1] mt-[5px]">
-          <img src="revealing.png" alt="revealing poster" className="w-[400px] rounded-[15px]" />
-        </div>
-        <div className="flex flex-col items-center z-[1] mt-[5px]">
-          <img src="revealing.png" alt="revealing poster" className="w-[400px] rounded-[15px]" />
-        </div>
-
-
-      </motion.div>
-    </motion.div>
-
-    {/* refreshment sponsor */}
-    <motion.div
-      variants={staggerContainer}
-      initial="hidden"
-      whileInView="show"
-      viewport={{ once: false, amount: 0.25 }}
-      className={`${styles.innerWidth} sm:pt-5 xs:pt-8 pt-10 mx-auto flex flex-col justify-center items-center`}
-    >
-      <h4 className="font-bold sm:text-[29px] text-[26px] sm:leading-[40.32px] leading-[36.32px] text-white mt-[20px] mb-[10px]">
-        REFRESHMENT SPONSORS
-      </h4>
-      <motion.div
-        variants={fadeIn("right", "tween", 0.2, 1)}
-        className="flex-[0.5] items-center justify-center w-[90vw] flex md:flex-row flex-col lg:gap-5 gap-2 relative  "
-      >
-        <div className="flex flex-col items-center z-[1] mt-[5px]">
-          <img src="revealing.png" alt="revealing poster" className="w-[350px] rounded-[15px]" />
-        </div>
-        <div className="flex flex-col items-center z-[1] mt-[5px]">
-          <img src="revealing.png" alt="revealing poster" className="w-[350px] rounded-[15px]" />
-        </div>
-        <div className="flex flex-col items-center z-[1] mt-[5px]">
-          <img src="revealing.png" alt="revealing poster" className="w-[350px] rounded-[15px]" />
-        </div>
-        <div className="flex flex-col items-center z-[1] mt-[5px]">
-          <img src="revealing.png" alt="revealing poster" className="w-[350px] rounded-[15px]" />
-        </div>
-
-
       </motion.div>
     </motion.div>
 
     {/* general sponsor */}
-    <motion.div
-      variants={staggerContainer}
-      initial="hidden"
-      whileInView="show"
-      viewport={{ once: false, amount: 0.25 }}
-      className={`${styles.innerWidth} sm:pt-5 xs:pt-8 pt-10 mx-auto flex flex-col justify-center items-center`}
-    >
+    <div>
       <h4 className="flex flex-col items-center z-[1] font-bold sm:text-[29px] text-[26px] sm:leading-[40.32px] leading-[36.32px] text-white mt-[20px] mb-[10px]">
         GENERAL SPONSORS
       </h4>
+
+      {/* 1st row */}
       <motion.div
         variants={fadeIn("right", "tween", 0.2, 1)}
         className="flex-[0.5] items-center justify-center w-[90vw] flex md:flex-row flex-col lg:gap-5 gap-2 relative  "
       >
-        <div className="flex flex-col items-center z-[1] mt-[5px]">
+        <div className="flex flex-col items-center z-[1] mt-[5px] w-[250px]">
           <Link href="https://replit.com/" target="_blank">
-            <img src="3.png" alt="REPLIT LOGO" className="w-[900px] rounded-[15px]" />
+            <img
+              src="3.png"
+              alt="REPLIT LOGO"
+              className="w-[900px] rounded-[15px]"
+            />
           </Link>
         </div>
-        <div className="flex flex-col items-center z-[1] mt-[5px]">
+        <div className="flex flex-col items-center z-[1] mt-[5px] w-[250px]">
           <Link href="https://rosenfeldmedia.com/" target="_blank">
-            <img src="4.png" alt="rosenfeld" className="w-[900px] rounded-[15px]" />
+            <img
+              src="4.png"
+              alt="rosenfeld"
+              className="w-[900px] rounded-[15px]"
+            />
           </Link>
         </div>
-        <div className="flex flex-col items-center z-[1] mt-[5px]">
+        <div className="flex flex-col items-center z-[1] mt-[5px] w-[250px]">
           <Link href="https://gen.xyz/" target="_blank">
-            <img src="5.png" alt="xyz.com" className="w-[900px] rounded-[15px]" />
+            <img
+              src="5.png"
+              alt="xyz.com"
+              className="w-[900px] rounded-[15px]"
+            />
           </Link>
         </div>
 
-        <div className="flex flex-col items-center z-[1] mt-[5px]">
+        <div className="flex flex-col items-center z-[1] mt-[5px] w-[250px]">
           <Link href="https://www.axure.com/" target="_blank">
-            <img src="6.png" alt="axure.com" className="w-[900px] rounded-[15px]" />
+            <img
+              src="6.png"
+              alt="axure.com"
+              className="w-[900px] rounded-[15px]"
+            />
           </Link>
         </div>
-
       </motion.div>
 
+      {/* 2nd row */}
       <motion.div
         variants={fadeIn("right", "tween", 0.2, 1)}
         className="flex-[0.5] items-center justify-center w-[90vw] flex md:flex-row flex-col lg:gap-5 gap-2 relative mt-[10px] "
       >
-        <div className="flex flex-col items-center z-[1] mt-[5px]">
+        <div className="flex flex-col items-center z-[1] mt-[5px] w-[250px]">
           <Link href="https://www.slido.com/" target="_blank">
-            <img src="7.png" alt="slido.com" className="w-[900px] rounded-[15px]" />
+            <img
+              src="7.png"
+              alt="slido.com"
+              className="w-[900px] rounded-[15px]"
+            />
           </Link>
         </div>
-        <div className="flex flex-col items-center z-[1] mt-[5px]">
+        <div className="flex flex-col items-center z-[1] mt-[5px] w-[250px]">
           <Link href="https://beeceptor.com/" target="_blank">
-            <img src="8.png" alt="beeceptor.com" className="w-[900px] rounded-[15px]" />
+            <img
+              src="8.png"
+              alt="beeceptor.com"
+              className="w-[900px] rounded-[15px]"
+            />
           </Link>
         </div>
-        <div className="flex flex-col items-center z-[1] mt-[5px]">
+        <div className="flex flex-col items-center z-[1] mt-[5px] w-[250px]">
           <Link href="https://www.taskade.com/" target="_blank">
-            <img src="9.png" alt="taskade.com" className="w-[900px] rounded-[15px]" />
+            <img
+              src="9.png"
+              alt="taskade.com"
+              className="w-[900px] rounded-[15px]"
+            />
           </Link>
         </div>
-        <div className="flex flex-col items-center z-[1] mt-[5px]">
+        <div className="flex flex-col items-center z-[1] mt-[5px] w-[250px]">
           <Link href="https://interviewbuddy.net/" target="_blank">
-            <img src="10.png" alt="interviewbuddy.net" className="w-[900px] rounded-[15px]" />
+            <img
+              src="10.png"
+              alt="interviewbuddy.net"
+              className="w-[900px] rounded-[15px]"
+            />
           </Link>
         </div>
-
       </motion.div>
+
+      {/* 3rd row */}
       <motion.div
         variants={fadeIn("right", "tween", 0.2, 1)}
         className="flex-[0.5] items-center justify-center w-[90vw] flex md:flex-row flex-col lg:gap-5 gap-2 relative mt-[10px] "
       >
-        <div className="flex flex-col items-center z-[1] mt-[5px]">
+        <div className="flex flex-col items-center z-[1] mt-[5px] w-[250px]">
           <Link href="https://www.interviewcake.com/" target="_blank">
-            <img src="11.png" alt="interviewcake.com" className="w-[900px] rounded-[15px]" />
+            <img
+              src="11.png"
+              alt="interviewcake.com"
+              className="w-[900px] rounded-[15px]"
+            />
           </Link>
         </div>
-        <div className="flex flex-col items-center z-[1] mt-[5px]">
+        <div className="flex flex-col items-center z-[1] mt-[5px] w-[250px]">
           <Link href="https://1password.com/" target="_blank">
-            <img src="12.png" alt="1password.com" className="w-[900px] rounded-[15px]" />
+            <img
+              src="12.png"
+              alt="1password.com"
+              className="w-[900px] rounded-[15px]"
+            />
           </Link>
         </div>
-        <div className="flex flex-col items-center z-[1] mt-[5px]">
+        <div className="flex flex-col items-center z-[1] mt-[5px] w-[250px]">
           <Link href="https://www.verbwire.com/" target="_blank">
-            <img src="13.png" alt="verbwire.com" className="w-[900px] rounded-[15px]" />
+            <img
+              src="13.png"
+              alt="verbwire.com"
+              className="w-[900px] rounded-[15px]"
+            />
           </Link>
         </div>
-        <div className="flex flex-col items-center z-[1] mt-[5px]">
+        <div className="flex flex-col items-center z-[1] mt-[5px] w-[250px]">
           <Link href="https://www.oreilly.com/" target="_blank">
-            <img src="14.png" alt="oreilly.com" className="w-[900px] rounded-[15px]" />
+            <img
+              src="14.png"
+              alt="oreilly.com"
+              className="w-[900px] rounded-[15px]"
+            />
           </Link>
         </div>
-
       </motion.div>
 
+      {/* 4th row */}
       <motion.div
         variants={fadeIn("right", "tween", 0.2, 1)}
         className="flex-[0.5] items-center justify-center w-[90vw] flex md:flex-row flex-col lg:gap-5 gap-2 relative mt-[10px] "
       >
-        <div className="flex flex-col items-center z-[1] mt-[5px]">
+        <div className="flex flex-col items-center z-[1] mt-[5px] w-[250px]">
           <Link href="https://www.echo3d.com/" target="_blank">
-            <img src="15.png" alt="echo3d.com" className="w-[900px] rounded-[15px]" />
+            <img
+              src="15.png"
+              alt="echo3d.com"
+              className="w-[900px] rounded-[15px]"
+            />
           </Link>
         </div>
 
-        <div className="flex flex-col items-center z-[1] mt-[5px]">
+        <div className="flex flex-col items-center z-[1] mt-[5px] w-[250px]">
           <Link href="https://www.sublimetext.com/" target="_blank">
-            <img src="17.png" alt="sublimetext.com" className="w-[900px] rounded-[15px]" />
+            <img
+              src="17.png"
+              alt="sublimetext.com"
+              className="w-[900px] rounded-[15px]"
+            />
           </Link>
         </div>
-        <div className="flex flex-col items-center z-[1] mt-[5px]">
+        <div className="flex flex-col items-center z-[1] mt-[5px] w-[250px]">
           <Link href="https://streamyard.com/" target="_blank">
-            <img src="18.png" alt="revealing poster" className="w-[900px] rounded-[15px]" />
+            <img
+              src="18.png"
+              alt="revealing poster"
+              className="w-[900px] rounded-[15px]"
+            />
           </Link>
         </div>
-        <div className="flex flex-col items-center z-[1] mt-[5px]">
+        <div className="flex flex-col items-center z-[1] mt-[5px] w-[250px]">
           <Link href="https://www.quicknode.com/" target="_blank">
-            <img src="19.png" alt="revealing poster" className="w-[900px] rounded-[15px]" />
+            <img
+              src="19.png"
+              alt="revealing poster"
+              className="w-[900px] rounded-[15px]"
+            />
           </Link>
         </div>
-
       </motion.div>
+
+      {/* 5th row */}
       <motion.div
         variants={fadeIn("right", "tween", 0.2, 1)}
         className="flex-[0.5] items-center justify-center w-[90vw] flex md:flex-row flex-col lg:gap-5 gap-2 relative mt-[10px] "
       >
-        <div className="flex flex-col items-center z-[1] mt-[5px]">
+        <div className="flex flex-col items-center z-[1] mt-[5px] w-[250px]">
           <Link href="https://cybrancee.com/" target="_blank">
-            <img src="16.png" alt="cybrancee.com" className="w-[900px] rounded-[15px]" />
+            <img
+              src="16.png"
+              alt="cybrancee.com"
+              className="w-[900px] rounded-[15px]"
+            />
           </Link>
         </div>
-        <div className="flex flex-col items-center z-[1] mt-[5px]">
+        <div className="flex flex-col items-center z-[1] mt-[5px] w-[250px]">
           <Link href="https://www.wolframalpha.com/" target="_blank">
-            <img src="20.png" alt="wolfram alpha" className="w-[900px] rounded-[15px]" />
+            <img
+              src="20.png"
+              alt="wolfram alpha"
+              className="w-[900px] rounded-[15px]"
+            />
           </Link>
         </div>
-        <div className="flex flex-col items-center z-[1] mt-[5px]">
-          <img src="revealing.png" alt="" className="w-[900px] rounded-[15px]" />
-        </div>
-        <div className="flex flex-col items-center z-[1] mt-[5px]">
-          <img src="revealing.png" alt="" className="w-[900px] rounded-[15px]" />
-        </div>
-
       </motion.div>
-
-
-
-    </motion.div>
-
-
+    </div>
 
     <div className="flex items-center justify-center mt-4">
       <h4 className="font-bold md:text-[32px] text-[32px] text-white mt-3">

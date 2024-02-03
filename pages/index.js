@@ -3,19 +3,16 @@ import {
   About,
   Explore,
   Feedback,
-  GetStarted,
   Hero,
-  Insights,
-  WhatsNew,
   World,
   Prizes,
   Team,
+  Communitypartner,
 } from '../sections';
 
 const Home = () => (
   <div className="bg-primary-black overflow-hidden">
     <Navbar />
-
     <Hero />
     <div className="relative">
       <About />
@@ -25,13 +22,11 @@ const Home = () => (
     <div className="relative">
       <Prizes />
       <Feedback />
-      <GetStarted />
+      <Communitypartner />
       <div className="gradient-04 z-0" />
-      <WhatsNew />
     </div>
     <World />
     <div className="relative">
-      <Insights />
       <Team />
       <div className="gradient-04 z-0" />
     </div>

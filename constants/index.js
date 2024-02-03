@@ -586,3 +586,58 @@ export const members2 = [
     twitter: "",
   }, */
 ];
+
+export const communityPartner = [
+  {
+    image:
+      "cp1.png",
+    link: "Pradeepto Sarkar",
+  },
+  {
+    image:
+      "cp2.png",
+    link: "Pradeepto Sarkar",
+  },
+  {
+    image:
+      "cp3.png",
+    link: "Pradeepto Sarkar",
+  },
+  {
+    image:
+      "cp4.png",
+    link: "Pradeepto Sarkar",
+  },
+  {
+    image:
+      "cp5.png",
+    link: "Pradeepto Sarkar",
+  },
+  {
+    image:
+      "cp6.png",
+    link: "Pradeepto Sarkar",
+  },
+  {
+    image:
+      "cp7.png",
+    link: "Pradeepto Sarkar",
+  },
+  {
+    image:
+      "cp8.png",
+    link: "Pradeepto Sarkar",
+  },
+  {
+    image:
+      "cp9.png",
+    link: "Pradeepto Sarkar",
+  },
+  {
+    image:
+      "cp10.png",
+    link: "Pradeepto Sarkar",
+  },
+
+  
+];
