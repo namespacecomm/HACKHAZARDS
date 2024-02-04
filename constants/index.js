@@ -638,6 +638,16 @@ export const communityPartner = [
       "cp10.png",
     link: "Pradeepto Sarkar",
   },
+  {
+    image:
+      "cp11.png",
+    link: "Pradeepto Sarkar",
+  },
+  {
+    image:
+      "cp12.png",
+    link: "Pradeepto Sarkar",
+  },
 
   
 ];

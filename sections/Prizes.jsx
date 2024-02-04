@@ -111,7 +111,7 @@ const Prizes = () => {
               </h5>
               <h5
                 className="mt-[8px] font-extrabold sm:text-[22px] text-[20px] sm:leading-[22.68px] leading-[16.68px] text-white mt-[50px] hover:underline cursor-pointer mb-[15px]"
-                onClick={toggleOpen2}
+                onClick={toggleOpen}
               >
                 Know More <br />
               </h5>
@@ -150,7 +150,7 @@ const Prizes = () => {
               </h5>
               <h5
                 className="mt-[8px] font-extrabold sm:text-[22px] text-[20px] sm:leading-[22.68px] leading-[16.68px] text-white mt-[50px] hover:underline cursor-pointer mb-[15px]"
-                onClick={toggleOpen3}
+                onClick={toggleOpen}
               >
                 Know More <br />
               </h5>

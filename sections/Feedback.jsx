@@ -245,6 +245,69 @@ const Feedback = () => (
       </motion.div>
     </motion.div>
 
+    {/* Swag sponsor */}
+    <motion.div
+      variants={staggerContainer}
+      initial="hidden"
+      whileInView="show"
+      viewport={{ once: false, amount: 0.25 }}
+      className={`${styles.innerWidth} sm:pt-5 xs:pt-8 pt-10 mx-auto flex flex-col justify-center items-center`}
+    >
+      <h4 className="font-bold sm:text-[29px] text-[26px] sm:leading-[40.32px] leading-[36.32px] text-white mt-[20px] mb-[10px]">
+        SWAG SPONSORS
+      </h4>
+
+      {/* row1 */}
+      <motion.div
+        variants={fadeIn("right", "tween", 0.2, 1)}
+        className="flex-[0.5] items-center justify-center w-[90vw] flex md:flex-row flex-col lg:gap-5 gap-2 relative  "
+      >
+        <div className="flex flex-col items-center z-[1] mt-[5px] w-[250px]">
+          <Link href="https://polygon.technology/" target="_blank">
+            <img src="27.png" alt="POLYGON LOGO" className="rounded-[15px]" />
+          </Link>
+        </div>
+        <div className="flex flex-col items-center z-[1] mt-[5px] w-[250px]">
+          <Link href="https://tezos.com/" target="_blank">
+            <img
+              src="28.png"
+              alt="revealing poster"
+              className="rounded-[15px]"
+            />
+          </Link>
+        </div>
+        <div className="flex flex-col items-center z-[1] mt-[5px] w-[250px]">
+          <Link
+            href="https://www.quillaudits.com/smart-contract-audit"
+            target="_blank"
+          >
+            <img src="29.png" alt="POLYGON LOGO" className="rounded-[15px]" />
+          </Link>
+        </div>
+        {/* <div className="flex flex-col items-center z-[1] mt-[5px] w-[250px]">
+          <Link href="https://push.org/" target="_blank">
+            <img
+              src="23.png"
+              alt="revealing poster"
+              className="rounded-[15px]"
+            />
+          </Link>
+        </div> */}
+      </motion.div>
+
+      {/* row2 */}
+      {/* <motion.div
+        variants={fadeIn("right", "tween", 0.2, 1)}
+        className="flex-[0.5] items-center justify-center mt-[10px] w-[90vw] flex md:flex-row flex-col lg:gap-5 gap-2 relative  "
+      >
+        <div className="flex flex-col items-center z-[1] mt-[5px] w-[250px]">
+          <Link href="https://polygon.technology/" target="_blank">
+            <img src="26.png" alt="POLYGON LOGO" className="rounded-[15px]" />
+          </Link>
+        </div>
+      </motion.div> */}
+    </motion.div>
+
     {/* general sponsor */}
     <div>
       <h4 className="flex flex-col items-center z-[1] font-bold sm:text-[29px] text-[26px] sm:leading-[40.32px] leading-[36.32px] text-white mt-[20px] mb-[10px]">

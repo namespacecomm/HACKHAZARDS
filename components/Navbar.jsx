@@ -1,45 +1,45 @@
-'use client';
+"use client";
 
-import { useCallback, useState } from 'react';
-import { MdOutlineAppRegistration, MdEmojiEvents } from 'react-icons/md';
-import { IoMdContacts } from 'react-icons/io';
-import { FaTeamspeak, FaQuestion } from 'react-icons/fa';
-import { motion } from 'framer-motion';
-import { useRouter } from 'next/router';
-import { Link } from 'react-scroll';
+import { useCallback, useState } from "react";
+import { MdOutlineAppRegistration, MdEmojiEvents } from "react-icons/md";
+import { IoMdContacts } from "react-icons/io";
+import { FaTeamspeak, FaQuestion } from "react-icons/fa";
+import { motion } from "framer-motion";
+import { useRouter } from "next/router";
+import { Link } from "react-scroll";
 
 const Navbar = () => {
   const router = useRouter();
   const openContactUs = () => {
-    router.push('/Contact');
+    router.push("/Contact");
   };
 
   const openCPRegistration = () => {
-    router.push('/communitypartner');
+    router.push("/communitypartner");
   };
 
   const openRegistration = () => {
-    router.push('/evangelists');
+    router.push("/evangelists");
   };
 
   const openMentorRegistration = () => {
-    router.push('/mentors');
+    router.push("/mentors");
   };
 
   const openEvents = () => {
-    router.push('/Event');
+    router.push("/Event");
   };
 
   const openTeamGuidelines = () => {
-    router.push('/Guidelines');
+    router.push("/Guidelines");
   };
 
   const openFAQ = () => {
-    router.push('/Faq');
+    router.push("/Faq");
   };
 
   const openHome = () => {
-    router.push('/');
+    router.push("/");
   };
 
   const [isopen, setIsOpen] = useState(false);
@@ -89,12 +89,6 @@ const Navbar = () => {
             </h2>
           </Link>
 
-          <Link to="Insights" activeClass="active" offset={-100} duration={500}>
-            <h2 className="font-extrabold text-[20px] leading-[30.24px] text-white">
-              Insights
-            </h2>
-          </Link>
-
           <Link to="Team" activeClass="active" offset={-100} duration={500}>
             <h2 className="font-extrabold text-[20px] leading-[30.24px] text-white">
               Team
@@ -106,69 +100,6 @@ const Navbar = () => {
               nameSpace
             </h2>
           </a>
-
-          {/* <h2
-            className="font-extrabold text-[20px] leading-[30.24px] text-white"
-            onClick={toggleOpen}
-          >
-            More
-          </h2>
-          <div>
-            {isopen && (
-              <motion.div
-                initial={{ opacity: 0, scale: 0.6 }}
-                animate={{ opacity: 1, scale: 1 }}
-                exit={{ opacity: 0, scale: 0.6 }}
-                className=" w-[250px] bg-gray-50 shadow-xl rounded-lg flex flex-col overflow-hidden absolute top-14 right-5 z-50 "
-              >
-                <div className="flex flex-col items-center cursor-pointer">
-                  <p
-                    onClick={openTeamGuidelines}
-                    className="w-full justify-center px-4 py-2 flex items-center gap-3 cursor-pointer hover:bg-gray-200 transition-all duration-100 ease-in-out text-textColor text-base"
-                  >
-                    Team Guidelines
-                    <FaTeamspeak />
-                  </p>
-
-                  <p
-                    onClick={openEvents}
-                    className="w-full justify-center px-4 py-2 flex items-center gap-3 cursor-pointer hover:bg-gray-200 transition-all duration-100 ease-in-out text-textColor text-base"
-                  >
-                    Events <MdEmojiEvents />
-                  </p>
-
-                  <p
-                    onClick={openFAQ}
-                    className="w-full justify-center px-4 py-2 flex items-center gap-3 cursor-pointer hover:bg-gray-200 transition-all duration-100 ease-in-out text-textColor text-base"
-                  >
-                    FAQ <FaQuestion />
-                  </p>
-
-                  <p
-                    onClick={openContactUs}
-                    className="w-full justify-center px-4 py-2 flex  items-center gap-3 cursor-pointer hover:bg-gray-200 transition-all duration-100 ease-in-out text-textColor text-base"
-                  >
-                    Contact Us <IoMdContacts />
-                  </p>
-
-                  <p
-                    onClick={openCPRegistration}
-                    className="m-2 px-4 py-2 rounded-md shadow-md  flex items-center justify-center bg-gray-200 gap-3 cursor-pointer hover:bg-slate-100 transition-all duration-100 ease-in-out text-textColor text-base"
-                  >
-                    Community Partners
-                    <MdOutlineAppRegistration />
-                  </p>
-                  <p
-                    onClick={openRegistration}
-                    className="m-2 px-4 py-2 rounded-md shadow-md  flex items-center justify-center bg-gray-200 gap-3 cursor-pointer hover:bg-slate-100 transition-all duration-100 ease-in-out text-textColor text-base"
-                  >
-                    Campus Ambassadors
-                    <MdOutlineAppRegistration />
-                  </p>
-                </div>
-              </motion.div>
-            )}
-          </div> */}
         </div>
 
         {/* <div className="z-40">
@@ -253,7 +184,6 @@ const Navbar = () => {
                     Hackathon Evangelists
                     <MdOutlineAppRegistration />
                   </p>
-
                 </div>
               </motion.div>
             )}
