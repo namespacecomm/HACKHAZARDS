@@ -8,7 +8,7 @@ import "owl.carousel/dist/assets/owl.theme.default.css";
 import { TypingText } from "../components";
 import styles from "../styles";
 import { fadeIn, staggerContainer } from "../utils/motion";
-import { communityPartner} from "../constants";
+import { communityPartner } from "../constants";
 
 
 var $ = require("jquery");
@@ -52,17 +52,17 @@ const Team = () => {
 
   const owlStyles = {
     '.owl-carousel .item': {
-        width: '100%',
-        paddingBottom: '75%',
-        position: 'relative',
+      width: '100%',
+      paddingBottom: '75%',
+      position: 'relative',
     },
     '.owl-carousel .item img': {
-        position: 'absolute',
-        width: '100%',
-        height: '100%',
-        objectFit: 'cover',
+      position: 'absolute',
+      width: '100%',
+      height: '100%',
+      objectFit: 'cover',
     },
-};
+  };
   return (
     <section className={`${styles.paddings}`} id="Team">
       <TypingText
@@ -76,40 +76,40 @@ const Team = () => {
             loop
             margin={4}
             nav={true}
-            
+
             dots={true}
             animateIn={true}
             {...options}
           >
             {communityPartner && communityPartner.length > 0
               ? communityPartner.map((member) => {
-                  return (
-                    <motion.div
-                      variants={staggerContainer}
-                      initial="hidden"
-                      whileInView="show"
-                      viewport={{ once: false, amount: 0.25 }}
-                      className="cursor-pointer mt-[15px]"
-                    >
-                        <a href="">
-                        <img
-                          src={member.image}
-                          alt="member photo"
-                          className="w-[200px] rounded-[10px] "
-                        />
-                        </a>
-                        
-                      
-                    </motion.div>
-                  );
-                })
+                return (
+                  <motion.div
+                    variants={staggerContainer}
+                    initial="hidden"
+                    whileInView="show"
+                    viewport={{ once: false, amount: 0.25 }}
+                    className="cursor-pointer mt-[15px]"
+                  >
+                    {/* <a href=""> */}
+                    <img
+                      src={member.image}
+                      alt="member photo"
+                      className="w-[200px] rounded-[10px] "
+                    />
+                    {/* </a> */}
+
+
+                  </motion.div>
+                );
+              })
               : ""}
           </OwlCarousel>
         </ul>
       </div>
-      
-      
-      
+
+
+
     </section>
   );
 };
