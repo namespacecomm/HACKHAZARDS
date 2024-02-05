@@ -148,11 +148,11 @@ const Feedback = () => (
       className={`${styles.innerWidth} sm:pt-5 xs:pt-8 pt-10  flex gap-5 md:flex-row flex-col  justify-center items-center`}
     >
       {/* media sponsor */}
-      <motion.div
+      {/* <motion.div
         variants={fadeIn("right", "tween", 0.2, 1)}
         className="flex-[0.5]  flex-col items-center justify-center relative  "
       >
-        {/* <div className="flex flex-col items-center z-[1] mt-[5px]">
+        <div className="flex flex-col items-center z-[1] mt-[5px]">
           <h4 className="font-bold lg:text-[29px] text-[24px] sm:leading-[40.32px] leading-[36.32px] text-white mt-[20px] mb-[10px]">
             MEDIA SPONSORS
           </h4>
@@ -163,8 +163,8 @@ const Feedback = () => (
               className="lg:w-[350px] w-[250px] rounded-[25px]"
             />
           </Link>
-        </div> */}
-      </motion.div>
+        </div>
+      </motion.div> */}
 
       {/* platform sponsor */}
       <motion.div
@@ -184,6 +184,25 @@ const Feedback = () => (
           </Link>
         </div>
       </motion.div>
+
+      {/* Innovation Partner*/}
+      {/* <motion.div
+        variants={fadeIn("right", "tween", 0.2, 1)}
+        className="flex-[0.5] items-center justify-center w-[80vw]  flex-col  relative  "
+      >
+        <div className="flex flex-col items-center z-[1] mt-[5px] ">
+          <h4 className="font-bold lg:text-[29px] text-[26px] sm:leading-[40.32px] leading-[36.32px] text-white mt-[20px] mb-[10px]">
+            INNOVATION PARTNER
+          </h4>
+          <Link href="https://devfolio.co/" target="_blank">
+            <img
+              src="1.png"
+              alt="DEVFOLIO LOGO"
+              className="lg:w-[350px] w-[250px]  rounded-[25px]"
+            />
+          </Link>
+        </div>
+      </motion.div> */}
     </motion.div>
 
     {/* associate sponsor */}
