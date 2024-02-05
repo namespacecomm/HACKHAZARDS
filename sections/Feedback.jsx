@@ -266,11 +266,11 @@ const Feedback = () => (
         variants={fadeIn("right", "tween", 0.2, 1)}
         className="flex-[0.5] items-center justify-center w-[90vw] flex md:flex-row flex-col lg:gap-5 gap-2 relative  "
       >
-        <div className="flex flex-col items-center z-[1] mt-[5px] w-[250px]">
+        {/* <div className="flex flex-col items-center z-[1] mt-[5px] w-[250px]">
           <Link href="https://www.commudle.com/" target="_blank">
             <img src="27.png" alt="commudle LOGO" className="rounded-[15px]" />
           </Link>
-        </div>
+        </div> */}
         <div className="flex flex-col items-center z-[1] mt-[5px] w-[250px]">
           <Link href="https://reskilll.com/" target="_blank">
             <img
@@ -280,14 +280,14 @@ const Feedback = () => (
             />
           </Link>
         </div>
-        <div className="flex flex-col items-center z-[1] mt-[5px] w-[250px]">
+        {/* <div className="flex flex-col items-center z-[1] mt-[5px] w-[250px]">
           <Link
             href="https://cssbattle.dev/"
             target="_blank"
           >
             <img src="29.png" alt="css battle" className="rounded-[15px]" />
           </Link>
-        </div>
+        </div> */}
         {/* <div className="flex flex-col items-center z-[1] mt-[5px] w-[250px]">
           <Link href="https://push.org/" target="_blank">
             <img
