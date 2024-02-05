@@ -156,9 +156,9 @@ const Feedback = () => (
           <h4 className="font-bold lg:text-[29px] text-[24px] sm:leading-[40.32px] leading-[36.32px] text-white mt-[20px] mb-[10px]">
             MEDIA SPONSORS
           </h4>
-          <Link href="https://www.techgig.com/" target="_blank">
+          <Link href="/" target="_blank">
             <img
-              src="25.png"
+              src="revealing.png"
               alt="tech gig"
               className="lg:w-[350px] w-[250px] rounded-[25px]"
             />
