@@ -152,7 +152,7 @@ const Feedback = () => (
         variants={fadeIn("right", "tween", 0.2, 1)}
         className="flex-[0.5]  flex-col items-center justify-center relative  "
       >
-        <div className="flex flex-col items-center z-[1] mt-[5px]">
+        {/* <div className="flex flex-col items-center z-[1] mt-[5px]">
           <h4 className="font-bold lg:text-[29px] text-[24px] sm:leading-[40.32px] leading-[36.32px] text-white mt-[20px] mb-[10px]">
             MEDIA SPONSORS
           </h4>
@@ -163,7 +163,7 @@ const Feedback = () => (
               className="lg:w-[350px] w-[250px] rounded-[25px]"
             />
           </Link>
-        </div>
+        </div> */}
       </motion.div>
 
       {/* platform sponsor */}
@@ -173,7 +173,7 @@ const Feedback = () => (
       >
         <div className="flex flex-col items-center z-[1] mt-[5px] ">
           <h4 className="font-bold lg:text-[29px] text-[26px] sm:leading-[40.32px] leading-[36.32px] text-white mt-[20px] mb-[10px]">
-            PLATFORM SPONSORS
+            PLATFORM PARTNER
           </h4>
           <Link href="https://devfolio.co/" target="_blank">
             <img
