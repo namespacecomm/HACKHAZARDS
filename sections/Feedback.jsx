@@ -107,11 +107,13 @@ const Feedback = () => (
           <h4 className="font-bold sm:text-[29px] text-[26px] sm:leading-[40.32px] leading-[36.32px] text-white mt-[20px] mb-[10px]">
             TITLE SPONSOR
           </h4>
-          <img
-            src="24.png"
-            alt="revealing poster"
-            className="w-[500px] h-[250px] rounded-[25px]"
-          />
+          <Link href="https://orkes.io/" target="_blank">
+            <img
+              src="24.png"
+              alt="ORKES"
+              className="w-[500px] h-[250px] rounded-[25px]"
+            />
+          </Link>
         </div>
       </motion.div>
     </motion.div>
@@ -154,11 +156,13 @@ const Feedback = () => (
           <h4 className="font-bold lg:text-[29px] text-[24px] sm:leading-[40.32px] leading-[36.32px] text-white mt-[20px] mb-[10px]">
             MEDIA SPONSORS
           </h4>
-          <img
-            src="25.png"
-            alt="revealing poster"
-            className="lg:w-[350px] w-[250px] rounded-[25px]"
-          />
+          <Link href="https://www.techgig.com/" target="_blank">
+            <img
+              src="25.png"
+              alt="tech gig"
+              className="lg:w-[350px] w-[250px] rounded-[25px]"
+            />
+          </Link>
         </div>
       </motion.div>
 
@@ -238,8 +242,8 @@ const Feedback = () => (
         className="flex-[0.5] items-center justify-center mt-[10px] w-[90vw] flex md:flex-row flex-col lg:gap-5 gap-2 relative  "
       >
         <div className="flex flex-col items-center z-[1] mt-[5px] w-[250px]">
-          <Link href="https://polygon.technology/" target="_blank">
-            <img src="26.png" alt="POLYGON LOGO" className="rounded-[15px]" />
+          <Link href="https://solana.com/" target="_blank">
+            <img src="26.png" alt="Solana LOGO" className="rounded-[15px]" />
           </Link>
         </div>
       </motion.div>
@@ -263,12 +267,12 @@ const Feedback = () => (
         className="flex-[0.5] items-center justify-center w-[90vw] flex md:flex-row flex-col lg:gap-5 gap-2 relative  "
       >
         <div className="flex flex-col items-center z-[1] mt-[5px] w-[250px]">
-          <Link href="https://polygon.technology/" target="_blank">
-            <img src="27.png" alt="POLYGON LOGO" className="rounded-[15px]" />
+          <Link href="https://www.commudle.com/" target="_blank">
+            <img src="27.png" alt="commudle LOGO" className="rounded-[15px]" />
           </Link>
         </div>
         <div className="flex flex-col items-center z-[1] mt-[5px] w-[250px]">
-          <Link href="https://tezos.com/" target="_blank">
+          <Link href="https://reskilll.com/" target="_blank">
             <img
               src="28.png"
               alt="revealing poster"
@@ -278,10 +282,10 @@ const Feedback = () => (
         </div>
         <div className="flex flex-col items-center z-[1] mt-[5px] w-[250px]">
           <Link
-            href="https://www.quillaudits.com/smart-contract-audit"
+            href="https://cssbattle.dev/"
             target="_blank"
           >
-            <img src="29.png" alt="POLYGON LOGO" className="rounded-[15px]" />
+            <img src="29.png" alt="css battle" className="rounded-[15px]" />
           </Link>
         </div>
         {/* <div className="flex flex-col items-center z-[1] mt-[5px] w-[250px]">
