@@ -7,12 +7,12 @@ export const exploreWorlds = [
   {
     id: 'world-2',
     imgUrl: '/planet-02.png',
-    title: 'Edtech',
+    title: 'EdTech',
   },
   {
     id: 'world-3',
     imgUrl: '/planet-03.png',
-    title: 'AR/VR',
+    title: 'HealthCare',
   },
 
 ];
@@ -22,17 +22,17 @@ export const exploreWorldstwo = [
   {
     id: 'world-6',
     imgUrl: '/planet-07.png',
-    title: 'Health Care',
+    title: 'E-Governance',
   },
   {
     id: 'world-7',
     imgUrl: '/planet-08.png',
-    title: 'Open Innovation',
+    title: 'Environment',
   },
   {
     id: 'world-8',
     imgUrl: '/planet-09.png',
-    title: 'Web3',
+    title: 'Security',
   },
 
 
@@ -689,5 +689,5 @@ export const communityPartner = [
     link: "Pradeepto Sarkar",
   },
 
-  
+
 ];
