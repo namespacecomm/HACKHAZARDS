@@ -216,7 +216,7 @@ const Prizes = () => {
               </h4>
 
               <h5 className="mt-[8px] font-normal sm:text-[22px] text-[18px] sm:leading-[22.68px] leading-[16.68px] text-white mb-[30px]">
-                Prize : <span className="font-extrabold text-white"> $ XXX</span>{" "}
+                Prize : <span className="font-extrabold text-white"> $ 850</span>{" "}
                 <br />
               </h5>
               <h5
@@ -253,7 +253,7 @@ const Prizes = () => {
               </h4>
 
               <h5 className="mt-[8px] font-normal sm:text-[22px] text-[18px] sm:leading-[22.68px] leading-[16.68px] text-white mb-[30px]">
-                Prize : <span className="font-extrabold text-white"> $ XXX</span>{" "}
+                Prize : <span className="font-extrabold text-white"> $ 350</span>{" "}
                 <br />
               </h5>
               <h5
@@ -290,7 +290,7 @@ const Prizes = () => {
               </h4>
 
               <h5 className="mt-[8px] font-normal sm:text-[22px] text-[18px] sm:leading-[22.68px] leading-[16.68px] text-white mb-[30px]">
-                Prize : <span className="font-extrabold text-white"> $ XX</span>{" "}
+                Prize : <span className="font-extrabold text-white"> $ 50</span>{" "}
                 <br />
               </h5>
               <h5
@@ -336,7 +336,7 @@ const Prizes = () => {
               </h4>
 
               <h5 className="mt-[8px] font-normal sm:text-[22px] text-[18px] sm:leading-[22.68px] leading-[16.68px] text-white mb-[30px]">
-                Prize : <span className="font-extrabold text-white"> $ 45</span>{" "}
+                Prize : <span className="font-extrabold text-white"> $ 500</span>{" "}
                 <br />
               </h5>
               <h5
@@ -402,7 +402,7 @@ const Prizes = () => {
 
             <div className="flex flex-col items-center z-[1] mt-[80px]">
               <h4 className="font-bold sm:text-[28px] text-[26px] sm:leading-[40.32px] leading-[36.32px] text-white mt-[20px]">
-                Gerneral
+                General
               </h4>
               <h4 className="font-bold sm:text-[28px] text-[26px] sm:leading-[40.32px] leading-[36.32px] text-white mb-[20px]">
                 Prizes
