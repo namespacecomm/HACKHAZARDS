@@ -46,7 +46,7 @@ const ModelPolygon = ({ isVisible, onClose }) => {
                             <ul className='list-disc'>
 
 
-                                <li>Best hack built on Ethereum + Polygon: $20</li>
+                                <li>Best hack built on Ethereum + Polygon: $200</li>
                                 <li>Best hack built on Ethereum: $150</li>
 
                             </ul>
