@@ -1,13 +1,13 @@
 "use client";
 
 import { useCallback, useState } from "react";
-import { MdOutlineAppRegistration, MdEmojiEvents } from "react-icons/md";
+import { MdOutlineAppRegistration } from "react-icons/md";
 import { IoMdContacts } from "react-icons/io";
-import { FaTeamspeak, FaQuestion } from "react-icons/fa";
+import { FaQuestion } from "react-icons/fa";
 import { motion } from "framer-motion";
 import { useRouter } from "next/router";
 import { Link } from "react-scroll";
-
+// Deleted 2 icons of team guideliness and event
 const Navbar = () => {
   const router = useRouter();
   const openContactUs = () => {
@@ -26,13 +26,13 @@ const Navbar = () => {
     router.push("/mentors");
   };
 
-  const openEvents = () => {
-    router.push("/Event");
-  };
+  // const openEvents = () => {
+  //   router.push("/Event");
+  // };
 
-  const openTeamGuidelines = () => {
-    router.push("/Guidelines");
-  };
+  // const openTeamGuidelines = () => {
+  //   router.push("/Guidelines");
+  // };
 
   const openFAQ = () => {
     router.push("/Faq");
@@ -135,7 +135,7 @@ const Navbar = () => {
                 className=" w-[250px] bg-gray-50 shadow-xl rounded-lg flex flex-col overflow-hidden absolute top-14 right-5 z-40 "
               >
                 <div className="flex flex-col items-center cursor-pointer">
-                  <p
+                  {/* <p
                     onClick={openTeamGuidelines}
                     className="w-full justify-center px-4 py-2 flex items-center gap-3 cursor-pointer hover:bg-gray-200 transition-all duration-100 ease-in-out text-textColor text-base"
                   >
@@ -148,7 +148,7 @@ const Navbar = () => {
                     className="w-full justify-center px-4 py-2 flex items-center gap-3 cursor-pointer hover:bg-gray-200 transition-all duration-100 ease-in-out text-textColor text-base"
                   >
                     Events <MdEmojiEvents />
-                  </p>
+                  </p> */}
 
                   <p
                     onClick={openFAQ}

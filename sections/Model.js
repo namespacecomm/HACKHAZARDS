@@ -14,18 +14,24 @@ const Model = ({ isVisible, onClose }) => {
           </button>
           <div className="bg-white sm:text-[18px] text-[11px] p-2 rounded ">
             <p className="mx-[20px] py-[5px]">
-              <ul class="list-[square]">
-                <li>1-year subscription to Wolfram | Alpha Pro</li>
-                <li>1-year free hosting on .xyz domain</li>
-                <li>Rosenfield - Free Books</li>
-                <li>Free access to Echo3D pro plan</li>
-                <li>5-year upgrade plan to Taskade premium</li>
-                <li>Unlimited One-way mock interviews from InterviewBuddy</li>
-                <li>6-month free hosting on Cybrancee</li>
-                <li>Beeceptor 1-year Team Plan worth $240</li>
-                {/* <li></li>
-                <li></li> */}
+              <ul className="list-disc">
+                <li>1-Password Families 1-year plan worth USD 299 to each member</li>
+                <li>Sublime Text/ Sublime Merge license worth USD 99 to each member</li>
+                <li>Beeceptor credits worth USD 240</li>
+                <li>Wolfram One personal edition 1-year subscription plus Wolfram Alpha Pro 1-year subscription to each member worth USD 375 each</li>
+                <li>Free 3 Year Subscription to Taskade Starter Plan to each member: $1,800</li>
+                <li>Free Async AI-driven mock interviews to each member : $100</li>
+                <li>Free e-book from OReilly: $100</li>
+                <li>20% off on all Taskade Subscriptions </li>
+                <li>$10 flat discount on Interview Buddy Async AI-driven mock interview </li>
+                <li>Free 30-day access to the full InterviewCake platform worth USD 10 each</li>
+                <li>1-month access to the OReilly Learning Platform  worth USD 49 each</li>
+                <li>20% off on all Rosenfeld 1 Month Echo 3D pro-tier subscription  worth USD 99 each</li>
+                <li>30 Days Beeceptor Team Plan Access worth USD 25 </li>
+                <li>$10 Verbwire Credits </li>
+                <li>Free 1 year .xyz domains each</li>
               </ul>
+
             </p>
           </div>
         </div>

@@ -115,7 +115,7 @@ export const socials = [
   {
     name: 'instagram',
     url: '/instagram.svg',
-    link: 'https://www.instagram.com/namespacecomm/',
+    link: 'https://www.instagram.com/hackhazards/',
   },
   {
     name: 'linkedin',
@@ -130,7 +130,7 @@ export const socials = [
   {
     name: 'discord',
     url: '/discord-mark-white.svg',
-    link: 'https://discord.gg/z2fTnXjKMm',
+    link: 'https://discord.com/invite/QQj66TND4c',
   },
 
 ];

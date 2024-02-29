@@ -64,7 +64,7 @@ const Hero = () => {
             ></div>
 
 
-            <a href="https://discord.com/invite/z2fTnXjKMm" target="_blank">
+            <a href="https://discord.com/invite/QQj66TND4c" target="_blank">
               <button
                 type="button"
                 className="flex items-center h-fit py-4 px-6 bg-[#25618B] rounded-[20px] gap-[12px] hover:bg-[#102f45] "

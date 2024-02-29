@@ -66,7 +66,7 @@ const Feedback = () => (
       className={`${styles.innerWidth} sm:pt-5 xs:pt-8 pt-10  flex gap-5 md:flex-row flex-col  justify-center items-center`}
     >
       {/* energy drink sponsor */}
-      <motion.div
+      {/* <motion.div
         variants={fadeIn("right", "tween", 0.2, 1)}
         className="flex-[0.5] items-center justify-center  flex-col  relative  "
       >
@@ -82,7 +82,7 @@ const Feedback = () => (
             />
           </Link>
         </div>
-      </motion.div>
+      </motion.div> */}
 
       {/* platform sponsor */}
       <motion.div
@@ -132,7 +132,7 @@ const Feedback = () => (
       className={`${styles.innerWidth} sm:pt-5 xs:pt-8 pt-10 mx-auto flex flex-col justify-center items-center`}
     >
       <h4 className="font-bold sm:text-[29px] text-[26px] sm:leading-[40.32px] leading-[36.32px] text-white mt-[20px] mb-[10px]">
-        ASSOCIATE PARTNERS 
+        ASSOCIATE PARTNERS
       </h4>
 
       {/* row1 */}
@@ -195,7 +195,7 @@ const Feedback = () => (
       className={`${styles.innerWidth} sm:pt-5 xs:pt-8 pt-10 mx-auto flex flex-col justify-center items-center`}
     >
       <h4 className="font-bold sm:text-[29px] text-[26px] sm:leading-[40.32px] leading-[36.32px] text-white mt-[20px] mb-[10px]">
-        SWAG PARTNERS 
+        SWAG PARTNERS
       </h4>
 
       {/* row1 */}
@@ -225,6 +225,14 @@ const Feedback = () => (
             <img src="29.png" alt="css battle" className="rounded-[15px]" />
           </Link>
         </div>
+        <div className="flex flex-col items-center z-[1] mt-[5px] w-[250px]">
+          <Link
+            href="https://cssbattle.dev/"
+            target="_blank"
+          >
+            <img src="32.png" alt=" fan store" className="rounded-[15px]" />
+          </Link>
+        </div>
         {/* <div className="flex flex-col items-center z-[1] mt-[5px] w-[250px]">
           <Link href="https://push.org/" target="_blank">
             <img
@@ -252,7 +260,7 @@ const Feedback = () => (
     {/* general sponsor */}
     <div>
       <h4 className="flex flex-col items-center z-[1] font-bold sm:text-[29px] text-[26px] sm:leading-[40.32px] leading-[36.32px] text-white mt-[20px] mb-[10px]">
-        GENERAL PARTNERS 
+        GENERAL PARTNERS
       </h4>
 
       {/* 1st row */}
