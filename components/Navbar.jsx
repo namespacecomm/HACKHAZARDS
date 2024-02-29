@@ -135,7 +135,7 @@ const Navbar = () => {
                 className=" w-[250px] bg-gray-50 shadow-xl rounded-lg flex flex-col overflow-hidden absolute top-14 right-5 z-40 "
               >
                 <div className="flex flex-col items-center cursor-pointer">
-                  <p
+                  {/* <p
                     onClick={openTeamGuidelines}
                     className="w-full justify-center px-4 py-2 flex items-center gap-3 cursor-pointer hover:bg-gray-200 transition-all duration-100 ease-in-out text-textColor text-base"
                   >
@@ -148,7 +148,7 @@ const Navbar = () => {
                     className="w-full justify-center px-4 py-2 flex items-center gap-3 cursor-pointer hover:bg-gray-200 transition-all duration-100 ease-in-out text-textColor text-base"
                   >
                     Events <MdEmojiEvents />
-                  </p>
+                  </p> */}
 
                   <p
                     onClick={openFAQ}
