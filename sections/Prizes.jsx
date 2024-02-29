@@ -8,6 +8,7 @@ import { fadeIn, staggerContainer } from "../utils/motion";
 import Model from "./Model";
 import Model2 from "./Model2";
 import Model3 from "./Model3";
+import { ModelSolana, ModelPolygon, ModelTezos, ModelReplit, ModelQuill, ModelGen } from "./ModelMain";
 
 const Prizes = () => {
   const [isopen, setIsOpen] = useState(false);
@@ -23,6 +24,30 @@ const Prizes = () => {
   const [isopen3, setIsOpen3] = useState(false);
   const toggleOpen3 = useCallback(() => {
     setIsOpen3((value) => !value);
+  }, []);
+  const [isopen4, setIsOpen4] = useState(false);
+  const toggleOpen4 = useCallback(() => {
+    setIsOpen4((value) => !value);
+  }, []);
+  const [isopen5, setIsOpen5] = useState(false);
+  const toggleOpen5 = useCallback(() => {
+    setIsOpen5((value) => !value);
+  }, []);
+  const [isopen6, setIsOpen6] = useState(false);
+  const toggleOpen6 = useCallback(() => {
+    setIsOpen6((value) => !value);
+  }, []);
+  const [isopen7, setIsOpen7] = useState(false);
+  const toggleOpen7 = useCallback(() => {
+    setIsOpen7((value) => !value);
+  }, []);
+  const [isopen8, setIsOpen8] = useState(false);
+  const toggleOpen8 = useCallback(() => {
+    setIsOpen8((value) => !value);
+  }, []);
+  const [isopen9, setIsOpen9] = useState(false);
+  const toggleOpen9 = useCallback(() => {
+    setIsOpen9((value) => !value);
   }, []);
 
   return (
@@ -111,7 +136,7 @@ const Prizes = () => {
               </h5>
               <h5
                 className="mt-[8px] font-extrabold sm:text-[22px] text-[20px] sm:leading-[22.68px] leading-[16.68px] text-white mt-[50px] hover:underline cursor-pointer mb-[15px]"
-                onClick={toggleOpen}
+                onClick={toggleOpen2}
               >
                 Know More <br />
               </h5>
@@ -150,7 +175,7 @@ const Prizes = () => {
               </h5>
               <h5
                 className="mt-[8px] font-extrabold sm:text-[22px] text-[20px] sm:leading-[22.68px] leading-[16.68px] text-white mt-[50px] hover:underline cursor-pointer mb-[15px]"
-                onClick={toggleOpen}
+                onClick={toggleOpen3}
               >
                 Know More <br />
               </h5>
@@ -172,11 +197,11 @@ const Prizes = () => {
             className="flex-[0.5] lg:max-w-[370px] flex justify-center items-center flex-col gradient-05 sm:p-8  p-4 rounded-[32px] border-[1px] border-[#6A6A6A] relative lg:mb-[0px] mb-[60px]"
           >
             <div className="justify-center items-center w-full flex">
-              {/* <img
-              src="/.png"
-              alt="TRACK LOGO"
-              className="absolute z-[2] -top-[65px] sm:w-[70px] w-[70px] sm:h-[155px] h-[150px] object-contain"
-            /> */}
+              <img
+                src="37.png"
+                alt="TRACK LOGO"
+                className="absolute z-[2] -top-[65px] sm:w-[70px] w-[70px] sm:h-[155px] h-[150px] object-contain"
+              />
 
               <div className=" absolute w-[150px] h-[150px] hero-gradient rounded-[100px] z-[0] -top-[60px] " />
               <div className=" absolute w-[110px] h-[110px] hero-gradient2 rounded-[100px] z-[1] -top-[40px]  " />
@@ -196,7 +221,7 @@ const Prizes = () => {
               </h5>
               <h5
                 className="font-extrabold sm:text-[22px] text-[20px] sm:leading-[22.68px] leading-[16.68px] text-white  hover:underline cursor-pointer mb-[10px]"
-                onClick={toggleOpen}
+                onClick={toggleOpen4}
               >
                 Know More <br />
               </h5>
@@ -209,11 +234,11 @@ const Prizes = () => {
             className="flex-[0.5] lg:max-w-[370px] flex justify-center items-center flex-col gradient-05 sm:p-8  p-4 rounded-[32px] border-[1px] border-[#6A6A6A] relative lg:mb-[0px] mb-[60px]"
           >
             <div className="justify-center items-center w-full flex">
-              {/* <img
-              src="/.png"
-              alt="TRACK LOGO"
-              className="absolute z-[2] -top-[65px] sm:w-[70px] w-[70px] sm:h-[155px] h-[150px] object-contain"
-            /> */}
+              <img
+                src="36.png"
+                alt="TRACK LOGO"
+                className="absolute z-[2] -top-[65px] sm:w-[70px] w-[70px] sm:h-[155px] h-[150px] object-contain"
+              />
 
               <div className=" absolute w-[150px] h-[150px] hero-gradient rounded-[100px] z-[0] -top-[60px] " />
               <div className=" absolute w-[110px] h-[110px] hero-gradient2 rounded-[100px] z-[1] -top-[40px]  " />
@@ -233,7 +258,7 @@ const Prizes = () => {
               </h5>
               <h5
                 className="font-extrabold sm:text-[22px] text-[20px] sm:leading-[22.68px] leading-[16.68px] text-white  hover:underline cursor-pointer mb-[10px]"
-                onClick={toggleOpen}
+                onClick={toggleOpen5}
               >
                 Know More <br />
               </h5>
@@ -246,11 +271,11 @@ const Prizes = () => {
             className="flex-[0.5] lg:max-w-[370px] flex justify-center items-center flex-col gradient-05 sm:p-8  p-4 rounded-[32px] border-[1px] border-[#6A6A6A] relative lg:mb-[0px] mb-[60px]"
           >
             <div className="justify-center items-center w-full flex">
-              {/* <img
-              src="/.png"
-              alt="TRACK LOGO"
-              className="absolute z-[2] -top-[65px] sm:w-[70px] w-[70px] sm:h-[155px] h-[150px] object-contain"
-            /> */}
+              <img
+                src="35.png"
+                alt="TRACK LOGO"
+                className="absolute z-[2] -top-[65px] sm:w-[70px] w-[70px] sm:h-[155px] h-[150px] object-contain"
+              />
 
               <div className=" absolute w-[150px] h-[150px] hero-gradient rounded-[100px] z-[0] -top-[60px] " />
               <div className=" absolute w-[110px] h-[110px] hero-gradient2 rounded-[100px] z-[1] -top-[40px]  " />
@@ -270,7 +295,7 @@ const Prizes = () => {
               </h5>
               <h5
                 className="font-extrabold sm:text-[22px] text-[20px] sm:leading-[22.68px] leading-[16.68px] text-white  hover:underline cursor-pointer mb-[10px]"
-                onClick={toggleOpen}
+                onClick={toggleOpen6}
               >
                 Know More <br />
               </h5>
@@ -292,11 +317,11 @@ const Prizes = () => {
             className="flex-[0.5] lg:max-w-[370px] flex justify-center items-center flex-col gradient-05 sm:p-8  p-4 rounded-[32px] border-[1px] border-[#6A6A6A] relative lg:mb-[0px] mb-[60px]"
           >
             <div className="justify-center items-center w-full flex">
-              {/* <img
-              src="/.png"
-              alt="TRACK LOGO"
-              className="absolute z-[2] -top-[65px] sm:w-[70px] w-[70px] sm:h-[155px] h-[150px] object-contain"
-            /> */}
+              <img
+                src="34.png"
+                alt="TRACK LOGO"
+                className="absolute z-[2] -top-[65px] sm:w-[70px] w-[70px] sm:h-[155px] h-[150px] object-contain"
+              />
 
               <div className=" absolute w-[150px] h-[150px] hero-gradient rounded-[100px] z-[0] -top-[60px] " />
               <div className=" absolute w-[110px] h-[110px] hero-gradient2 rounded-[100px] z-[1] -top-[40px]  " />
@@ -316,7 +341,7 @@ const Prizes = () => {
               </h5>
               <h5
                 className="font-extrabold sm:text-[22px] text-[20px] sm:leading-[22.68px] leading-[16.68px] text-white  hover:underline cursor-pointer mb-[10px]"
-                onClick={toggleOpen}
+                onClick={toggleOpen7}
               >
                 Know More <br />
               </h5>
@@ -329,11 +354,11 @@ const Prizes = () => {
             className="flex-[0.5] lg:max-w-[370px] flex justify-center items-center flex-col gradient-05 sm:p-8  p-4 rounded-[32px] border-[1px] border-[#6A6A6A] relative lg:mb-[0px] mb-[60px]"
           >
             <div className="justify-center items-center w-full flex">
-              {/* <img
-              src="/.png"
-              alt="TRACK LOGO"
-              className="absolute z-[2] -top-[65px] sm:w-[70px] w-[70px] sm:h-[155px] h-[150px] object-contain"
-            /> */}
+              <img
+                src="33.png"
+                alt="TRACK LOGO"
+                className="absolute z-[2] -top-[65px] sm:w-[70px] w-[70px] sm:h-[155px] h-[150px] object-contain"
+              />
 
               <div className=" absolute w-[150px] h-[150px] hero-gradient rounded-[100px] z-[0] -top-[60px] " />
               <div className=" absolute w-[110px] h-[110px] hero-gradient2 rounded-[100px] z-[1] -top-[40px]  " />
@@ -353,7 +378,43 @@ const Prizes = () => {
               </h5>
               <h5
                 className="font-extrabold sm:text-[22px] text-[20px] sm:leading-[22.68px] leading-[16.68px] text-white  hover:underline cursor-pointer mb-[10px]"
-                onClick={toggleOpen}
+                onClick={toggleOpen8}
+              >
+                Know More <br />
+              </h5>
+            </div>
+          </motion.div>
+          {/* Gerneral Prizes */}
+          <motion.div
+            variants={fadeIn("right", "tween", 0.2, 1)}
+            className="flex-[0.5] lg:max-w-[370px] flex justify-center items-center flex-col gradient-05 sm:p-8  p-4 rounded-[32px] border-[1px] border-[#6A6A6A] relative lg:mb-[0px] mb-[60px]"
+          >
+            <div className="justify-center items-center w-full flex">
+              {/* <img
+              src="/.png"
+              alt="TRACK LOGO"
+              className="absolute z-[2] -top-[65px] sm:w-[70px] w-[70px] sm:h-[155px] h-[150px] object-contain"
+            /> */}
+
+              <div className=" absolute w-[150px] h-[150px] hero-gradient rounded-[100px] z-[0] -top-[60px] " />
+              <div className=" absolute w-[110px] h-[110px] hero-gradient2 rounded-[100px] z-[1] -top-[40px]  " />
+            </div>
+
+            <div className="flex flex-col items-center z-[1] mt-[80px]">
+              <h4 className="font-bold sm:text-[28px] text-[26px] sm:leading-[40.32px] leading-[36.32px] text-white mt-[20px]">
+                Gerneral
+              </h4>
+              <h4 className="font-bold sm:text-[28px] text-[26px] sm:leading-[40.32px] leading-[36.32px] text-white mb-[20px]">
+                Prizes
+              </h4>
+
+              <h5 className="mt-[8px] font-normal sm:text-[22px] text-[18px] sm:leading-[22.68px] leading-[16.68px] text-white mb-[30px]">
+                Prize :{" "}
+                <span className="font-extrabold text-white"> $XXX</span> <br />
+              </h5>
+              <h5
+                className="font-extrabold sm:text-[22px] text-[20px] sm:leading-[22.68px] leading-[16.68px] text-white  hover:underline cursor-pointer mb-[10px]"
+                onClick={toggleOpen9}
               >
                 Know More <br />
               </h5>
@@ -364,6 +425,12 @@ const Prizes = () => {
         <Model isVisible={isopen} onClose={toggleOpen} />
         <Model2 isVisible={isopen2} onClose={toggleOpen2} />
         <Model3 isVisible={isopen3} onClose={toggleOpen3} />
+        <ModelSolana isVisible={isopen4} onClose={toggleOpen4} />
+        <ModelPolygon isVisible={isopen5} onClose={toggleOpen5} />
+        <ModelReplit isVisible={isopen6} onClose={toggleOpen6} />
+        <ModelTezos isVisible={isopen7} onClose={toggleOpen7} />
+        <ModelQuill isVisible={isopen8} onClose={toggleOpen8} />
+        <ModelGen isVisible={isopen9} onClose={toggleOpen9} />
       </section>
     </Fragment>
   );

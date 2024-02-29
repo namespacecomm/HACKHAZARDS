@@ -14,7 +14,7 @@ const Model = ({ isVisible, onClose }) => {
           </button>
           <div className="bg-white sm:text-[18px] text-[11px] p-2 rounded ">
             <p className="mx-[20px] py-[5px]">
-              <ul class="list-[square]">
+              <ul className="list-disc">
                 <li>1-Password Families 1-year plan worth USD 299 to each member</li>
                 <li>Sublime Text/ Sublime Merge license worth USD 99 to each member</li>
                 <li>Beeceptor credits worth USD 240</li>

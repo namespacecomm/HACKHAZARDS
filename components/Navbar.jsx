@@ -1,13 +1,13 @@
 "use client";
 
 import { useCallback, useState } from "react";
-import { MdOutlineAppRegistration, MdEmojiEvents } from "react-icons/md";
+import { MdOutlineAppRegistration } from "react-icons/md";
 import { IoMdContacts } from "react-icons/io";
-import { FaTeamspeak, FaQuestion } from "react-icons/fa";
+import { FaQuestion } from "react-icons/fa";
 import { motion } from "framer-motion";
 import { useRouter } from "next/router";
 import { Link } from "react-scroll";
-
+// Deleted 2 icons of team guideliness and event
 const Navbar = () => {
   const router = useRouter();
   const openContactUs = () => {
@@ -26,13 +26,13 @@ const Navbar = () => {
     router.push("/mentors");
   };
 
-  const openEvents = () => {
-    router.push("/Event");
-  };
+  // const openEvents = () => {
+  //   router.push("/Event");
+  // };
 
-  const openTeamGuidelines = () => {
-    router.push("/Guidelines");
-  };
+  // const openTeamGuidelines = () => {
+  //   router.push("/Guidelines");
+  // };
 
   const openFAQ = () => {
     router.push("/Faq");
