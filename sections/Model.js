@@ -5,14 +5,14 @@ const Model = ({ isVisible, onClose }) => {
   return (
     <div className="fixed  inset-0 bg-black bg-opacity-25 backdrop-blur-sm flex justify-center items-center z-[15]">
       <section>
-        <div className="lg:w-[50vw] w-[90vw] flex flex-col lg:mt-[50px] sm:mt-[150px] ">
+        <div className="lg:w-[50vw] w-[90vw] flex flex-col lg:mt-[110px] sm:mt-[150px] ">
           <button
             className="text-white text-xl  place-self-end"
             onClick={() => onClose()}
           >
             X
           </button>
-          <div className="bg-white sm:text-[18px] text-[11px] p-2 rounded ">
+          <div className="bg-white sm:text-[13px] text-[11px] p-2 rounded ">
             <p className="mx-[20px] py-[5px]">
               <ul className="list-disc">
                 <li>1-Password Families 1-year plan worth USD 299 to each member</li>
