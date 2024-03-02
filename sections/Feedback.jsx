@@ -23,7 +23,7 @@ const Feedback = () => (
       >
         <div className="flex flex-col items-center z-[1] mt-[5px]">
           <h4 className="font-bold sm:text-[29px] text-[26px] sm:leading-[40.32px] leading-[36.32px] text-white mt-[20px] mb-[10px]">
-            TITLE SPONSOR
+            TITLE PARTNER
           </h4>
           <Link href="https://orkes.io/" target="_blank">
             <img
@@ -37,25 +37,33 @@ const Feedback = () => (
     </motion.div>
 
     {/* power sponsor */}
-    {/* <motion.div
+    <motion.div
       variants={staggerContainer}
       initial="hidden"
       whileInView="show"
       viewport={{ once: false, amount: 0.25 }}
-      className={`${styles.innerWidth} sm:pt-5 xs:pt-8 pt-10 mx-auto flex flex-col justify-center items-center`}
+      className={`${styles.innerWidth} sm:pt-8 xs:pt-8 pt-10 mx-auto flex flex-col justify-center items-center`}
     >
       <motion.div
         variants={fadeIn("right", "tween", 0.2, 1)}
-        className="flex-[0.5] items-center justify-center w-[80vw]  flex-col  relative  "
+        className="flex-[0.5] items-center justify-center w-[80vw] flex-col rounded-[32px] relative  "
       >
         <div className="flex flex-col items-center z-[1] mt-[5px]">
           <h4 className="font-bold sm:text-[29px] text-[26px] sm:leading-[40.32px] leading-[36.32px] text-white mt-[20px] mb-[10px]">
-            POWER SPONSOR
+            POWER PARTNER
           </h4>
-          <img src="revealing.png" alt="revealing poster" className="w-[700px] h-[250px] rounded-[25px]" />
+          <Link href="https://orkes.io/" target="_blank">
+            <img
+              src="38.png"
+              alt="ORKES"
+              className="w-[500px] h-[250px] rounded-[25px]"
+            />
+          </Link>
         </div>
       </motion.div>
-    </motion.div> */}
+    </motion.div>
+
+    
 
     {/* platform, energy drink & innovation sponsor */}
     <motion.div
