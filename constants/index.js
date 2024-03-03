@@ -591,92 +591,92 @@ export const communityPartner = [
   {
     image:
       "cp1.png",
-    link: "Pradeepto Sarkar",
+    link: "https://nscckiet.tech",
   },
   {
     image:
       "cp2.png",
-    link: "Pradeepto Sarkar",
+    link: "https://befikracommunity.in",
   },
   {
     image:
       "cp3.png",
-    link: "Pradeepto Sarkar",
+    link: "https://sostechservices.in/",
   },
   {
     image:
       "cp4.png",
-    link: "Pradeepto Sarkar",
+    link: "https://linktr.ee/gdsc.adgips",
   },
   {
     image:
       "cp5.png",
-    link: "Pradeepto Sarkar",
+    link: "/",
   },
   {
     image:
       "cp6.png",
-    link: "Pradeepto Sarkar",
+    link: "https://linktr.ee/hackunicornclub",
   },
   {
     image:
       "cp7.png",
-    link: "Pradeepto Sarkar",
+    link: "https://linktr.ee/forgenest",
   },
   {
     image:
       "cp8.png",
-    link: "Pradeepto Sarkar",
+    link: "/",
   },
   {
     image:
       "cp9.png",
-    link: "Pradeepto Sarkar",
+    link: "https://linktr.ee/Devsource",
   },
   {
     image:
       "cp10.png",
-    link: "Pradeepto Sarkar",
+    link: "https://linktr.ee/mscmsit",
   },
   {
     image:
       "cp11.png",
-    link: "Pradeepto Sarkar",
+    link: "https://linktr.ee/code.geeks",
   },
   {
     image:
       "cp12.png",
-    link: "Pradeepto Sarkar",
+    link: "https://linktr.ee/15forteen",
   },
   {
     image:
       "cp13.png",
-    link: "Pradeepto Sarkar",
+    link: "https://devstations.tech ",
   },
   {
     image:
       "cp14.png",
-    link: "Pradeepto Sarkar",
+    link: "https://fresources.tech/home",
   },
   {
     image:
       "cp15.png",
-    link: "Pradeepto Sarkar",
+    link: "https://telegram.me/TechUprise_Updates",
   },
   {
     image:
       "cp16.png",
-    link: "Pradeepto Sarkar",
+    link: "https://telegram.me/TechUprise_Updates",
   },
   {
     image:
       "cp17.png",
-    link: "Pradeepto Sarkar",
+    link: "https://www.decentraclasses.com/",
   },
   {
     image:
       "cp18.png",
-    link: "Pradeepto Sarkar",
+    link: "https://www.mlsamiet.xyz/",
   },
   {
     image:
@@ -686,12 +686,12 @@ export const communityPartner = [
   {
     image:
       "cp20.png",
-    link: "Pradeepto Sarkar",
+    link: "https://linktr.ee/techneedsigdtuw",
   },
   {
     image:
       "cp21.png",
-    link: "Pradeepto Sarkar",
+    link: "https://linktr.ee/geekroom",
   },
 
 
