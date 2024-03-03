@@ -91,13 +91,13 @@ const Team = () => {
                     viewport={{ once: false, amount: 0.25 }}
                     className="cursor-pointer mt-[15px]"
                   >
-                    {/* <a href=""> */}
-                    <img
-                      src={member.image}
-                      alt="member photo"
-                      className="w-[200px] rounded-[10px] "
-                    />
-                    {/* </a> */}
+                    <a href={member.link} target="_blank">
+                      <img
+                        src={member.image}
+                        alt="member photo"
+                        className="w-[200px] rounded-[10px] "
+                      />
+                    </a>
 
 
                   </motion.div>
