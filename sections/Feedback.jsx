@@ -52,10 +52,10 @@ const Feedback = () => (
           <h4 className="font-bold sm:text-[29px] text-[26px] sm:leading-[40.32px] leading-[36.32px] text-white mt-[20px] mb-[10px]">
             POWER PARTNER
           </h4>
-          <Link href="https://orkes.io/" target="_blank">
+          <Link href="https://xx.network/" target="_blank">
             <img
               src="38.png"
-              alt="ORKES"
+              alt="XX NETWORK"
               className="w-[500px] h-[250px] rounded-[25px]"
             />
           </Link>
@@ -63,7 +63,7 @@ const Feedback = () => (
       </motion.div>
     </motion.div>
 
-    
+
 
     {/* platform, energy drink & innovation sponsor */}
     <motion.div
