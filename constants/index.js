@@ -11,7 +11,7 @@ export const exploreWorlds = [
   },
   {
     id: 'world-3',
-    imgUrl: '/planet-03.png',
+    imgUrl: '/planet-04.png',
     title: 'HealthCare',
   },
 
