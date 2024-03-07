@@ -35,7 +35,7 @@ const MentorCards = () => (
                 <img src="/twitter.svg" alt="Twitter" className="w-6 h-6 mr-2" />
               </a>
               <a href={mentor.github} target="_blank" rel="noopener noreferrer">
-                <img src="/github.svg" alt="GitHub" className="w-6 h-6 mr-2" />
+                <img src="/github (2).svg" alt="GitHub" className="w-6 h-6 mr-2" />
               </a>
             </div>
           </motion.div>
