@@ -696,3 +696,116 @@ export const communityPartner = [
 
 
 ];
+
+export const mentors = [
+  {
+    name: "Abhinav Rai",
+    linkedIn: "https://www.linkedin.com/in/abhinav-rai-6a7119154/",
+    twitter: "https://twitter.com/lyght05",
+    github: "https://github.com/ultimate-disturbing-element",
+    image:
+      "./m1.jpeg",
+  },
+  {
+    name: "Unnati Chhabra",
+    linkedIn: "https://www.linkedin.com/in/unnati-chhabra-/",
+    twitter: "https://twitter.com/lyght05",
+    github: "https://github.com/unnati914",
+    image:
+      "m2.jpeg",
+  },
+  {
+    name: "Shruti Arora",
+    linkedIn: "https://www.linkedin.com/in/shrutiiaroraaa/",
+    twitter: "https://twitter.com/shrutiiaroraaa",
+    github: "https://github.com/shrutiiaroraaa",
+    image:
+      "./m3.jpeg",
+  },
+  {
+    name: "Saksham Verma",
+    linkedIn: "https://www.linkedin.com/in/saksham-verma-a9390b256/",
+    twitter: "https://twitter.com/saksham27verma",
+    github: "https://github.com/Saksham27verma",
+    image:
+      "./m4.jpeg",
+  },
+  {
+    name: "Vani Mittal",
+    linkedIn: "https://www.linkedin.com/in/vani-mi-ttal/",
+    twitter: "https://twitter.com/VANIMITTAL12",
+    github: "https://github.com/vanimittal1304",
+    image:
+      "./m5.jpeg",
+  },
+  {
+    name: "Sajal Batra",
+    linkedIn: "https://www.linkedin.com/in/sajal-batra/",
+    twitter: "https://twitter.com/sajal_batra",
+    github: "https://github.com/sajalbatra",
+    image:
+      "./m6.jpeg",
+  },
+  {
+    name: "Somya Maheshwari",
+    linkedIn: "https://www.linkedin.com/in/somya-maheshwari-0b5305243/",
+    github: "https://github.com/Smaheshwari09",
+    image:
+      "./m7.jpeg",
+  },
+  {
+    name: "Yash Kataria",
+    linkedIn: "https://www.linkedin.com/in/kataria-yash/",
+    image:
+      "./m8.jpeg",
+  },
+  {
+    name: "Abdal Lalit",
+    linkedIn: "https://www.linkedin.com/in/abdal-lalit/",
+    image:
+      "./m9.jpg",
+  },
+  {
+    name: "Rohan Kumar",
+    linkedIn: "https://www.linkedin.com/in/rohan-kumar-a65a87175/",
+    github: "https://github.com/rohan220217",
+    twitter: "https://twitter.com/Rohan__kumar_",
+    image:
+      "./m10.jpg",
+  },
+  {
+    name: "Arnav Gupta",
+    linkedIn: "https://www.linkedin.com/in/arnav-gupta-437a66256/",
+    github: "https://github.com/arnavgupta16",
+    image:
+      "./m11.jpg",
+  },
+  {
+    name: "Kanishak Chaurasia",
+    github: "https://github.com/kanishak11-cyber",
+    linkedIn: "https://linkedin.com/in/kanishak-chaurasia-1101/",
+    twitter: "https://x.com/dappdost",
+    image:
+      "./m12.jpg",
+  },
+  {
+    name: "Tanmay Arora",
+    github: "https://github.com/Tanmaycode1/",
+    linkedIn: "https://www.linkedin.com/in/tanmaycode1/",
+    image:
+      "./m13.jpg",
+  },
+  {
+    name: "Tushar Gupta",
+    github: "https://github.com/tushargupta1504",
+    linkedIn: "https://www.linkedin.com/in/tushar1504/",
+    image:
+      "./m14.jpg",
+  },
+  {
+    name: "Harshita Gupta",
+    linkedIn: "https://www.linkedin.com/in/harshita-gupta-03b6b125b/",
+    image:
+      "./m15.jpg",
+  }
+];
