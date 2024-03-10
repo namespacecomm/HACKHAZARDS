@@ -1,12 +1,13 @@
-import { MentorRegistration, Navbar, Footer } from '../components';
+import { Navbar, Footer } from '../components';
+import MentorList from "../components/MentorList";
 
-const mentorregister = () => (
+const mentorlist = () => (
   <div className="bg-primary-black overflow-hidden relative">
     <Navbar />
     <div className="gradient-05 " />
-    <MentorRegistration />
+    <MentorList />
     <Footer />
   </div>
 );
 
-export default mentorregister;
+export default mentorlist;
