@@ -7,6 +7,7 @@ import World from "./World";
 import Insights from "./Insights";
 import Feedback from "./Feedback";
 import Prizes from "./Prizes";
+import Schedule from "./Schedule";
 import Team from './Team';
 import Communitypartner from './CommunityPartner';
 
@@ -20,6 +21,7 @@ export {
   Insights,
   Feedback,
   Prizes,
+  Schedule,
   Team,
   Communitypartner,
 };

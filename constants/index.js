@@ -807,5 +807,55 @@ export const mentors = [
     linkedIn: "https://www.linkedin.com/in/harshita-gupta-03b6b125b/",
     image:
       "./m15.jpg",
-  }
+  },
+  {
+    name: "Mohit Arora",
+    linkedIn: "https://www.linkedin.com/in/mohit8181/",
+    github: "https://github.com/mohitarora8181",
+    twitter: "https://x.com/RoboticsKing?t=hl3leY_Nxhyk_BGsG1bMSQ&s=09",
+    image:
+      "./m16.jpg",
+
+  },
+  {
+    name: "Mridul Saggi",
+    linkedIn: "https://linkedin.com/in/mridulsaggi/",
+    github: "https://github.com/mridulsaggi",
+    image:
+      "m17.jpg",
+  },
+  {
+    name: "Ayush Chauhan",
+    linkedIn: "https://www.linkedin.com/in/ayush-singh-chauhan-22945722b/",
+    github: "https://github.com/AYOO117",
+    twitter: "https://twitter.com/AYUSHCHAUH89221?t=tCvrDSVLdM_lIirhL74U6Q&s=09",
+    image:
+      "./m18.jpg",
+  },
+  {
+    name: "Shivam Saini",
+    linkedIn: "https://www.linkedin.com/in/shvmsaini/",
+    github: "https://www.github.com/shvmsaini",
+    image:
+      "./m19.jpg",
+  },
+  {
+    name: "Himanshu Jaidka",
+    linkedIn: "https://www.linkedin.com/in/himanshu-jaidka-b39b191a4/",
+    image:
+      "./m20.jpg",
+  },
+  {
+    name: "Harshit Arora",
+    linkedIn: "https://www.linkedin.com/in/harshit-arora-in/",
+    github: "https://github.com/harshitarora-in",
+    twitter: "https://twitter.com/harshitarora_in",
+    image: "./m21.jpg",
+  },
+  {
+    name: "Shivam Goyal",
+    github: "https://github.com/shivamcreator",
+    image: "./M22.jpg",
+    linkedIn: "https://www.linkedin.com/in/shivamgoyall/"
+  },
 ];

@@ -6,6 +6,7 @@ import {
   Hero,
   World,
   Prizes,
+  Schedule,
   Team,
   Communitypartner,
 } from '../sections';
@@ -21,6 +22,7 @@ const Home = () => (
     </div>
     <div className="relative">
       <Prizes />
+      <Schedule />
       <Feedback />
       <Communitypartner />
       <div className="gradient-04 z-0" />
