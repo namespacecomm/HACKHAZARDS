@@ -191,6 +191,12 @@ const Feedback = () => (
             <img src="26.png" alt="Solana LOGO" className="rounded-[15px]" />
           </Link>
         </div>
+
+        <div className="flex flex-col items-center z-[1] mt-[5px] w-[250px]">
+          <Link href="https://www.routerprotocol.com/" target="_blank">
+            <img src="41.png" alt="Router LOGO" className="rounded-[15px]" />
+          </Link>
+        </div>
       </motion.div>
     </motion.div>
 
@@ -235,7 +241,7 @@ const Feedback = () => (
         </div>
         <div className="flex flex-col items-center z-[1] mt-[5px] w-[250px]">
           <Link
-            href="https://cssbattle.dev/"
+            href="https://fanstore.bobble.ai/"
             target="_blank"
           >
             <img src="32.png" alt=" fan store" className="rounded-[15px]" />
