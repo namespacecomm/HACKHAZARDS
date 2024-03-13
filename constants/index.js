@@ -859,3 +859,37 @@ export const mentors = [
     linkedIn: "https://www.linkedin.com/in/shivamgoyall/"
   },
 ];
+
+export const judges = [{
+  name: "Sarthak Jain",
+  image:
+    "j1.jpg",
+  linkedIn: "https://www.linkedin.com/in/dotsarthak/"
+},
+{
+  name: "Sanya Duggal",
+  linkedIn: "https://www.linkedin.com/in/sanya-duggal/",
+  image: "./j2.jpg",
+},
+{
+  name: "Dibyasom Puhan",
+  linkedIn: "https://www.linkedin.com/in/dibyasompuhan/",
+  image: "./j4.jpg",
+},
+{
+  name: "Santosh Maurya",
+  linkedIn: "https://www.linkedin.com/in/santoshm93/",
+  image: "./j3.jpg",
+},
+{
+  name: "Rishab Bansal",
+  linkedIn: "https://www.linkedin.com/in/imrishabhbansal/",
+  image: "./j5.jpg",
+},
+{
+  name: "Roopal Mittal",
+  linkedIn: "https://www.linkedin.com/in/roopalmittal/",
+  image: "./j6.jpg",
+},
+
+];
