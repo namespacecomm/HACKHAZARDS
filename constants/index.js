@@ -595,13 +595,13 @@ export const communityPartner = [
   },
   {
     image:
-      "cp2.png",
-    link: "https://befikracommunity.in",
+      "cp22.png",
+    link: "https://gdg.community.dev/gdg-new-delhi//",
   },
   {
     image:
-      "cp3.png",
-    link: "https://sostechservices.in/",
+      "cp21.png",
+    link: "https://linktr.ee/geekroom",
   },
   {
     image:
@@ -650,6 +650,21 @@ export const communityPartner = [
   },
   {
     image:
+      "cp20.png",
+    link: "https://linktr.ee/techneedsigdtuw",
+  },
+  {
+    image:
+      "cp2.png",
+    link: "https://befikracommunity.in",
+  },
+  {
+    image:
+      "cp3.png",
+    link: "https://sostechservices.in/",
+  },
+  {
+    image:
       "cp13.png",
     link: "https://devstations.tech ",
   },
@@ -663,11 +678,11 @@ export const communityPartner = [
       "cp15.png",
     link: "https://telegram.me/TechUprise_Updates",
   },
-  {
+  /* {
     image:
       "cp16.png",
     link: "https://telegram.me/TechUprise_Updates",
-  },
+  }, */
   {
     image:
       "cp17.png",
@@ -683,16 +698,8 @@ export const communityPartner = [
       "cp19.png",
     link: "/",
   },
-  {
-    image:
-      "cp20.png",
-    link: "https://linktr.ee/techneedsigdtuw",
-  },
-  {
-    image:
-      "cp21.png",
-    link: "https://linktr.ee/geekroom",
-  },
+  
+  
 
 
 ];
