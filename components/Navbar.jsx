@@ -74,6 +74,12 @@ const Navbar = () => {
             </h2>
           </Link>
 
+          <a href="/projects">
+            <h2 className="font-extrabold text-[20px] leading-[30.24px] text-white">
+              Projects
+            </h2>
+          </a>
+
           <Link to="Prizes" activeClass="active" offset={-80} duration={500}>
             <h2 className="font-extrabold text-[20px] leading-[30.24px] text-white">
               Prizes
