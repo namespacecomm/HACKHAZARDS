@@ -1,10 +1,10 @@
-"use client";
+'use client';
 
-import { motion } from "framer-motion";
-import { socials } from "../constants";
+import { motion } from 'framer-motion';
+import { socials } from '../constants';
 
-import styles from "../styles";
-import { footerVariants } from "../utils/motion";
+import styles from '../styles';
+import { footerVariants } from '../utils/motion';
 
 const Footer = () => (
   <motion.footer
@@ -13,11 +13,7 @@ const Footer = () => (
     whileInView="show"
     className={`${styles.xPaddings} py-8 relative`}
   >
-    <div
-      className={`${styles.innerWidth} mx-auto flex flex-col gap-8 items-center`}
-    >
-      {" "}
-      {/* Added items-center class here */}
+    <div className={`${styles.innerWidth} mx-auto flex flex-col gap-8 items-center`}> {/* Added items-center class here */}
       <div className="flex justify-between flex-wrap gap-5 flex-col lg:flex-row">
         <h4 className="font-bold md:text-[64px] text-[44px] text-white">
           HACKHAZARDS
@@ -61,7 +57,8 @@ const Footer = () => (
             ))}
           </div>
           <p className="font-normal text-[14px] text-white opacity-50">
-            Copyright © 2023 - 2024 nameSpace, BPIT. All rights reserved.
+            Copyright © 2023 - 2024 nameSpace, BPIT. All rights
+            reserved.
           </p>
         </div>
       </div>

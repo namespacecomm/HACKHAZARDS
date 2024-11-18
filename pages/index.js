@@ -1,4 +1,4 @@
-import { ContactUs, Footer, Navbar } from "../components";
+import { ContactUs, Footer, Navbar } from '../components';
 import {
   About,
   Explore,
@@ -9,7 +9,7 @@ import {
   Schedule,
   Team,
   Communitypartner,
-} from "../sections";
+} from '../sections';
 
 const Home = () => (
   <div className="bg-primary-black overflow-hidden">

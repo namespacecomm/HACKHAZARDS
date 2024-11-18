@@ -15,39 +15,21 @@ const Model2 = ({ isVisible, onClose }) => {
           <div className="bg-white sm:text-[13px] text-[11px] p-2 rounded ">
             <p className="mx-[20px] py-[5px]">
               <ul className="list-disc">
-                <li>
-                  Wolfram One personal edition 1-year subscription plus Wolfram
-                  Alpha Pro 1-year subscription to each member of the team worth
-                  USD 375 each
-                </li>
-                <li>
-                  Free 3 Year Subscription to Taskade Starter Plan to each
-                  member: $1,800
-                </li>
-                <li>
-                  Free Async AI-driven mock interviews to each member : $100
-                </li>
+
+                <li>Wolfram One personal edition 1-year subscription plus Wolfram Alpha Pro 1-year subscription to each member of the team worth USD 375 each</li>
+                <li>Free 3 Year Subscription to Taskade Starter Plan to each member: $1,800</li>
+                <li>Free Async AI-driven mock interviews to each member : $100</li>
                 <li>20% off on all Taskade Subscriptions </li>
-                <li>
-                  $10 flat discount on Interview Buddy Async AI-driven mock
-                  interview{" "}
-                </li>
-                <li>
-                  Free 30-day access to the full InterviewCake platform worth
-                  USD 10 each
-                </li>
-                <li>
-                  1-month access to the OReilly Learning Platform worth USD 49
-                  each
-                </li>
-                <li>
-                  20% off on all Rosenfeld 1 Month Echo 3D pro-tier subscription
-                  worth USD 99 each
-                </li>
+                <li>$10 flat discount on Interview Buddy Async AI-driven mock interview  </li>
+                <li>Free 30-day access to the full InterviewCake platform worth USD 10 each</li>
+                <li>1-month access to the OReilly Learning Platform  worth USD 49 each</li>
+                <li>20% off on all Rosenfeld 1 Month Echo 3D pro-tier subscription  worth USD 99 each</li>
                 <li>30 Days Beeceptor Team Plan Access worth USD 25 </li>
                 <li>$10 Verbwire Credits</li>
-                <li>Free 1 year .xyz domains worth USD 10 each</li>
+                <li>Free 1 year .xyz domains  worth USD 10 each</li>
               </ul>
+
+
             </p>
           </div>
         </div>

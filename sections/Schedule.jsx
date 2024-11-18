@@ -13,12 +13,10 @@ const Schedule = () => (
           className="w-full max-w-none"
           style={{
             transform: "scale(0.6)", // Scale down the image to 80%
-            "@media (max-width: 768px)": {
-              // Apply styles for small screens
+            "@media (max-width: 768px)": { // Apply styles for small screens
               transform: "scale(1)", // Scale the image to 100%
             },
-            "@media (max-width: 1024px)": {
-              // Apply styles for medium screens
+            "@media (max-width: 1024px)": { // Apply styles for medium screens
               transform: "scale(0.8)", // Scale the image to 80%
             },
           }}

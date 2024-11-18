@@ -1,4 +1,4 @@
-import { FAQ, Navbar, Footer } from "../components";
+import { FAQ, Navbar, Footer } from '../components';
 
 const faq = () => (
   <div className="bg-primary-black overflow-hidden relative">

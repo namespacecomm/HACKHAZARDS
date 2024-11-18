@@ -1,191 +1,201 @@
 export const exploreWorlds = [
   {
-    id: "world-1",
-    imgUrl: "/planet-01.png",
-    title: "FinTech",
+    id: 'world-1',
+    imgUrl: '/planet-01.png',
+    title: 'FinTech',
   },
   {
-    id: "world-2",
-    imgUrl: "/planet-02.png",
-    title: "EdTech",
+    id: 'world-2',
+    imgUrl: '/planet-02.png',
+    title: 'EdTech',
   },
   {
-    id: "world-3",
-    imgUrl: "/planet-04.png",
-    title: "HealthCare",
+    id: 'world-3',
+    imgUrl: '/planet-04.png',
+    title: 'HealthCare',
   },
+
 ];
 
 export const exploreWorldstwo = [
+
   {
-    id: "world-6",
-    imgUrl: "/planet-07.png",
-    title: "E-Governance",
+    id: 'world-6',
+    imgUrl: '/planet-07.png',
+    title: 'E-Governance',
   },
   {
-    id: "world-7",
-    imgUrl: "/planet-08.png",
-    title: "Environment",
+    id: 'world-7',
+    imgUrl: '/planet-08.png',
+    title: 'Environment',
   },
   {
-    id: "world-8",
-    imgUrl: "/planet-09.png",
-    title: "Security",
+    id: 'world-8',
+    imgUrl: '/planet-09.png',
+    title: 'Security',
   },
+
+
 ];
 
 export const startingFeatures = [
-  "Find a domain that suits you and you want to hack",
-  "Assemble a team. (Min. 2 Max. 4)",
-  "Register using {Platform}",
-  "Prepare hard for the day of the Hackathon",
+  'Find a domain that suits you and you want to hack',
+  'Assemble a team. (Min. 2 Max. 4)',
+  'Register using {Platform}',
+  'Prepare hard for the day of the Hackathon',
 ];
 
 export const newFeatures = [
   {
-    imgUrl: "/vrpano.svg",
-    title: "Website Launch",
-    subtitle: "01.01.2024",
+    imgUrl: '/vrpano.svg',
+    title: 'Website Launch',
+    subtitle:
+      '01.01.2024',
   },
   {
-    imgUrl: "/vrpano.svg",
-    title: "Registrations Open",
-    subtitle: "28.01.2024",
+    imgUrl: '/vrpano.svg',
+    title: 'Registrations Open',
+    subtitle:
+      '28.01.2024',
   },
   {
-    imgUrl: "/vrpano.svg",
-    title: "Registrations Close",
-    subtitle: "22.02.2024",
+    imgUrl: '/vrpano.svg',
+    title: 'Registrations Close',
+    subtitle:
+      '22.02.2024',
   },
   {
-    imgUrl: "/vrpano.svg",
-    title: "Shortlisting",
-    subtitle: "01.03.2024 - 10.03.2024",
+    imgUrl: '/vrpano.svg',
+    title: 'Shortlisting',
+    subtitle:
+      '01.03.2024 - 10.03.2024',
   },
 ];
 
 export const insights = [
   {
-    imgUrl: "/planet-06.png",
-    title: "List of Judges and Mentors at HACKHAZARDS",
-    subtitle: "",
+    imgUrl: '/planet-06.png',
+    title: 'List of Judges and Mentors at HACKHAZARDS',
+    subtitle:
+      '',
   },
   {
-    imgUrl: "/planet-07.png",
-    title: "Checkout our track sponsors",
-    subtitle: "",
+    imgUrl: '/planet-07.png',
+    title: 'Checkout our track sponsors',
+    subtitle:
+      '',
   },
   {
-    imgUrl: "/planet-08.png",
-    title: "Hackathon Checklist before you visit",
-    subtitle: "",
+    imgUrl: '/planet-08.png',
+    title: 'Hackathon Checklist before you visit',
+    subtitle:
+      '',
   },
   {
-    imgUrl: "/planet-02.png",
-    title: "Exciting and Fun activities during HACKHAZARDS",
-    subtitle: "",
+    imgUrl: '/planet-02.png',
+    title: 'Exciting and Fun activities during HACKHAZARDS',
+    subtitle:
+      '',
   },
 ];
 
 export const socials = [
+
+
   {
-    name: "youtube",
-    url: "/icons8-youtube-logo.svg",
-    link: "https://www.youtube.com/@namespacecomm",
+    name: 'youtube',
+    url: '/icons8-youtube-logo.svg',
+    link: 'https://www.youtube.com/@namespacecomm',
   },
   {
-    name: "twitter",
-    url: "/twitter.svg",
-    link: "https://twitter.com/namespacecomm",
+    name: 'twitter',
+    url: '/twitter.svg',
+    link: 'https://twitter.com/namespacecomm',
   },
   {
-    name: "instagram",
-    url: "/instagram.svg",
-    link: "https://www.instagram.com/hackhazards/",
+    name: 'instagram',
+    url: '/instagram.svg',
+    link: 'https://www.instagram.com/hackhazards/',
   },
   {
-    name: "linkedin",
-    url: "/linkedin.svg",
-    link: "https://www.linkedin.com/company/namespacecomm/",
+    name: 'linkedin',
+    url: '/linkedin.svg',
+    link: 'https://www.linkedin.com/company/namespacecomm/',
   },
   {
-    name: "github",
-    url: "/github (2).svg",
-    link: "https://github.com/orgs/NSCC-BPIT/",
+    name: 'github',
+    url: '/github (2).svg',
+    link: 'https://github.com/orgs/NSCC-BPIT/',
   },
   {
-    name: "discord",
-    url: "/discord-mark-white.svg",
-    link: "https://discord.com/invite/QQj66TND4c",
+    name: 'discord',
+    url: '/discord-mark-white.svg',
+    link: 'https://discord.com/invite/QQj66TND4c',
   },
+
 ];
 
 export const FaqQuestion = [
   {
-    title: "What is HACKHAZARDS?",
-    description:
-      "HACKHAZARDS is an intensive, software-centric ideation and presentation challenge where participants solve known or unknown problems through innovative coding solutions.",
+    title: 'What is HACKHAZARDS?',
+    description: 'HACKHAZARDS is an intensive, software-centric ideation and presentation challenge where participants solve known or unknown problems through innovative coding solutions.',
   },
   {
-    title: "How big a team can be?",
-    description: "The team size can be 2 <= size && size <= 4",
+    title: 'How big a team can be?',
+    description: 'The team size can be 2 <= size && size <= 4',
+
   },
   {
-    title: "Who all can participate?",
-    description:
-      "HACKHAZARDS is open to all those who are passionate about coding and problem-solving and can utilise their development skills in building sustainable and scalable products in a limited time.",
+    title: 'Who all can participate?',
+    description: 'HACKHAZARDS is open to all those who are passionate about coding and problem-solving and can utilise their development skills in building sustainable and scalable products in a limited time.',
   },
   {
-    title: "How do I register for HACKHAZARDS?",
-    description:
-      "Register is through devfolio. The apply button is there in the home page of this website",
+    title: 'How do I register for HACKHAZARDS?',
+    description: 'Register is through devfolio. The apply button is there in the home page of this website',
   },
   {
-    title: "Is there an entry fee for HACKHAZARDS?",
-    description: "No, HACKHAZARDS is completely free to participate in.",
+    title: 'Is there an entry fee for HACKHAZARDS?',
+    description: 'No, HACKHAZARDS is completely free to participate in.',
   },
   {
-    title: "What are the prizes for winners?",
-    description:
-      "HACKHAZARDS offers exciting prizes, including cash rewards, tech gadgets, and more. Specific prize details will be revealed soon.",
+    title: 'What are the prizes for winners?',
+    description: 'HACKHAZARDS offers exciting prizes, including cash rewards, tech gadgets, and more. Specific prize details will be revealed soon.',
   },
   {
-    title: "Do I need to be an experienced coder to participate?",
-    description:
-      "No, HACKHAZARDS welcomes participants of all skill levels. Its a great opportunity to learn, collaborate, and showcase your talents.",
+    title: 'Do I need to be an experienced coder to participate?',
+    description: 'No, HACKHAZARDS welcomes participants of all skill levels. Its a great opportunity to learn, collaborate, and showcase your talents.',
   },
   {
-    title: "Will there be mentors available during the event?",
-    description:
-      "Yes, HACKHAZARDS will have experienced mentors to guide and assist participants throughout the event.",
+    title: 'Will there be mentors available during the event?',
+    description: 'Yes, HACKHAZARDS will have experienced mentors to guide and assist participants throughout the event.',
   },
   {
-    title:
-      "Does HACKHAZARDS provides internet and power facility during hackathon?",
-    description:
-      "While the organizers will try to ensure optimal network coverage and power points. It is advisable that each team carry their own internet and atleast one extension board",
+    title: 'Does HACKHAZARDS provides internet and power facility during hackathon?',
+    description: 'While the organizers will try to ensure optimal network coverage and power points. It is advisable that each team carry their own internet and atleast one extension board',
+
   },
   {
-    title: "Will there be food during the hackathon?",
-    description:
-      "Yes, all the second round participants will get meals during the course of HACKHAZARDS",
+    title: 'Will there be food during the hackathon?',
+    description: 'Yes, all the second round participants will get meals during the course of HACKHAZARDS',
+
   },
   {
-    title: "What is the shortlisting procedure?",
-    description:
-      "Shortlisting procedure wil be shared with all participants in due course of time",
+    title: 'What is the shortlisting procedure?',
+    description: 'Shortlisting procedure wil be shared with all participants in due course of time',
+
   },
   {
-    title: "Will HACKHAZARDS help with travel reimbursement?",
-    description:
-      "No, the participants are requested to arrange for their own travel expenses to take part in the 2nd round of HACKHAZARDS",
+    title: 'Will HACKHAZARDS help with travel reimbursement?',
+    description: 'No, the participants are requested to arrange for their own travel expenses to take part in the 2nd round of HACKHAZARDS',
+
   },
   {
-    title: "Error 404 question not found?",
-    description:
-      "You can email us at namespace@bpitindia.com in case you have any further doubts.",
+    title: 'Error 404 question not found?',
+    description: 'You can email us at namespace@bpitindia.com in case you have any further doubts.',
+
   },
 ];
+
 
 export const members = [
   {
@@ -275,51 +285,47 @@ export const members = [
   },
 
   {
-    name: "Gautam Gupta",
-    image:
-      "https://res.cloudinary.com/df5hitkbj/image/upload/v1696347467/WhatsApp_Image_2023-10-03_at_19.48.38_9b68ab3a_pdkmkv.jpg",
+    "name": "Gautam Gupta",
+    "image": "https://res.cloudinary.com/df5hitkbj/image/upload/v1696347467/WhatsApp_Image_2023-10-03_at_19.48.38_9b68ab3a_pdkmkv.jpg",
     position: "Senior Council",
-    linkedin: "https://www.linkedin.com//in//gautam-gupta-8a039022a",
-    instagram: "https://www.instagram.com//_gautam.gupta",
+    "linkedin": "https://www.linkedin.com//in//gautam-gupta-8a039022a",
+    "instagram": "https://www.instagram.com//_gautam.gupta"
   },
 
   {
-    name: "Bhawansh Baleja",
-    image:
-      "https://res.cloudinary.com/df5hitkbj/image/upload/v1696348115/WhatsApp_Image_2023-10-03_at_21.18.13_3bd7fcc4_dgtpwq.jpg",
+    "name": "Bhawansh Baleja",
+    "image": "https://res.cloudinary.com/df5hitkbj/image/upload/v1696348115/WhatsApp_Image_2023-10-03_at_21.18.13_3bd7fcc4_dgtpwq.jpg",
     position: "Senior Council",
-    linkedin: "https://www.linkedin.com//mwlite//in//bhawansh-baleja-a05450146",
-    instagram: "https://www.instagram.com//bhawansh_",
+    "linkedin": "https://www.linkedin.com//mwlite//in//bhawansh-baleja-a05450146",
+    "instagram": "https://www.instagram.com//bhawansh_"
   },
 
   {
-    name: "Anand Mohan",
-    image: "https://i.postimg.cc//NjgdVcvV//unnamed.jpg",
+    "name": "Anand Mohan",
+    "image": "https://i.postimg.cc//NjgdVcvV//unnamed.jpg",
     position: "Senior Council",
-    github: "https://github.com//Anand18m",
-    linkedin: "https://www.linkedin.com//in//anand-mohan-50324118b//",
-    instagram: "https://www.instagram.com//anand18mohan",
-    twitter: "https://twitter.com//Anand18m",
+    "github": "https://github.com//Anand18m",
+    "linkedin": "https://www.linkedin.com//in//anand-mohan-50324118b//",
+    "instagram": "https://www.instagram.com//anand18mohan",
+    "twitter": "https://twitter.com//Anand18m"
   },
 
   {
-    name: "Aakash Gupta",
-    image:
-      "https://res.cloudinary.com/df5hitkbj/image/upload/v1696347467/WhatsApp_Image_2023-10-03_at_19.48.37_f778fcc2_m1gihp.jpg",
+    "name": "Aakash Gupta",
+    "image": "https://res.cloudinary.com/df5hitkbj/image/upload/v1696347467/WhatsApp_Image_2023-10-03_at_19.48.37_f778fcc2_m1gihp.jpg",
     position: "Senior Council",
-    linkedin: "https://www.linkedin.com//in//aakashgupta46",
-    instagram: "https://www.instagram.com//itss_aakash_",
-    twitter: "https://twitter.com/Alpha__aakash",
+    "linkedin": "https://www.linkedin.com//in//aakashgupta46",
+    "instagram": "https://www.instagram.com//itss_aakash_",
+    "twitter": "https://twitter.com/Alpha__aakash"
   },
 
   {
-    name: "Akshit Shroff",
-    image:
-      "https://res.cloudinary.com/df5hitkbj/image/upload/v1701314230/Akshit_Shroff_mgbxhf.jpg",
+    "name": "Akshit Shroff",
+    "image": "https://res.cloudinary.com/df5hitkbj/image/upload/v1701314230/Akshit_Shroff_mgbxhf.jpg",
     position: "Senior Council",
     github: "https://github.com/Akay-Code",
-    linkedin: "https://www.linkedin.com//in//akshit-shroff",
-    instagram: "",
+    "linkedin": "https://www.linkedin.com//in//akshit-shroff",
+    "instagram": ""
   },
 
   {
@@ -367,7 +373,8 @@ export const members = [
     github: "https://github.com/Mokshit-123",
     linkedin: "https://www.linkedin.com/in/mokshit-garg-283b27247",
     instagram: "https://www.instagram.com/mokshu_123",
-    twitter: "https://twitter.com/Mokshit0068",
+    twitter:
+      "https://twitter.com/Mokshit0068",
   },
 
   {
@@ -384,7 +391,7 @@ export const members = [
     position: "Junior Council",
     linkedin: "https://www.linkedin.com/in/prerna-jha-6080a9253",
     instagram: "https://www.instagram.com/_prerna.____",
-    twitter: "https://twitter.com/PrernaJha04",
+    twitter: "https://twitter.com/PrernaJha04"
   },
 
   {
@@ -456,7 +463,7 @@ export const members = [
     github: "https://github.com/nkhanna94",
     linkedin: "https://www.linkedin.com/in/niharika-khanna-197236248/",
     instagram: "",
-    twitter: "https://www.twitter.com/nkhanna94",
+    twitter: "https://www.twitter.com/nkhanna94"
   },
 
   {
@@ -484,7 +491,8 @@ export const members2 = [
   },
 
   {
-    image: "/rajat.jpg",
+    image:
+      "/rajat.jpg",
     name: "Rajat Gupta",
     position: "Founder",
     team: "SC",
@@ -581,75 +589,93 @@ export const members2 = [
 
 export const communityPartner = [
   {
-    image: "cp1.png",
+    image:
+      "cp1.png",
     link: "https://nscckiet.tech",
   },
   {
-    image: "cp22.png",
+    image:
+      "cp22.png",
     link: "https://gdg.community.dev/gdg-new-delhi//",
   },
   {
-    image: "cp21.png",
+    image:
+      "cp21.png",
     link: "https://linktr.ee/geekroom",
   },
   {
-    image: "cp4.png",
+    image:
+      "cp4.png",
     link: "https://linktr.ee/gdsc.adgips",
   },
   {
-    image: "cp5.png",
+    image:
+      "cp5.png",
     link: "/",
   },
   {
-    image: "cp6.png",
+    image:
+      "cp6.png",
     link: "https://linktr.ee/hackunicornclub",
   },
   {
-    image: "cp7.png",
+    image:
+      "cp7.png",
     link: "https://linktr.ee/forgenest",
   },
   {
-    image: "cp8.png",
+    image:
+      "cp8.png",
     link: "/",
   },
   {
-    image: "cp9.png",
+    image:
+      "cp9.png",
     link: "https://linktr.ee/Devsource",
   },
   {
-    image: "cp10.png",
+    image:
+      "cp10.png",
     link: "https://linktr.ee/mscmsit",
   },
   {
-    image: "cp11.png",
+    image:
+      "cp11.png",
     link: "https://linktr.ee/code.geeks",
   },
   {
-    image: "cp12.png",
+    image:
+      "cp12.png",
     link: "https://linktr.ee/15forteen",
   },
   {
-    image: "cp20.png",
+    image:
+      "cp20.png",
     link: "https://linktr.ee/techneedsigdtuw",
   },
   {
-    image: "cp2.png",
+    image:
+      "cp2.png",
     link: "https://befikracommunity.in",
   },
   {
-    image: "cp3.png",
+    image:
+      "cp3.png",
     link: "https://sostechservices.in/",
   },
   {
-    image: "cp13.png",
+    image:
+      "cp13.png",
     link: "https://devstations.tech ",
   },
   {
-    image: "cp14.png",
+    image:
+      "cp14.png",
     link: "https://fresources.tech/home",
   },
   {
-    image: "cp15.png",
+    image:
+      "cp15.png",
     link: "https://telegram.me/TechUprise_Updates",
   },
   /* {
@@ -658,17 +684,24 @@ export const communityPartner = [
     link: "https://telegram.me/TechUprise_Updates",
   }, */
   {
-    image: "cp17.png",
+    image:
+      "cp17.png",
     link: "https://www.decentraclasses.com/",
   },
   {
-    image: "cp18.png",
+    image:
+      "cp18.png",
     link: "https://www.mlsamiet.xyz/",
   },
   {
-    image: "cp19.png",
+    image:
+      "cp19.png",
     link: "/",
   },
+  
+  
+
+
 ];
 
 export const mentors = [
@@ -677,127 +710,147 @@ export const mentors = [
     linkedIn: "https://www.linkedin.com/in/abhinav-rai-6a7119154/",
     twitter: "https://twitter.com/lyght05",
     github: "https://github.com/ultimate-disturbing-element",
-    image: "./m1.jpeg",
+    image:
+      "./m1.jpeg",
   },
   {
     name: "Unnati Chhabra",
     linkedIn: "https://www.linkedin.com/in/unnati-chhabra-/",
     twitter: "https://twitter.com/lyght05",
     github: "https://github.com/unnati914",
-    image: "m2.jpeg",
+    image:
+      "m2.jpeg",
   },
   {
     name: "Shruti Arora",
     linkedIn: "https://www.linkedin.com/in/shrutiiaroraaa/",
     twitter: "https://twitter.com/shrutiiaroraaa",
     github: "https://github.com/shrutiiaroraaa",
-    image: "./m3.jpeg",
+    image:
+      "./m3.jpeg",
   },
   {
     name: "Saksham Verma",
     linkedIn: "https://www.linkedin.com/in/saksham-verma-a9390b256/",
     twitter: "https://twitter.com/saksham27verma",
     github: "https://github.com/Saksham27verma",
-    image: "./m4.jpeg",
+    image:
+      "./m4.jpeg",
   },
   {
     name: "Vani Mittal",
     linkedIn: "https://www.linkedin.com/in/vani-mi-ttal/",
     twitter: "https://twitter.com/VANIMITTAL12",
     github: "https://github.com/vanimittal1304",
-    image: "./m5.jpeg",
+    image:
+      "./m5.jpeg",
   },
   {
     name: "Sajal Batra",
     linkedIn: "https://www.linkedin.com/in/sajal-batra/",
     twitter: "https://twitter.com/sajal_batra",
     github: "https://github.com/sajalbatra",
-    image: "./m6.jpeg",
+    image:
+      "./m6.jpeg",
   },
   {
     name: "Somya Maheshwari",
     linkedIn: "https://www.linkedin.com/in/somya-maheshwari-0b5305243/",
     github: "https://github.com/Smaheshwari09",
-    image: "./m7.jpeg",
+    image:
+      "./m7.jpeg",
   },
   {
     name: "Yash Kataria",
     linkedIn: "https://www.linkedin.com/in/kataria-yash/",
-    image: "./m8.jpeg",
+    image:
+      "./m8.jpeg",
   },
   {
     name: "Abdal Lalit",
     linkedIn: "https://www.linkedin.com/in/abdal-lalit/",
-    image: "./m9.jpg",
+    image:
+      "./m9.jpg",
   },
   {
     name: "Rohan Kumar",
     linkedIn: "https://www.linkedin.com/in/rohan-kumar-a65a87175/",
     github: "https://github.com/rohan220217",
     twitter: "https://twitter.com/Rohan__kumar_",
-    image: "./m10.jpg",
+    image:
+      "./m10.jpg",
   },
   {
     name: "Arnav Gupta",
     linkedIn: "https://www.linkedin.com/in/arnav-gupta-437a66256/",
     github: "https://github.com/arnavgupta16",
-    image: "./m11.jpg",
+    image:
+      "./m11.jpg",
   },
   {
     name: "Kanishak Chaurasia",
     github: "https://github.com/kanishak11-cyber",
     linkedIn: "https://linkedin.com/in/kanishak-chaurasia-1101/",
     twitter: "https://x.com/dappdost",
-    image: "./m12.jpg",
+    image:
+      "./m12.jpg",
   },
   {
     name: "Tanmay Arora",
     github: "https://github.com/Tanmaycode1/",
     linkedIn: "https://www.linkedin.com/in/tanmaycode1/",
-    image: "./m13.jpg",
+    image:
+      "./m13.jpg",
   },
   {
     name: "Tushar Gupta",
     github: "https://github.com/tushargupta1504",
     linkedIn: "https://www.linkedin.com/in/tushar1504/",
-    image: "./m14.jpg",
+    image:
+      "./m14.jpg",
   },
   {
     name: "Harshita Gupta",
     linkedIn: "https://www.linkedin.com/in/harshita-gupta-03b6b125b/",
-    image: "./m15.jpg",
+    image:
+      "./m15.jpg",
   },
   {
     name: "Mohit Arora",
     linkedIn: "https://www.linkedin.com/in/mohit8181/",
     github: "https://github.com/mohitarora8181",
     twitter: "https://x.com/RoboticsKing?t=hl3leY_Nxhyk_BGsG1bMSQ&s=09",
-    image: "./m16.jpg",
+    image:
+      "./m16.jpg",
+
   },
   {
     name: "Mridul Saggi",
     linkedIn: "https://linkedin.com/in/mridulsaggi/",
     github: "https://github.com/mridulsaggi",
-    image: "m17.jpg",
+    image:
+      "m17.jpg",
   },
   {
     name: "Ayush Chauhan",
     linkedIn: "https://www.linkedin.com/in/ayush-singh-chauhan-22945722b/",
     github: "https://github.com/AYOO117",
-    twitter:
-      "https://twitter.com/AYUSHCHAUH89221?t=tCvrDSVLdM_lIirhL74U6Q&s=09",
-    image: "./m18.jpg",
+    twitter: "https://twitter.com/AYUSHCHAUH89221?t=tCvrDSVLdM_lIirhL74U6Q&s=09",
+    image:
+      "./m18.jpg",
   },
   {
     name: "Shivam Saini",
     linkedIn: "https://www.linkedin.com/in/shvmsaini/",
     github: "https://www.github.com/shvmsaini",
-    image: "./m19.jpg",
+    image:
+      "./m19.jpg",
   },
   {
     name: "Himanshu Jaidka",
     linkedIn: "https://www.linkedin.com/in/himanshu-jaidka-b39b191a4/",
-    image: "./m20.jpg",
+    image:
+      "./m20.jpg",
   },
   {
     name: "Harshit Arora",
@@ -810,39 +863,40 @@ export const mentors = [
     name: "Shivam Goyal",
     github: "https://github.com/shivamcreator",
     image: "./M22.jpg",
-    linkedIn: "https://www.linkedin.com/in/shivamgoyall/",
+    linkedIn: "https://www.linkedin.com/in/shivamgoyall/"
   },
 ];
 
-export const judges = [
-  {
-    name: "Sarthak Jain",
-    image: "j1.jpg",
-    linkedIn: "https://www.linkedin.com/in/dotsarthak/",
-  },
-  {
-    name: "Sanya Duggal",
-    linkedIn: "https://www.linkedin.com/in/sanya-duggal/",
-    image: "./j2.jpg",
-  },
-  {
-    name: "Dibyasom Puhan",
-    linkedIn: "https://www.linkedin.com/in/dibyasompuhan/",
-    image: "./j4.jpg",
-  },
-  {
-    name: "Santosh Maurya",
-    linkedIn: "https://www.linkedin.com/in/santoshm93/",
-    image: "./j3.jpg",
-  },
-  {
-    name: "Rishab Bansal",
-    linkedIn: "https://www.linkedin.com/in/imrishabhbansal/",
-    image: "./j5.jpg",
-  },
-  {
-    name: "Roopal Mittal",
-    linkedIn: "https://www.linkedin.com/in/roopalmittal/",
-    image: "./j6.jpg",
-  },
+export const judges = [{
+  name: "Sarthak Jain",
+  image:
+    "j1.jpg",
+  linkedIn: "https://www.linkedin.com/in/dotsarthak/"
+},
+{
+  name: "Sanya Duggal",
+  linkedIn: "https://www.linkedin.com/in/sanya-duggal/",
+  image: "./j2.jpg",
+},
+{
+  name: "Dibyasom Puhan",
+  linkedIn: "https://www.linkedin.com/in/dibyasompuhan/",
+  image: "./j4.jpg",
+},
+{
+  name: "Santosh Maurya",
+  linkedIn: "https://www.linkedin.com/in/santoshm93/",
+  image: "./j3.jpg",
+},
+{
+  name: "Rishab Bansal",
+  linkedIn: "https://www.linkedin.com/in/imrishabhbansal/",
+  image: "./j5.jpg",
+},
+{
+  name: "Roopal Mittal",
+  linkedIn: "https://www.linkedin.com/in/roopalmittal/",
+  image: "./j6.jpg",
+},
+
 ];
