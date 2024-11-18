@@ -8,16 +8,7 @@ import { fadeIn, staggerContainer } from "../utils/motion";
 import Model from "./Model";
 import Model2 from "./Model2";
 import Model3 from "./Model3";
-import {
-  ModelSolana,
-  ModelPolygon,
-  ModelTezos,
-  ModelReplit,
-  ModelQuill,
-  ModelGen,
-  ModelXX,
-  ModelVerb,
-} from "./ModelMain";
+import { ModelSolana, ModelPolygon, ModelTezos, ModelReplit, ModelQuill, ModelGen, ModelXX, ModelVerb } from "./ModelMain";
 
 const Prizes = () => {
   const [isopen, setIsOpen] = useState(false);
@@ -235,8 +226,8 @@ const Prizes = () => {
               </h4>
 
               <h5 className="mt-[8px] font-normal sm:text-[22px] text-[18px] sm:leading-[22.68px] leading-[16.68px] text-white mb-[30px]">
-                Prize :{" "}
-                <span className="font-extrabold text-white"> $ 850</span> <br />
+                Prize : <span className="font-extrabold text-white"> $ 850</span>{" "}
+                <br />
               </h5>
               <h5
                 className="font-extrabold sm:text-[22px] text-[20px] sm:leading-[22.68px] leading-[16.68px] text-white  hover:underline cursor-pointer mb-[10px]"
@@ -272,8 +263,8 @@ const Prizes = () => {
               </h4>
 
               <h5 className="mt-[8px] font-normal sm:text-[22px] text-[18px] sm:leading-[22.68px] leading-[16.68px] text-white mb-[30px]">
-                Prize :{" "}
-                <span className="font-extrabold text-white"> $ 350</span> <br />
+                Prize : <span className="font-extrabold text-white"> $ 350</span>{" "}
+                <br />
               </h5>
               <h5
                 className="font-extrabold sm:text-[22px] text-[20px] sm:leading-[22.68px] leading-[16.68px] text-white  hover:underline cursor-pointer mb-[10px]"
@@ -283,6 +274,7 @@ const Prizes = () => {
               </h5>
             </div>
           </motion.div>
+
 
           {/* XX NETWORK */}
           <motion.div
@@ -309,8 +301,8 @@ const Prizes = () => {
               </h4>
 
               <h5 className="mt-[8px] font-normal sm:text-[22px] text-[18px] sm:leading-[22.68px] leading-[16.68px] text-white mb-[30px]">
-                Prize : <span className="font-extrabold text-white"> $500</span>{" "}
-                <br />
+                Prize :{" "}
+                <span className="font-extrabold text-white"> $500</span> <br />
               </h5>
               <h5
                 className="font-extrabold sm:text-[22px] text-[20px] sm:leading-[22.68px] leading-[16.68px] text-white  hover:underline cursor-pointer mb-[10px]"
@@ -355,8 +347,8 @@ const Prizes = () => {
               </h4>
 
               <h5 className="mt-[8px] font-normal sm:text-[22px] text-[18px] sm:leading-[22.68px] leading-[16.68px] text-white mb-[30px]">
-                Prize :{" "}
-                <span className="font-extrabold text-white"> $ 500</span> <br />
+                Prize : <span className="font-extrabold text-white"> $ 500</span>{" "}
+                <br />
               </h5>
               <h5
                 className="font-extrabold sm:text-[22px] text-[20px] sm:leading-[22.68px] leading-[16.68px] text-white  hover:underline cursor-pointer mb-[10px]"
@@ -439,6 +431,7 @@ const Prizes = () => {
               </h5>
             </div>
           </motion.div>
+
         </motion.div>
         {/* 4 row */}
         <motion.div
@@ -474,8 +467,8 @@ const Prizes = () => {
               </h4>
 
               <h5 className="mt-[8px] font-normal sm:text-[22px] text-[18px] sm:leading-[22.68px] leading-[16.68px] text-white mb-[30px]">
-                Prize : <span className="font-extrabold text-white"> $45</span>{" "}
-                <br />
+                Prize :{" "}
+                <span className="font-extrabold text-white"> $45</span> <br />
               </h5>
               <h5
                 className="font-extrabold sm:text-[22px] text-[20px] sm:leading-[22.68px] leading-[16.68px] text-white  hover:underline cursor-pointer mb-[10px]"
@@ -485,6 +478,8 @@ const Prizes = () => {
               </h5>
             </div>
           </motion.div>
+
+
 
           {/* General prizes */}
           <motion.div
@@ -511,8 +506,8 @@ const Prizes = () => {
               </h4>
 
               <h5 className="mt-[8px] font-normal sm:text-[22px] text-[18px] sm:leading-[22.68px] leading-[16.68px] text-white mb-[30px]">
-                Prize : <span className="font-extrabold text-white"> $XXX</span>{" "}
-                <br />
+                Prize :{" "}
+                <span className="font-extrabold text-white"> $XXX</span> <br />
               </h5>
               <h5
                 className="font-extrabold sm:text-[22px] text-[20px] sm:leading-[22.68px] leading-[16.68px] text-white  hover:underline cursor-pointer mb-[10px]"

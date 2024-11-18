@@ -1,11 +1,11 @@
-import { mongooseConnect } from "../../lib/mongoose";
-import { CPDATA } from "../../models/CPDATA";
+import { mongooseConnect } from '../../lib/mongoose';
+import { CPDATA } from '../../models/CPDATA';
 
 export default async function handle(req, res) {
   const { method } = req;
   await mongooseConnect();
 
-  if (method === "POST") {
+  if (method === 'POST') {
     const {
       firstName,
       lastName,

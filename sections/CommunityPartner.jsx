@@ -10,6 +10,7 @@ import styles from "../styles";
 import { fadeIn, staggerContainer } from "../utils/motion";
 import { communityPartner } from "../constants";
 
+
 var $ = require("jquery");
 if (typeof window !== "undefined") {
   window.$ = window.jQuery = require("jquery");
@@ -50,16 +51,16 @@ const Team = () => {
   };
 
   const owlStyles = {
-    ".owl-carousel .item": {
-      width: "100%",
-      paddingBottom: "75%",
-      position: "relative",
+    '.owl-carousel .item': {
+      width: '100%',
+      paddingBottom: '75%',
+      position: 'relative',
     },
-    ".owl-carousel .item img": {
-      position: "absolute",
-      width: "100%",
-      height: "100%",
-      objectFit: "cover",
+    '.owl-carousel .item img': {
+      position: 'absolute',
+      width: '100%',
+      height: '100%',
+      objectFit: 'cover',
     },
   };
   return (
@@ -75,34 +76,40 @@ const Team = () => {
             loop
             margin={4}
             nav={true}
+
             dots={true}
             animateIn={true}
             {...options}
           >
             {communityPartner && communityPartner.length > 0
               ? communityPartner.map((member) => {
-                  return (
-                    <motion.div
-                      variants={staggerContainer}
-                      initial="hidden"
-                      whileInView="show"
-                      viewport={{ once: false, amount: 0.25 }}
-                      className="cursor-pointer mt-[15px]"
-                    >
-                      <a href={member.link} target="_blank">
-                        <img
-                          src={member.image}
-                          alt="member photo"
-                          className="w-[200px] rounded-[10px] "
-                        />
-                      </a>
-                    </motion.div>
-                  );
-                })
+                return (
+                  <motion.div
+                    variants={staggerContainer}
+                    initial="hidden"
+                    whileInView="show"
+                    viewport={{ once: false, amount: 0.25 }}
+                    className="cursor-pointer mt-[15px]"
+                  >
+                    <a href={member.link} target="_blank">
+                      <img
+                        src={member.image}
+                        alt="member photo"
+                        className="w-[200px] rounded-[10px] "
+                      />
+                    </a>
+
+
+                  </motion.div>
+                );
+              })
               : ""}
           </OwlCarousel>
         </ul>
       </div>
+
+
+
     </section>
   );
 };

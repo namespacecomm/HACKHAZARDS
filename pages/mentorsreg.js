@@ -1,4 +1,4 @@
-import { MentorRegistration, Navbar, Footer } from "../components";
+import { MentorRegistration, Navbar, Footer } from '../components';
 
 const mentorregister = () => (
   <div className="bg-primary-black overflow-hidden relative">

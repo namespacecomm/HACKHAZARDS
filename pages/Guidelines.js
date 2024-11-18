@@ -1,4 +1,4 @@
-import { TeamGuidelines, Navbar, Footer } from "../components";
+import { TeamGuidelines, Navbar, Footer } from '../components';
 
 const guidelines = () => (
   <div className="bg-primary-black overflow-hidden relative">

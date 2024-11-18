@@ -1,4 +1,4 @@
-import { Events, Navbar, Footer } from "../components";
+import { Events, Navbar, Footer } from '../components';
 
 const event = () => (
   <div className="bg-primary-black overflow-hidden relative">

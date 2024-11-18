@@ -1,7 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { fadeIn, staggerContainer } from "../utils/motion";
-import teamstyles from "../sections/Team.module.css";
+import teamstyles from '../sections/Team.module.css';
 import styles from "../styles";
 import { mentors } from "../constants";
 
@@ -26,38 +26,16 @@ const MentorCards = () => (
               alt={mentor.name}
               className="h-48 w-48 object-cover rounded-full"
             />
-            <h4 className="font-extrabold text-xl text-white mt-4">
-              {mentor.name}
-            </h4>
+            <h4 className="font-extrabold text-xl text-white mt-4">{mentor.name}</h4>
             <div className="flex justify-center items-center mt-2">
-              <a
-                href={mentor.linkedIn}
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <img
-                  src="/linkedin.svg"
-                  alt="LinkedIn"
-                  className="w-6 h-6 mr-2"
-                />
+              <a href={mentor.linkedIn} target="_blank" rel="noopener noreferrer">
+                <img src="/linkedin.svg" alt="LinkedIn" className="w-6 h-6 mr-2" />
               </a>
-              <a
-                href={mentor.twitter}
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <img
-                  src="/twitter.svg"
-                  alt="Twitter"
-                  className="w-6 h-6 mr-2"
-                />
+              <a href={mentor.twitter} target="_blank" rel="noopener noreferrer">
+                <img src="/twitter.svg" alt="Twitter" className="w-6 h-6 mr-2" />
               </a>
               <a href={mentor.github} target="_blank" rel="noopener noreferrer">
-                <img
-                  src="/github (2).svg"
-                  alt="GitHub"
-                  className="w-6 h-6 mr-2"
-                />
+                <img src="/github (2).svg" alt="GitHub" className="w-6 h-6 mr-2" />
               </a>
             </div>
           </motion.div>

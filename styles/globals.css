@@ -35,9 +35,9 @@
 .hero-gradient1 {
   background: linear-gradient(
     97.86deg,
-    #ffd700 0%,
-    #ffd700 53.65%,
-    #ffd700 100%
+    #FFD700 0%,
+    #FFD700 53.65%,
+    #FFD700 100%
   );
 }
 .hero-gradient2 {
@@ -51,13 +51,18 @@
 .hero-gradient3 {
   background: linear-gradient(
     97.86deg,
-    #c0c0c0 0%,
-    #c0c0c0 53.65%,
-    #c0c0c0 100%
+    #C0C0C0 0%,
+    #C0C0C0 53.65%,
+    #C0C0C0 100%
   );
 }
 .hero-gradient4 {
-  background: linear-gradient(97.86deg, #cd7f32 0%, #cd7f32 65%, #cd7f32 100%);
+  background: linear-gradient(
+    97.86deg,
+    #CD7F32 0%,
+    #CD7F32 65%,
+    #CD7F32 100%
+  );
 }
 
 .gradient-02 {

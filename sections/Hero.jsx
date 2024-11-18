@@ -1,10 +1,13 @@
-"use client";
+'use client';
 import React, { useEffect } from "react";
 import { motion } from "framer-motion";
 import styles from "../styles";
 import { slideIn, staggerContainer, textVariant } from "../utils/motion";
 
+
+
 const Hero = () => {
+
   useEffect(() => {
     const script = document.createElement("script");
     script.src = "https://apply.devfolio.co/v2/sdk.js";
@@ -44,7 +47,10 @@ const Hero = () => {
             className="w-full sm:w-[100vw]  md:hidden object-cover rounded-tl-[50px] z-1 relative"
           />
 
+
           <div className="md:flex-col flex flex-col justify-center items-center  my-10 mb-5 gap-5 pr-6 z-2">
+
+
             {/* <img
                   src="/devfolio.png"
                   alt="devfolio"
@@ -54,14 +60,9 @@ const Hero = () => {
               class="apply-button"
               data-hackathon-slug="hackhazards24"
               data-button-theme="dark-inverted"
-              style={{
-                height: "96px",
-                width: "340px",
-                margin: "20px auto 0",
-                display: "block",
-                textAlign: "center",
-              }}
+              style={{ height: "96px", width: "340px", margin: "20px auto 0", display: "block", textAlign: "center" }}
             ></div>
+
 
             <a href="https://discord.com/invite/QQj66TND4c" target="_blank">
               <button

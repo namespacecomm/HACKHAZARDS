@@ -1,7 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { fadeIn, staggerContainer } from "../utils/motion";
-import teamstyles from "../sections/Team.module.css";
+import teamstyles from '../sections/Team.module.css';
 import styles from "../styles";
 import { judges } from "../constants";
 
@@ -26,20 +26,10 @@ const JudgeCard = () => (
               alt={judge.name}
               className="h-48 w-48 object-cover rounded-full"
             />
-            <h4 className="font-extrabold text-xl text-white mt-4">
-              {judge.name}
-            </h4>
+            <h4 className="font-extrabold text-xl text-white mt-4">{judge.name}</h4>
             <div className="flex justify-center items-center mt-2">
-              <a
-                href={judge.linkedIn}
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <img
-                  src="/linkedin.svg"
-                  alt="LinkedIn"
-                  className="w-6 h-6 mr-2"
-                />
+              <a href={judge.linkedIn} target="_blank" rel="noopener noreferrer">
+                <img src="/linkedin.svg" alt="LinkedIn" className="w-6 h-6 mr-2" />
               </a>
             </div>
           </motion.div>
@@ -50,3 +40,4 @@ const JudgeCard = () => (
 );
 
 export default JudgeCard;
+

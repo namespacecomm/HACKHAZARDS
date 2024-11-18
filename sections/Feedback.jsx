@@ -63,6 +63,8 @@ const Feedback = () => (
       </motion.div>
     </motion.div>
 
+
+
     {/* platform, energy drink & innovation sponsor */}
     <motion.div
       variants={staggerContainer}
@@ -230,12 +232,18 @@ const Feedback = () => (
           </Link>
         </div>
         <div className="flex flex-col items-center z-[1] mt-[5px] w-[250px]">
-          <Link href="https://cssbattle.dev/" target="_blank">
+          <Link
+            href="https://cssbattle.dev/"
+            target="_blank"
+          >
             <img src="29.png" alt="css battle" className="rounded-[15px]" />
           </Link>
         </div>
         <div className="flex flex-col items-center z-[1] mt-[5px] w-[250px]">
-          <Link href="https://fanstore.bobble.ai/" target="_blank">
+          <Link
+            href="https://fanstore.bobble.ai/"
+            target="_blank"
+          >
             <img src="32.png" alt=" fan store" className="rounded-[15px]" />
           </Link>
         </div>
