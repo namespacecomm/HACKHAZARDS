@@ -1,11 +1,11 @@
-import { mongooseConnect } from '../../lib/mongoose';
-import { CADATA } from '../../models/CADATA';
+import { mongooseConnect } from "../../lib/mongoose";
+import { CADATA } from "../../models/CADATA";
 
 export default async function handle(req, res) {
   const { method } = req;
   await mongooseConnect();
 
-  if (method === 'POST') {
+  if (method === "POST") {
     const {
       firstName,
       lastName,

@@ -85,7 +85,9 @@ const ProjectCard = ({ projectInfo }) => {
           border-color: rgba(255, 255, 255, 0.2);
           border-width: 1px;
           color: white;
-          transition: transform 0.3s, box-shadow 0.3s;
+          transition:
+            transform 0.3s,
+            box-shadow 0.3s;
           position: relative;
         }
 
@@ -182,9 +184,9 @@ const ProjectCard = ({ projectInfo }) => {
             margin: 2rem;
           }
         }
-          @media (min-width: 1400px) {
+        @media (min-width: 1400px) {
           .card {
-          width:100%;
+            width: 100%;
             padding: 1.5rem;
             margin: 2rem;
           }
@@ -195,4 +197,3 @@ const ProjectCard = ({ projectInfo }) => {
 };
 
 export default ProjectCard;
-

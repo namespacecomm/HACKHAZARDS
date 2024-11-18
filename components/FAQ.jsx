@@ -1,11 +1,11 @@
-'use client';
+"use client";
 
-import { useState } from 'react';
-import { motion } from 'framer-motion';
-import { AiOutlineMinus, AiOutlinePlus } from 'react-icons/ai';
-import styles from '../styles';
-import { footerVariants } from '../utils/motion';
-import { FaqQuestion } from '../constants';
+import { useState } from "react";
+import { motion } from "framer-motion";
+import { AiOutlineMinus, AiOutlinePlus } from "react-icons/ai";
+import styles from "../styles";
+import { footerVariants } from "../utils/motion";
+import { FaqQuestion } from "../constants";
 
 const FAQ = () => {
   const [openIndex, setOpenIndex] = useState(-1);
@@ -36,7 +36,9 @@ const FAQ = () => {
                 className="py-[2px] px-[10px] text-white flex justify-between items-center cursor-pointer"
                 onClick={() => toggle(index)}
               >
-                <p className="md:text-[22px] text-[15px] font-bold">{data.title}</p>
+                <p className="md:text-[22px] text-[15px] font-bold">
+                  {data.title}
+                </p>
                 <div className=" text-[30px]">
                   {openIndex === index ? <AiOutlineMinus /> : <AiOutlinePlus />}
                 </div>

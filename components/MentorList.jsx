@@ -12,7 +12,9 @@ const MentorList = () => (
     className={`${styles.xPaddings}  relative`}
   >
     {/* Judges */}
-    <div className={`${styles.innerWidth} mx-auto flex flex-col gap-3 items-center justify-center`}>
+    <div
+      className={`${styles.innerWidth} mx-auto flex flex-col gap-3 items-center justify-center`}
+    >
       <h4 className="flex items-center font-bold md:text-[64px] text-[44px] text-white mt-[100px]">
         Our Judges
       </h4>
@@ -22,7 +24,9 @@ const MentorList = () => (
       <JudgeCard />
     </div>
     {/* Mentors */}
-    <div className={`${styles.innerWidth} mx-auto flex flex-col gap-3 items-center justify-center`}>
+    <div
+      className={`${styles.innerWidth} mx-auto flex flex-col gap-3 items-center justify-center`}
+    >
       <h4 className="flex items-center font-bold md:text-[64px] text-[44px] text-white mt-[100px]">
         Our Mentors
       </h4>

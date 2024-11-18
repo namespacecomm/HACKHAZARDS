@@ -1,4 +1,4 @@
-import { CPRegistration, Navbar, Footer } from '../components';
+import { CPRegistration, Navbar, Footer } from "../components";
 
 const cpregister = () => (
   <div className="bg-primary-black overflow-hidden relative">

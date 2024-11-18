@@ -1,4 +1,4 @@
-import { ContactUs, Navbar, Footer } from '../components';
+import { ContactUs, Navbar, Footer } from "../components";
 
 const contact = () => (
   <div className="bg-primary-black overflow-hidden relative">
