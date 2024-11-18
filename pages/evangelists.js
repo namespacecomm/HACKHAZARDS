@@ -1,4 +1,4 @@
-import { Registration, Navbar, Footer } from '../components';
+import { Registration, Navbar, Footer } from "../components";
 
 const register = () => (
   <div className="bg-primary-black overflow-hidden relative">

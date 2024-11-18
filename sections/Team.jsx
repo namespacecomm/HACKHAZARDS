@@ -8,8 +8,8 @@ import "owl.carousel/dist/assets/owl.theme.default.css";
 import { TypingText } from "../components";
 import styles from "../styles";
 import { fadeIn, staggerContainer } from "../utils/motion";
-import { members, members2} from "../constants";
-import teamstyles from './Team.module.css';
+import { members, members2 } from "../constants";
+import teamstyles from "./Team.module.css";
 
 var $ = require("jquery");
 if (typeof window !== "undefined") {
@@ -51,18 +51,18 @@ const Team = () => {
   };
 
   const owlStyles = {
-    '.owl-carousel .item': {
-        width: '100%',
-        paddingBottom: '75%',
-        position: 'relative',
+    ".owl-carousel .item": {
+      width: "100%",
+      paddingBottom: "75%",
+      position: "relative",
     },
-    '.owl-carousel .item img': {
-        position: 'absolute',
-        width: '100%',
-        height: '100%',
-        objectFit: 'cover',
+    ".owl-carousel .item img": {
+      position: "absolute",
+      width: "100%",
+      height: "100%",
+      objectFit: "cover",
     },
-};
+  };
   return (
     <section className={`${styles.paddings}`} id="Team">
       <TypingText
@@ -76,7 +76,6 @@ const Team = () => {
             loop
             margin={4}
             nav={true}
-            
             dots={true}
             animateIn={true}
             {...options}
@@ -147,7 +146,7 @@ const Team = () => {
           </OwlCarousel>
         </ul>
       </div>
-      
+
       <div>
         <ul id="owl-carousel-ul" className="owl-carousel owl-loaded owl-drag">
           <OwlCarousel
@@ -229,7 +228,6 @@ const Team = () => {
           </OwlCarousel>
         </ul>
       </div>
-      
     </section>
   );
 };

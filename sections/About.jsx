@@ -27,20 +27,21 @@ const About = () => (
       >
         <div>
           <span className="font-extrabold text-white">HACKHAZARDS</span>, where
-          innovation knows no bounds and challenges are met head-on with creative
-          solutions. Step into a whirlwind of{" "}
+          innovation knows no bounds and challenges are met head-on with
+          creative solutions. Step into a whirlwind of{" "}
           <span className="font-extrabold text-white">creativity</span> and{" "}
-          <span className="font-extrabold text-white">rapid problem-solving</span>{" "}
+          <span className="font-extrabold text-white">
+            rapid problem-solving
+          </span>{" "}
           in this intense{" "}
           <span className="font-extrabold text-white">24-hour hackathon</span>{" "}
-          experience. Unlike any other event of its kind, HACKHAZARDS combines the
-          thrill of a hackathon with the opportunity to make a meaningful impact
-          on the world's most pressing issues.At HACKHAZARDS, we believe that true
-          innovation doesn't just happen it's nurtured through{" "}
+          experience. Unlike any other event of its kind, HACKHAZARDS combines
+          the thrill of a hackathon with the opportunity to make a meaningful
+          impact on the world's most pressing issues.At HACKHAZARDS, we believe
+          that true innovation doesn't just happen it's nurtured through{" "}
           <span className="font-extrabold text-white">
             collaboration, exploration
           </span>
-
           , and{" "}
           <span className="font-extrabold text-white">
             thinking beyond boundaries
@@ -84,8 +85,6 @@ const About = () => (
           </div>
         </div>
       </motion.div>
-
-
 
       <motion.img
         variants={fadeIn("up", "tween", 0.3, 1)}

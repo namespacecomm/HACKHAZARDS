@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import ProjectCard from "./projectCards"; 
+import ProjectCard from "./projectCards";
 import { projects } from "../constants/projects";
 import { motion } from "framer-motion";
 
@@ -7,7 +7,7 @@ export default function ProjectList() {
   const [activeSection, setActiveSection] = useState(0);
   const sections = Array.from(
     { length: Math.ceil(Object.keys(projects).length / 6) },
-    (_, i) => i
+    (_, i) => i,
   );
 
   useEffect(() => {
@@ -21,7 +21,7 @@ export default function ProjectList() {
           }
         });
       },
-      { threshold: 0.6 }
+      { threshold: 0.6 },
     );
 
     sectionElements.forEach((section) => observer.observe(section));
@@ -52,7 +52,9 @@ export default function ProjectList() {
                   type: "spring",
                   stiffness: 50,
                   damping: 25,
-                  delay: 0.3 * (sectionIndex + 1) + 0.1 * (Object.keys(projects).indexOf(key) % 6), // Added additional delay based on card index
+                  delay:
+                    0.3 * (sectionIndex + 1) +
+                    0.1 * (Object.keys(projects).indexOf(key) % 6), // Added additional delay based on card index
                 }}
                 onClick={() => {
                   window.open(key);
@@ -64,9 +66,7 @@ export default function ProjectList() {
 
           return (
             <section key={sectionIndex} id={`section${sectionIndex}`}>
-              <div className="grid">
-                {sectionCards}
-              </div>
+              <div className="grid">{sectionCards}</div>
             </section>
           );
         })}
@@ -120,7 +120,10 @@ export default function ProjectList() {
         .grid {
           width: 100%;
           display: grid;
-          grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); /* Auto-fit grid for responsiveness */
+          grid-template-columns: repeat(
+            auto-fit,
+            minmax(280px, 1fr)
+          ); /* Auto-fit grid for responsiveness */
           gap: 20px;
           padding: 0 10px;
         }
@@ -210,12 +213,12 @@ export default function ProjectList() {
         @media (min-width: 1700px) {
           .scrollable {
             width: 100%;
-             /* Set the scrollable area to 75% */
-             margin-left:19rem;
+            /* Set the scrollable area to 75% */
+            margin-left: 19rem;
           }
-            .container{
-            width:100%;}
-             
+          .container {
+            width: 100%;
+          }
         }
       `}</style>
     </div>
